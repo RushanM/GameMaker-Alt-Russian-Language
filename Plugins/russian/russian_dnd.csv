@@ -659,7 +659,7 @@ GMStdBreak_Story,Break,Break,,GML Visual story text
 GMStdSwitch_Story_1,Switch ${expr},Switch ${expr},,GML Visual story text
 GMStdSwitch_Story_2,Switch ${expr} on ${applyto},Switch ${expr} on ${applyto},,GML Visual story text
 GMStdCase_Story_1,Case: ${const},Case: ${const},,GML Visual story text
-GMStdDefault_Story,Default,Default,,GML Visual story text
+GMStdDefault_Story,Default,По умолчанию,,GML Visual story text
 GMStdCreateList_Story_1,Set a new list to ${var}${show_input_count},Set a new list to ${var}${show_input_count},,GML Visual story text
 GMStdCreateList_Story_2,Set a new list to ${var} on ${applyto}${show_input_count},Set a new list to ${var} on ${applyto}${show_input_count},,GML Visual story text
 GMStdCreateList_Story_3,Set a new list to temp ${var}${show_input_count},Set a new list to temp ${var}${show_input_count},,GML Visual story text

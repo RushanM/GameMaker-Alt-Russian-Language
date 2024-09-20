@@ -627,7 +627,7 @@ PSEmitter_Distribution,Distribution,Distribution,,particle emitter property
 PSEmitter_Shape,Shape,Shape,,particle emitter property
 PSEmitter_Presets,Presets,Presets,,particle emitter property
 PSEmitter_AdditiveBlend,Additive,Additive,,particle emitter property
-ListBoxEnum_ePSysDrawOrder_NewOnTop,Default,Default,,particle system draw order enum
+ListBoxEnum_ePSysDrawOrder_NewOnTop,Default,По умолчанию,,particle system draw order enum
 ListBoxEnum_ePSysDrawOrder_OldOnTop,Reversed,Reversed,,particle system draw order enum- new particles draw behind old
 ListBoxEnum_ePSEmitterMode_Stream,Stream,Stream,,particle emitter mode stream
 ListBoxEnum_ePSEmitterMode_Burst,Burst,Burst,,particle emitter mode burst
@@ -733,7 +733,7 @@ ListBoxEnum_eFontHinting_Light,Light,Light,,Light font hinting
 Help_eFontHinting_Light,A lighter anti-aliased hinting algorithm\nMany generated glyphs are more fuzzy but better resemble its original shape,A lighter anti-aliased hinting algorithm\nMany generated glyphs are more fuzzy but better resemble its original shape,,Light font hinting tooltip
 ListBoxEnum_eFontHinting_Mono,Monochrome,Monochrome,,Monochrome font hinting
 Help_eFontHinting_Mono,Strong hinting algorithm that should only be used for monochrome output,Strong hinting algorithm that should only be used for monochrome output,,Monochrome font hinting tooltip
-ListBoxEnum_eGlyphOperations_Default,Default,Default,,Default glyph operation
+ListBoxEnum_eGlyphOperations_Default,Default,По умолчанию,,Default glyph operation
 ListBoxEnum_eGlyphOperations_DisableHinting,Disable Hinting,Disable Hinting,,Disable font hinting glyph operation
 Help_eGlyphOperations_DisableHinting,Disable hinting\nThis disables the font's native hinter and the auto-hinter,Disable hinting\nThis disables the font's native hinter and the auto-hinter,,Disable font hinting glyph operation tooltip
 ListBoxEnum_eGlyphOperations_DisableAutoHinting,Disable Auto-hinter,Disable Auto-hinter,,Disable auto-hinter glyph operation
@@ -1431,30 +1431,30 @@ ObjectEditor_ViewParentEvent,Show Parent Event,Show Parent Event,,Object editor 
 ObjectEditor_SelectSprite,Select Sprite,Select Sprite,,Object editor select sprite caption
 ObjectEditor_SelectMask,Select Mask,Select Mask,,Object editor select mask caption
 ObjectEditor_SelectParent,Select Parent,Select Parent,,Object editor select parent caption
-ObjectEditor_Event,Event,Event,,Event button
-ObjectEditor_Events,Events,Events,,object editor events heading
+ObjectEditor_Event,Event,Событие,,Event button
+ObjectEditor_Events,Events,События,,object editor events heading
 ObjectEditor_ModifyCollisionShape,Modify Collision Shape,Modify Collision Shape,,"Object editor ""modify collision shape"" button label"
-ObjectEditor_Name,Name:,Name:,,Name label in obejct editor
+ObjectEditor_Name,Name:,Название:,,Name label in obejct editor
 ObjectEditor_NewSprite,New,New,,object editor new sprite button
 ObjectEditor_NoParent,No Parent,No Parent,,"Object editor ""no parent"" setting"
 ObjectEditor_NoSprite,No Sprite,No Sprite,,"Object editor ""no sprite"" setting"
 ObjectEditor_ObjectProperties,Object Properties,Object Properties,,Object properties window title
-ObjectEditor_Physics,Physics,Physics,,Physics label in Object Editor
-ObjectEditor_InstProps,Variables,Variables,,Object Variables label in Object Editor
+ObjectEditor_Physics,Physics,Физика,,Physics label in Object Editor
+ObjectEditor_InstProps,Variables,Переменные,,Object Variables label in Object Editor
 ObjectEditor_InstPropsDefs,Variable Definitions,Variable Definitions,,Object Variables definitions label in Object Editor
 ObjectEditor_Multiselect,Multi-select,Multi-select,,Object editor list option multiselect
 ObjectEditor_PropAddButton_Tooltip,Add a new variable,Add a new variable,,Add variable tooltip
 ObjectEditor_ListAddButton_Tooltip,Add a new list item,Add a new list item,,Add list item tooltip
 ObjectEditor_PropInherited_Tooltip,This variable has been inherited from the parent object {0}.,This variable has been inherited from the parent object {0}.,,Inherited variable tooltip
-ObjectEditor_PropName,Name,Name,,Variable name
+ObjectEditor_PropName,Name,Название,,Variable name
 ObjectEditor_PropName_Tooltip,This is how you will reference it in code.,This is how you will reference it in code.,,Tooltip property name
-InstanceEditor_PropValue,Value,Value,,Variable value
+InstanceEditor_PropValue,Value,Значение,,Variable value
 InstanceEditor_PropValue_Tooltip,Set the variable to a value for this instance only.,Set the variable to a value for this instance only.,,Set variable tooltip
 ObjectEditor_PropType,Type,Type,,Variable type
-ObjectEditor_PropDefault,Default,Default,,Variable default value
-ObjectEditor_PropParams,Options,Options,,Variable attributes aka parameters
+ObjectEditor_PropDefault,Default,По умолчанию,,Variable default value
+ObjectEditor_PropParams,Options,Настройки,,Variable attributes aka parameters
 InstanceEditor_PropBoolean_Label,True,True,,Boolean label
-ObjectEditor_WindowOptions,Options: {0},Options: {0},,Options window title
+ObjectEditor_WindowOptions,Options: {0},Настройки: {0},,Options window title
 ObjectEditor_RangeEnabled,Use Range,Use Range,,Use ranged parameter
 ObjectEditor_RangeMin,Min,Min,,Min ranged parameter
 ObjectEditor_RangeMax,Max,Max,,Max ranged parameter
@@ -1463,7 +1463,7 @@ ObjectEditor_ResourceFilter,Filter by Asset,Фильтровать по ассе
 ObjectEditor_RemoveListItem,Remove this item,Remove this item,,Remove this item label
 ObjectEditor_PhysicsProperties,Physics Properties,Physics Properties,,Object editor physics properties label
 ObjectEditor_PhysicsShape_WindowTitle,Physics Collision Shape,Physics Collision Shape,,Object editor physics shape window title
-ObjectEditor_Properties,Properties,Properties,,Object editor properties heading
+ObjectEditor_Properties,Properties,Свойства,,Object editor properties heading
 ObjectEditor_SameMask,Same As Sprite,Same As Sprite,,"Object editor ""same as sprite"" mask setting"
 ObjectEditor_MaskSameAsSprite,Same As Sprite,Same As Sprite,,Object editor same mask caption
 ObjectEditor_Shape,Convex Shape,Convex Shape,,"Object editor collision shape ""shape"""
@@ -1752,7 +1752,7 @@ RoomTextItem_DefaultCaption,Enter Text,Enter Text,,room text item empty text cap
 RoomEffect_EffectType,Effect Type:,Effect Type:,,effect type
 RoomEffect_EffectNone,None,None,,no effect type label
 RoomEffect_DescHeader,Effect Notes,Effect Notes,,effect desc header
-RoomEffect_DefaultTexture,Default,Default,,default effect texture parameter name
+RoomEffect_DefaultTexture,Default,По умолчанию,,default effect texture parameter name
 ROOM_EFFECTS_filter_edgedetect,Edge Detect,Edge Detect,,edge detect filter name
 ROOM_EFFECTS_Difference threshold,Threshold,Threshold,,Difference threshold param
 ROOM_EFFECTS_filter_desaturate,Desaturate,Desaturate,,desaturate filter name
@@ -2179,10 +2179,10 @@ Splash_CheckingForUpdatedPlugins,Checking for Updated Plugins...,Checking for Up
 Splash_UserLogin,User Processing,User Processing,,User Processing has been started
 Splash_InitGMLVisual,GML Visual...,GML Visual...,,Initialising GML Visual 
 Splash_CheckingRSS,Checking RSS...,Checking RSS...,,Checking RSS...
-Splash_DownloadingManual,Downloading Manual...,Downloading Manual...,,Downloading Manual...
+Splash_DownloadingManual,Downloading Manual...,Скачивание руководства...,,Downloading Manual...
 SplineEditor_DeletePoints,Delete Points,Delete Points,,Path spline editor context menu entry
 SpriteEditor_LockOrigin,Lock sprite origin,Lock sprite origin,,Lock sprite origin from editing
-SpriteEditor_Manual,Manual,Manual,,Sprite editor manual bounding box label
+SpriteEditor_Manual,Manual,Руководство,,Sprite editor manual bounding box label
 SpriteEditor_Premultiply,Premultiply Alpha,Premultiply Alpha,,Premultiply alpha channel of sprite composite
 SpriteEditor_EdgeFiltering,Edge Filtering,Edge Filtering,,Edge filtering of sprite composite
 SpriteEditor_Premultiply_Tooltip,Premultiply the alpha channel into the sprite frame,Premultiply the alpha channel into the sprite frame,,Premultiply alpha channel of sprite composite tooltip
@@ -2421,7 +2421,7 @@ particleEd_emitters_orientation,Default emitters panel orientation,Default emitt
 ParticleEditor,Particle Editor,Particle Editor,,particle editor preference type name
 ToolTip_eParticleSystemDrawOrder_OldFirst,Draw older particles below newer particles (default),Draw older particles below newer particles (default),,Particle system draw order help tip for drawing old first
 ToolTip_eParticleSystemDrawOrder_NewFirst,Draw newer particles below older particles,Draw newer particles below older particles,,Particle system draw order help tip for drawing new first
-ListBoxEnum_eParticleSystemDrawOrder_OldFirst,Default,Default,,Particle system draw order localised label
+ListBoxEnum_eParticleSystemDrawOrder_OldFirst,Default,По умолчанию,,Particle system draw order localised label
 ListBoxEnum_eParticleSystemDrawOrder_NewFirst,New Below Old,New Below Old,,Particle system draw order localised label
 ListBoxEnum_eParticleDistribution_Linear,Linear,Linear,,Linear particle distribution
 ListBoxEnum_eParticleDistribution_Gaussian,Gaussian,Gaussian,,Gaussian particle distribution
@@ -2574,7 +2574,7 @@ Format_BZ2,BZ2 + QOI,BZ2 + QOI,,Format BZ2
 Format_QOI,QOI,QOI,,Format QOI
 Format_PNG,PNG,PNG,,Format PNG
 Format_Custom,Custom,Custom,,Custom Format
-LoadType_Default,Default,Default,,Default Load Type
+LoadType_Default,Default,По умолчанию,,Default Load Type
 LoadType_Dynamic,Dynamic,Dynamic,,Dynamic Load Type
 LoadType_DynamicGroup,Dynamic Group,Dynamic Group,,Dynamic Group Load Type
 LoadType_DynamicPages,Dynamic Pages,Dynamic Pages,,Dynamic Pages Load Type
@@ -2788,7 +2788,7 @@ InvalidMove_DuplicateChildName,A group with name '{0}' already exists at this lo
 ResourceTree_View,View,View,View,View
 ResourceTree_Views,Views,Views,,Views selector button label
 ResourceTree_View_Add,Add New View,Add New View,,Add New View Prompt
-ResourceTree_View_Default,Default,Default,,default tag
+ResourceTree_View_Default,Default,По умолчанию,,default tag
 ResourceTree_View_Cannot_Delete_Default,You cannot delete the default view.,You cannot delete the default view.,,You cannot delete the default view
 ResourceTree_View_Title,Resource Tree,Resource Tree,,Title for above message
 ResourceTree_View_DuplicateName,A view with this name already exists. Views must be unique.,A view with this name already exists. Views must be unique.,,Duplicate name warning
@@ -2844,7 +2844,7 @@ GMLVisualMaker_LangDesc,Description,Description,,column
 GMLVisualMaker_Menu_Languages,Languages,Languages,,GML Visual Maker menu entry
 GMLVisualMaker_Menu_NewLang,New Language,New Language,,GML Visual Maker menu entry
 GMLVisualMaker_Menu_EditLang,Edit Language,Edit Language,,GML Visual Maker menu entry
-GMLVisualMaker_Group_Default,Default,Default,,GML Visual Maker default group name
+GMLVisualMaker_Group_Default,Default,По умолчанию,,GML Visual Maker default group name
 GMLVisualMaker_NewGroup,Group,Group,,GML Visual Maker default new group name
 GMLVisualMaker_NewSection,New Section,New Section,,GML Visual Maker default new section name
 GMLVisualMaker_NewAction,New Action,New Action,,GML Visual Maker default new action name
@@ -2909,33 +2909,33 @@ GMLVisualMaker_LayoutWizardArgCaption,Caption,Caption,,GML Visual Maker layout w
 GMLVisualMaker_LayoutWizardArgGadget,Gadget,Gadget,,GML Visual Maker layout wizard arg gadget label
 GMLVisualMaker_LayoutWizardArgTagName,Tag Name,Tag Name,,GML Visual Maker layout wizard arg tag name label
 GMLVisualMaker_LayoutWizardIsRelative,Can Be Relative?,Can Be Relative?,,GML Visual Maker layout wizard can be relative label
-GMLVisualMaker_LayoutWizardProperties,Properties,Properties,,GML Visual Maker layout wizard properties label
+GMLVisualMaker_LayoutWizardProperties,Properties,Свойства,,GML Visual Maker layout wizard properties label
 GMLVisualMaker_LayoutWizardIsTemp,Can Be Temp?,Can Be Temp?,,GML Visual Maker layout wizard can be temp label
 GMLVisualMaker_NoLayoutWizardLayout,Layout wizard layout is missing.,Layout wizard layout is missing.,,GML Visual Maker layout wizard error
-GMLVisual_Loading,Loading...,Loading...,,Loading GML Visual script
+GMLVisual_Loading,Loading...,Загрузка...,,Loading GML Visual script
 GMLVisualMaker_ExpandLocalisationFailed,Failed to expand localisation,Failed to expand localisation,,expand localisation error message
 GMLVisual_Gadget_Label,Label,Label,,GML Visual Label gadget localised name
 GMLVisual_Gadget_StackPanel,Stack Panel,Stack Panel,,GML Visual Stack Panel gadget localised name
 GMLVisual_Gadget_Grid,Grid,Grid,,GML Visual Grid gadget localised name
 GMLVisual_Gadget_MKConstantSelector,Mouse & Key Selector,Mouse & Key Selector,,GML Visual gadget localised name
-kbv_type_default,Default,Default,,Default virtual keyboard type
+kbv_type_default,Default,По умолчанию,,Default virtual keyboard type
 kbv_type_ascii,ASCII,ASCII,,ASCII virtual keyboard type
-kbv_type_url,URL,URL,,URL virtual keyboard type
-kbv_type_email,Email,Email,,Email virtual keyboard type
+kbv_type_url,URL,Ссылка,,URL virtual keyboard type
+kbv_type_email,Email,Электронная почта,,Email virtual keyboard type
 kbv_type_numbers,Numbers,Numbers,,Numbers virtual keyboard type
 kbv_type_phone,Phone,Phone,,Phone virtual keyboard type
 kbv_type_phone_name,Alphanumeric,Alphanumeric,,Phone name virtual keyboard type
-kbv_returnkey_default,Default,Default,,Return key type of virtual keyboard
+kbv_returnkey_default,Default,По умолчанию,,Return key type of virtual keyboard
 kbv_returnkey_go,Go,Go,,Return key type of virtual keyboard
 kbv_returnkey_google,Google,Google,,Return key type of virtual keyboard
 kbv_returnkey_join,Join,Join,,Return key type of virtual keyboardG
 kbv_returnkey_next,Next,Next,,Return key type of virtual keyboard
 kbv_returnkey_route,Route,Route,,Return key type of virtual keyboard
-kbv_returnkey_search,Search,Search,,Return key type of virtual keyboard
+kbv_returnkey_search,Search,Поиск,,Return key type of virtual keyboard
 kbv_returnkey_send,Send,Send,,Return key type of virtual keyboard
 kbv_returnkey_yahoo,Yahoo,Yahoo,,Return key type of virtual keyboard
-kbv_returnkey_done,Done,Done,,Return key type of virtual keyboard
-kbv_returnkey_continue,Continue,Continue,,Return key type of virtual keyboard
+kbv_returnkey_done,Done,Готово,,Return key type of virtual keyboard
+kbv_returnkey_continue,Continue,Продолжить,,Return key type of virtual keyboard
 kbv_returnkey_emergency,Emergency,Emergency,,Return key type of virtual keyboard
 kbv_autocapitalize_none,None,None,,No autocapitalization
 kbv_autocapitalize_words,Words,Words,,Words autocapitalization
@@ -3382,7 +3382,7 @@ Convert,Convert,Convert,,Convert
 movedegreerange_description,Workspace keyboard navigation degree range,Workspace keyboard navigation degree range,,Description for degree range of moving a window
 resetzoomonmoving_description,Workspace keyboard navigation resets zoom,Workspace keyboard navigation resets zoom,,Description for reset zoom
 background_image,Background Image,Background Image,,Background Image
-workspacebackground_skin_description,IDE skin,Скин IDE,,Label to use to prompt the user to pick a new skin for the IDE
+workspacebackground_skin_description,IDE skin,Скин ИСР,,Label to use to prompt the user to pick a new skin for the IDE
 workspacebackgroundfit_description,Image Scaling,Image Scaling,,Description for workspace background fit
 showworkspacebackground_description,Show background image on workspaces,Show background image on workspaces,,Description for showing workspace background
 adddefaultlayers_description,Add default room layers,Add default room layers,,Description for adding default layers
@@ -3436,7 +3436,7 @@ texteditor_minwidth,Minimum code window width,Minimum code window width,,min cod
 texteditor_minheight,Minimum code window height,Minimum code window height,,min code window height
 webserverport,Help manual port,Help manual port,,The port number to use for the help web server setting
 externalbrowserforhelp,Use an external browser for help,Use an external browser for help,,Use an external browser for help setting
-use_online_help_pref,Use online manual,Use online manual,,use online manual help pref
+use_online_help_pref,Use online manual,Использовать интернет-руководство,,use online manual help pref
 imageeditor_buttonchoiceonframedelete,Automatic response to deleting frames,Automatic response to deleting frames,,Automatic button choice on frame deletion setting
 imageeditor_choicefortoolchanges,Automatic response to committing changes on tool change,Automatic response to committing changes on tool change,,Choice for tool changes setting
 imageeditor_layerlockeddisplay,Automatic response to locked layer warning,Automatic response to locked layer warning,,Layer locked display setting
@@ -3721,7 +3721,7 @@ GMLVisualModule_Toolbox_Favorites,Favourites,Favourites,,Toolbox favourites cate
 GMLVisualModule_Toolbox_SearchText,Search...,Поиск,,Toolbox search placeholder text
 GMLVisualFeatureFlagUi_Warning_Title,GML Visual: actions disabled,GML Visual: actions disabled,,Feature Flag warning title
 GMLVisualFeatureFlagUi_Warning_Message,Failed to fully load a GML Visual script {0}. It contains actions which are disabled for your account. Disabled categories:\n{1},Failed to fully load a GML Visual script {0}. It contains actions which are disabled for your account. Disabled categories:\n{1},,Feature Flag warning message
-fonteditor_aa_default,Default,Default,,Default setting for font AA
+fonteditor_aa_default,Default,По умолчанию,,Default setting for font AA
 use_default,Use Default,Use Default,,Use Default setting
 desktop_unmaxdragdist,Tab drag distance to unmaximise desktop (px),Tab drag distance to unmaximise desktop (px),,Distance in pixels the tab must be dragged before it will unmaximise the desktop
 SaveProjectAs_UnsafeLocationMessage,The location you have chosen is unsafe.\n\nAre you sure you want to save to '{0}'?,The location you have chosen is unsafe.\n\nAre you sure you want to save to '{0}'?,,Warning message if the user tries to save to a daft location
@@ -4357,9 +4357,9 @@ ExtensionEditor_ButtonChoiceOnIos3rdPartyFrameworkDeletion,Automatic button choi
 ExtensionEditor_CodeInjection,Code Injection:,Code Injection:,,ext editor code injection label
 ExtensionEditor_Options_Tooltip,Manage extension options,Manage extension options,,button to open extension options managing window
 ExtensionEditor_Config_Reset_Tooltip,Reset to default value,Reset to default value,,button to reset the extension option value to the default one
-ExtensionEditor_Option_Name,Name,Name,,Option name
+ExtensionEditor_Option_Name,Name,Название,,Option name
 ExtensionEditor_Option_Name_Tooltip,This is how you will refer to it at compile/run time.,This is how you will refer to it at compile/run time.,,Tooltip option name
-ExtensionEditor_Option_Default,Default,Default,,Default value
+ExtensionEditor_Option_Default,Default,По умолчанию,,Default value
 ExtensionEditor_Option_Type,Type,Type,,Option type
 ExtensionEditor_Option_Extras,Extras,Extras,,Extra option parameters
 ExtensionEditor_Options_Window,Extension Options,Extension Options,,Extension Options definitions label in Extension Editor
@@ -6555,11 +6555,11 @@ ggs_share_overlay,"Share Overlay (128x128, 64x64, 256x128, 256x64)","Share Overl
 Button_Preview,Preview,Preview,,Preview button caption
 Main,Main,основные,,Main option group subheading
 Run_Timer_Format,d' Days 'h' Hours 'm' Minutes 's' Seconds',d' Days 'h' Hours 'm' Minutes 's' Seconds',"Do not change d,h,m or s as these are formatting tags",time format to display in run timer
-Device_Manager_Platform,Platform,Platform,,Platform selector title for device manager
+Device_Manager_Platform,Platform,Платформа,,Platform selector title for device manager
 Server,Server,Server,,Server preference group subheading
 Console,Console,Консоль,,Console preference group subheading
 Surveys,Surveys,Surveys,,Surveys preference group subheading
-IDE,IDE,IDE,,IDE preference group subheading
+IDE,IDE,ИСР,,IDE preference group subheading
 External Editors,External Editors,External Editors,,External Editors preference group subheading
 Source Control,Source Control,Система управления версиями,,Source Control preference group subheading
 Search Results,Search Results,Search Results,,Search Results preference group subheading
@@ -6569,11 +6569,11 @@ Syntax Errors,Syntax Errors,Syntax Errors,,Syntax Errors preference group subhea
 Arc,Arc,Arc,,Arc preference group subheading
 Colour Select,Colour Select,Colour Select,,Colour Select preference group subheading
 Label,Label,Label,,Label preference group subheading
-Default,Default,Default,,Default preference group subheading
-Sprites,Sprites,Sprites,,Sprites preference group subheading
+Default,Default,По умолчанию,,Default preference group subheading
+Sprites,Sprites,Спрайты,,Sprites preference group subheading
 Nine Slices,Nine Slices,Nine Slices,,Nine Slices preference group subheading
-Tile Sets,Tile Sets,Tile Sets,,Tile Sets preference group subheading
-Sounds,Sounds,Sounds,,Sounds preference group subheading
+Tile Sets,Tile Sets,Наборы тайлов,,Tile Sets preference group subheading
+Sounds,Sounds,Звуки,,Sounds preference group subheading
 Audio Emitters,Audio Emitters,Audio Emitters,,Audio Emitters preference group subheading
 Scripts,Scripts,Сценарии,,Scripts preference group subheading
 Shaders,Shaders,Шейдеры,,Shaders preference group subheading
@@ -7459,16 +7459,16 @@ SequencePref_TagConfirmDialog,Whether a confirmation dialog should be shown when
 SequencePref_DeleteTagDialog,Whether a confirmation dialog should be shown when trying to delete a tag,Whether a confirmation dialog should be shown when trying to delete a tag,,Delete tag confirm dialog preference
 SequencePref_ChainThickness,Canvas chain thickness,Canvas chain thickness,,Canvas chain thickness preference
 SequencePref_ChainColor,Canvas chain colour,Canvas chain colour,,Canvas chain colour preference
-Seq_ContextMenu_Rename,Rename,Rename,,Rename track
-Seq_ContextMenu_Tags,Tags,Tags,,Tags context menu entry
+Seq_ContextMenu_Rename,Rename,Переименовать,,Rename track
+Seq_ContextMenu_Tags,Tags,Теги,,Tags context menu entry
 Seq_ContextMenu_Parameters,Parameters,Parameters,,Add parameter track context menu entry
-Seq_ContextMenu_DefaultParameters,Default,Default,,Add default parameters context menu entry
+Seq_ContextMenu_DefaultParameters,Default,По умолчанию,,Add default parameters context menu entry
 Seq_ContextMenu_TrackParameters,Track,Track,,Add track parameters context menu entry
 Seq_ContextMenu_AllParameters,All,All,,Add all parameters context menu entry
 Seq_ContextMenu_Hidden,Hidden,Hidden,,Hidden dopesheet track context menu entry
 Seq_ContextMenu_Locked,Locked,Locked,,Locked dopesheet track context menu entry
 SequenceTrack_ParamReal,Number,Number,,Add real parameter track
-SequenceTrack_ParamString,String,String,,Add string parameter track
+SequenceTrack_ParamString,String,Строка,,Add string parameter track
 SequenceTrack_ParamBool,Boolean,Boolean,,Add boolean parameter track
 SequenceTrack_ParamResource,Resource,Resource,,Add resource parameter track
 SequenceTrack_ParamColor,Colour,Colour,,Add colour parameter track
@@ -7710,19 +7710,19 @@ preferences_android_genadaptive_mask_circle,Circle mask,Circle mask,,generate ad
 preferences_android_genadaptive_mask_roundedsquare,Rounded square mask,Rounded square mask,,generate adaptive icons widget mask selection rounded square mask
 preferences_android_genadaptive_mask_squircle,Squircle mask,Squircle mask,,generate adaptive icons widget mask selection squircle mask
 preferences_android_genadaptive_mask_teardrop,Teardrop mask,Teardrop mask,,generate adaptive icons widget mask selection teardrop mask
-ProgressBar_DownloadManual,Downloading Manual,Downloading Manual,MAX of 18 characters,Progress bar info
-Manual_Language_Selection,Manual Language,Manual Language,,Manual Language Selection label
+ProgressBar_DownloadManual,Downloading Manual,Скачивание руководства,MAX of 18 characters,Progress bar info
+Manual_Language_Selection,Manual Language,Язык руководства,,Manual Language Selection label
 LocalisedManual_NotInstalled,Would you like to download this manual?,Would you like to download this manual?,,Localised manual not installed text
 LocalisedManual_NotInstalledTitle,Localised manual not installed,Localised manual not installed,,Localised manual not installed title
-LocalisedManual_NotLocalisedTitle,Manual not localised,Manual not localised,,Manual no localised title
+LocalisedManual_NotLocalisedTitle,Manual not localised,Руководство не имеет локализации,,Manual no localised title
 LocalisedManual_NotLocalised,The manual is not currently localised for this language,The manual is not currently localised for this language,,Manual not localised message
-LocalisedManual_DownloadFailedTitle,Manual download failed,Manual download failed,,The download of the manual failed
+LocalisedManual_DownloadFailedTitle,Manual download failed,Не удалось скачать руководство,,The download of the manual failed
 LocalisedManual_DownloadFailed,An error occurred while trying to download the manual,An error occurred while trying to download the manual,,Error while downloading the manual
 LocalisedManual_DownloadMsg,"The manual for the current manual language ({0}) is not installed. Would you like to download it now, or use the online help?","The manual for the current manual language ({0}) is not installed. Would you like to download it now, or use the online help?",,manual download message
 Manual_Download,Download,Download,,manual download button text
-Manual_UseOnline,Use online manual,Use online manual,,manual use online text
+Manual_UseOnline,Use online manual,Использовать интернет-руководство,,manual use online text
 LocaliseManual_UpdateAvailableMsg,An update is available for the current manual language ({0}). Would you like to download it now?,An update is available for the current manual language ({0}). Would you like to download it now?,,manual update available message
-LocaliseManual_UpdateAvailableTitle,Manual update available,Manual update available,,manual update available title
+LocaliseManual_UpdateAvailableTitle,Manual update available,Доступно обновление для руководства,,manual update available title
 RuntimeDownload_FailedTitle,Runtime install incomplete,Runtime install incomplete,,Runtime download failed title
 RuntimeDownload_Failed,The selected runtime could not fully install,The selected runtime could not fully install,,Runtime download failed message
 sourcecontrolgit_noauthfound,No User/Pass authentication details found for {0},No User/Pass authentication details found for {0},,No User/Pass authentication details found for the given url
@@ -8953,7 +8953,7 @@ RedefineKeys_ai_assistant_search_next,Search Next,Search Next,,ai assistant sear
 RedefineKeys_ai_assistant_search_previous,Search Previous,Search Previous,,ai assistant search next
 RedefineKeys_Backspace,Backspace,Backspace,,Backspace
 RedefineKeys_Enter,Enter,Enter,,Enter
-RedefineKeys_Open Manual,Open Manual,Open Manual,,Open Manual
+RedefineKeys_Open Manual,Open Manual,Открыть руководство,,Open Manual
 RedefineKeys_Workspace Overview Flow Backwards,Workspace Overview Flow Backwards,Workspace Overview Flow Backwards,,Workspace Overview Flow Backwards
 RedefineKeys_Flip Path,Flip Path,Flip Path,,Flip Path
 RedefineKeys_Mirror Path,Mirror Path,Mirror Path,,Mirror Path
@@ -9276,7 +9276,7 @@ BugReport_Cat_CrashUnstable,Crash/Unstable Message,Crash/Unstable Message,,bugre
 BugReport_Cat_EditingAssets,Editing Your Assets,Editing Your Assets,,bugreport category label
 BugReport_Cat_InGame,In-Game (GMS2 Runtime),In-Game (GMS2 Runtime),,bugreport category label
 BugReport_Cat_NewRuntime,In-Game (GMRT Runtime),In-Game (GMRT Runtime),,bugreport category label
-BugReport_Cat_Documentation,Manual Content,Manual Content,,bugreport category label
+BugReport_Cat_Documentation,Manual Content,Содержание руководства,,bugreport category label
 BugReport_ReportDescription,Description*,Description*,,bug report description
 BugReport_ReportTitle,Title*,Title*,,bug report title
 BugReport_TitleTT,Provide a short title,Provide a short title,,bug report title tooltip
