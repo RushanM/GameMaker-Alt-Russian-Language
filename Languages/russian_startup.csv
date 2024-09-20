@@ -2,7 +2,7 @@ Name,English,Translation,Restrictions,Comment
 _Language,English,Russian,,Название языка на английском
 _LanguageNative,English,Русский,,Language name in the native language
 _LanguageCode,ru,ru,,standard windows os language code this pack represents (can be primary code only ie. en or primary-secondary ie. en-GB)
-_GameMaker2016,GameMaker,Гейммейкер,,IDE title
+_GameMaker2016,GameMaker,GameMaker,,IDE title
 Splash_Done,Done.,Готово.,,Finished loading
 Splash_Loading,Loading....,Загрузка....,,Generic loading text
 Splash_WaitingNetwork,Checking Network...,Проверка сети...,,Network step
