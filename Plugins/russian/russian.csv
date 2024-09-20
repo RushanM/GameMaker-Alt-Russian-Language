@@ -121,9 +121,9 @@ GotoLine_Title,Go To Line,Go To Line,,goto line dialog title
 GotoLine_Label,Line Number ({0} - {1}),Номер строки ({0} — {1}),,goto line label
 CompileErrors,Compile Errors,Compile Errors,,Compile Errors tab title
 CompileErrors_NoErrors,There are no compile errors to show!,There are no compile errors to show!,,No compile errors message
-Configuration,Configuration,Configuration,,Configuration
+Configuration,Configuration,Настройка,,Configuration
 Configuration_Select,Select Configuration,Select Configuration,,Window title for config select
-Configurations,Configurations,Configurations,,Configurations
+Configurations,Configurations,Настройки,,Configurations
 Configurations_Add,Add New Configuration,Add New Configuration,,Add configuration window title
 Configurations_Delete,Are you sure you want to delete configuration '{0}' and all of its children?,Are you sure you want to delete configuration '{0}' and all of its children?,,Confirm for deleting a configuration
 Configurations_Delete_OtherConfigs,Are you sure? Deleting configuration '{0}' will also delete the following configurations: '{1}'.,Are you sure? Deleting configuration '{0}' will also delete the following configurations: '{1}'.,,Warning about deleting a configuration deleting child configs
@@ -549,33 +549,33 @@ SeqParticleTrack_Singular,Particle Track,Particle Track,,sequence particle syste
 SeqParticleTrack_Plural,Particle Tracks,Particle Tracks,,sequence particle system track type name plural
 Inspector_Category_Transform,Transform,Transform,,Inspector category
 Inspector_Category_Physics,Physics,Физика,,Inspector category
-Inspector_Category_Permissions,Permissions,Permissions,,Inspector category
+Inspector_Category_Permissions,Permissions,Разрешения,,Inspector category
 Inspector_Category_Icons,Icons,Значки,,Inspector category
 Inspector_Category_Logo,Logo,Логотип,,Inspector category
-Inspector_Category_Splash,Splash Screen,Splash Screen,,Inspector category
+Inspector_Category_Splash,Splash Screen,Экран-заставка,,Inspector category
 Inspector_Category_Sdk,Software Development Kit,Software Development Kit,,Inspector category
 Inspector_Category_Orientation,Orientation,Orientation,,Inspector category
 Inspector_Category_XboxLive,Xbox Live,Xbox Live,,Inspector category
-Inspector_Category_Viewport,Viewport,Viewport,,Inspector category
+Inspector_Category_Viewport,Viewport,Порт просмотра,,Inspector category
 Inspector_Category_View,View,View,,Inspector category
 Inspector_Category_TextureSettings,Texture Settings,Texture Settings,,Inspector category
 Inspector_Category_CollisionMask,Collision Mask,Collision Mask,,Inspector category
 Inspector_Category_Nineslice,Nine Slices,Nine Slices,,Inspector category
 Inspector_Category_Tiles,Tiles,Тайлы,,Inspector category
-Inspector_Category_FontOptions,Advanced Options,Advanced Options,,Inspector category
+Inspector_Category_FontOptions,Advanced Options,Настройки для продвинутых пользователей,,Inspector category
 Inspector_Category_CanvasFrame,Canvas Frame,Canvas Frame,,Inspector category
-Inspector_Category_Parent,Parent,Parent,,Inspector category
+Inspector_Category_Parent,Parent,Родительский элемент,,Inspector category
 Inspector_Category_Glyphs,Glyphs,Glyphs,,Inspector category
 Inspector_Category_Presets,Presets,Предустановки,,Inspector category
 Inspector_Category_FiltersEffects,Filters & Effects,Фильтры и эффекты,,filters and effects category
 Inspector_Category_PathPoints,Path Points,Path Points,,inspector path points category
-Inspector_OpenEditor,Open Editor,Open Editor,,open editor
+Inspector_OpenEditor,Open Editor,Открыть редактор,,open editor
 Inspector_OpenInspector,Open Inspector,Open Inspector,,open inspector
 Inspector_ObjNoEvents,This Object currently has no Events.\nAdd Events here or via the editor,This Object currently has no Events.\nAdd Events here or via the editor,,no object events inspector label
-Inspector_OpenEditors,Open Editors,Open Editors,,open multiple editors
-Inspector_Category_Properties,Properties,Properties,,inspector category
-Inspector_Category_Editors,Editors,Editors,,inspector category
-Inspector_Category_Channels,Channels,Channels,,inspector category
+Inspector_OpenEditors,Open Editors,Открыть редакторы,,open multiple editors
+Inspector_Category_Properties,Properties,Свойства,,inspector category
+Inspector_Category_Editors,Editors,Редакторы,,inspector category
+Inspector_Category_Channels,Channels,Каналы,,inspector category
 Inspector_Category_Attributes,Attributes,Attributes,,inspector category
 Inspector_Category_TargetOptions,Target Options,Target Options,,inspector category
 Inspector_Category_AudioGroup,Audio Group,Audio Group,,inspector category
@@ -1368,12 +1368,12 @@ MenuBar_AddMenuBarEntryAfter,Add Menu Bar Entry After '{0}',Add Menu Bar Entry A
 MenuBar_AddMenuBarEntryBefore,Add Menu Bar Entry Before '{0}',Add Menu Bar Entry Before '{0}',,Add a new menu bar entry before the selected entry
 MenuBar_Edit,Edit,Редактирование,,Menu bar heading: Edit
 MenuBar_File,File,Файл,,Menu bar heading: File
-MenuBar_Image,Image,Image,,menu bar heading: Image
-MenuBar_Language,Language,Language,,Menu bar heading for languages
-MenuBar_Style,Style,Style,,The menu bar heading for style
-MenuBar_Tools,Tools,Tools,,Menu bar heading: Tools
+MenuBar_Image,Image,Изображение,,menu bar heading: Image
+MenuBar_Language,Language,Язык,,Menu bar heading for languages
+MenuBar_Style,Style,Стиль,,The menu bar heading for style
+MenuBar_Tools,Tools,Инструменты,,Menu bar heading: Tools
 MenuBar_View,View,View,,Menu bar heading: View
-Navigation_Back,Back,Back,,Back
+Navigation_Back,Back,Назад,,Back
 Navigation_Forward,Forward,Forward,,Forward
 Navigation_Reload,Reload,Reload,,Reload webpage
 News_ReleaseNotes,Release Notes,Release Notes,,Release notes window caption
@@ -1402,9 +1402,9 @@ Object_Managed_Tooltip,Instances of this object will have its lifecycle managed 
 ObjectEdior_PhysicsShape_ZoomIn,Zoom in,Zoom in,,Object editor physics window label
 ObjectEdior_PhysicsShape_ZoomOut,Zoom out,Zoom out,,Object editor physics window label
 ObjectEdior_PhysicsShape_ZoomReset,Reset zoom,Reset zoom,,Object editor physics window label
-ObjectEditor_AddEvent,Add Event,Add Event,,Object editor add event
-ObjectEditor_Sprite,Sprite,Sprite,,Object editor sprite group
-ObjectEditor_AnimSpeed,Animation Speed,Animation Speed,,Physics collision window playback speed
+ObjectEditor_AddEvent,Add Event,Добавить событие,,Object editor add event
+ObjectEditor_Sprite,Sprite,Спрайт,,Object editor sprite group
+ObjectEditor_AnimSpeed,Animation Speed,Скорость анимации,,Physics collision window playback speed
 ObjectEditor_Arg0,{0},{0},,"empty string, single unlocalised argument"
 ObjectEditor_Box,Box,Box,,Object editor collision shape box
 ObjectEditor_ChangeEvent,Change Event,Change Event,,Object editor change event menu option
@@ -1698,7 +1698,7 @@ RoomEditorTileEditing_DeleteSelection,Delete Selection,Delete Selection,,Tile ed
 RoomEditorTileEditing_InvertSelection,Invert Selection,Invert Selection,,Tile editing menu entry heading for invert the current mask selection
 RoomEditorTileEditing_Menu,Tile Editing,Tile Editing,,Tile editing sub menu entry heading
 RoomEditorTileEditing_TileDisplayWindow,Tile Selection Window,Tile Selection Window,,Tile editing menu entry heading for open the tile selection window
-RoomEditorTool_AutoTile,Auto Tile ,Auto Tile ,,tooltip for auto tile tool
+RoomEditorTool_AutoTile,Auto Tile ,Проавтотайлировать ,,tooltip for auto tile tool
 RoomEditorTool_SelectTiles,Select Tiles ,Select Tiles ,,tooltip for tile selection tool
 RoomEditorTool_TileBrush,Paint Tiles,Paint Tiles,,Button tooltip for the tile brush tool
 RoomEditorTool_TileEraser,Eraser ,Eraser ,,tooltip for tile eraser tool
@@ -8546,7 +8546,7 @@ RedefineKeys_compileerror_copy_win,Compile Error Copy Win,Compile Error Copy Win
 RedefineKeys_compileerror_selectall,Compile Error Select All,Compile Error Select All,,Redefine keys compileerror_selectall string
 RedefineKeys_syntaxerror_copy_win,Syntax Error Copy Win,Syntax Error Copy Win,,Redefine keys syntaxerror_copy_win string
 RedefineKeys_syntaxerror_selectall,Syntax Error Select All,Syntax Error Select All,,Redefine keys syntaxerror_selectall string
-RedefineKeys_run_program,Run Program,Run Program,,Redefine keys run_program string
+RedefineKeys_run_program,Run Program,Запустить программу,,Redefine keys run_program string
 RedefineKeys_debugger_continue,Debugger Continue,Debugger Continue,,Redefine keys debugger_continue string
 RedefineKeys_debugger_step_into,Debugger Step Into,Debugger Step Into,,Redefine keys debugger_step_into string
 RedefineKeys_debugger_step_over,Debugger Step Over,Debugger Step Over,,Redefine keys debugger_step_over string
@@ -8720,7 +8720,7 @@ RedefineKeys_Add JS Placeholder,Add JS Placeholder,Add JS Placeholder,,Redefine 
 RedefineKeys_CodeWindow_SingleColumn,Code Window Single Column,Code Window Single Column,,Redefine keys CodeWindow_SingleColumn string
 RedefineKeys_CodeWindow_2Column,Code Window 2Column,Code Window 2Column,,Redefine keys CodeWindow_2Column string
 RedefineKeys_CodeWindow_3Column,Code Window 3Column,Code Window 3Column,,Redefine keys CodeWindow_3Column string
-RedefineKeys_ObjectEditor_AddEvent,Object Editor Add Event,Object Editor Add Event,,Redefine keys ObjectEditor_AddEvent string
+RedefineKeys_ObjectEditor_AddEvent,Object Editor Add Event,«Добавить событие» с редактора объекта,,Redefine keys ObjectEditor_AddEvent string
 RedefineKeys_ObjectEditor_ViewParentEvent,Object Editor View Parent Event,Object Editor View Parent Event,,Redefine keys ObjectEditor_ViewParentEvent string
 RedefineKeys_ObjectEditor_OpenParentObject,Object Editor Open Parent Object,Object Editor Open Parent Object,,Redefine keys ObjectEditor_OpenParentObject string
 RedefineKeys_ObjectEditor_CutEvent,Object Editor Cut Event,Object Editor Cut Event,,Redefine keys ObjectEditor_CutEvent string
@@ -8807,26 +8807,26 @@ RedefineKeys_select_FreeRotateTool,Select Free Rotate Tool,Select Free Rotate To
 RedefineKeys_Rotate Brush,Rotate Brush,Rotate Brush,,Redefine keys Rotate Brush string
 RedefineKeys_select_PanTool,Select Pan Tool,Select Pan Tool,,Redefine keys select_PanTool string
 RedefineKeys_select_TextTool,Select Text Tool,Select Text Tool,,Redefine keys select_TextTool string
-RedefineKeys_new_sprite,New Sprite,New Sprite,,Redefine keys new_sprite string
-RedefineKeys_edit_sprite,Edit Sprite,Edit Sprite,,Redefine keys edit_sprite string
-RedefineKeys_select_sprite,Select Sprite,Select Sprite,,Redefine keys select_sprite string
-RedefineKeys_select_mask,Select Mask,Select Mask,,Redefine keys select_mask string
-RedefineKeys_edit_mask,Edit Mask,Edit Mask,,Redefine keys edit_mask string
+RedefineKeys_new_sprite,New Sprite,Создать новый спрайт,,Redefine keys new_sprite string
+RedefineKeys_edit_sprite,Edit Sprite,Редактировать спрайт,,Redefine keys edit_sprite string
+RedefineKeys_select_sprite,Select Sprite,Выбрать спрайт,,Redefine keys select_sprite string
+RedefineKeys_select_mask,Select Mask,Выбрать маску,,Redefine keys select_mask string
+RedefineKeys_edit_mask,Edit Mask,Редактировать маску,,Redefine keys edit_mask string
 RedefineKeys_open_events_window,Open Events Window,Open Events Window,,Redefine keys open_events_window string
 RedefineKeys_open_parent_window,Open Parent Window,Open Parent Window,,Redefine keys open_parent_window string
 RedefineKeys_open_physics_window,Open Physics Window,Open Physics Window,,Redefine keys open_physics_window string
 RedefineKeys_open_variable_definitions,Open Variable Definitions,Open Variable Definitions,,Redefine keys open_variable_definitions string
-RedefineKeys_add_event,Add Event,Add Event,,Redefine keys add_event string
-RedefineKeys_select_parent,Select Parent,Select Parent,,Redefine keys select_parent string
-RedefineKeys_edit_parent,Edit Parent,Edit Parent,,Redefine keys edit_parent string
-RedefineKeys_Add Child,Add Child,Add Child,,Redefine keys add_child string
+RedefineKeys_add_event,Add Event,Добавить событие,,Redefine keys add_event string
+RedefineKeys_select_parent,Select Parent,Выбрать родительский элемент,,Redefine keys select_parent string
+RedefineKeys_edit_parent,Edit Parent,Редактировать родительский элемент,,Redefine keys edit_parent string
+RedefineKeys_Add Child,Add Child,Добавить дочерний элемент,,Redefine keys add_child string
 RedefineKeys_modify_collision_shape,Modify Collision Shape,Modify Collision Shape,,Redefine keys modify_collision_shape string
 RedefineKeys_physics_toggle_grid,Physics Toggle Grid,Physics Toggle Grid,,Redefine keys physics_toggle_grid string
 RedefineKeys_physics_snap_to_grid,Physics Snap To Grid,Physics Snap To Grid,,Redefine keys physics_snap_to_grid string
-RedefineKeys_Add Variable,Add Variable,Add Variable,,Redefine keys add_variable string
+RedefineKeys_Add Variable,Add Variable,Добавить переменную,,Redefine keys add_variable string
 RedefineKeys_add_new_range,Add New Range,Add New Range,,Redefine keys add_new_range string
 RedefineKeys_delete_selected_range,Delete Selected Range,Delete Selected Range,,Redefine keys delete_selected_range string
-RedefineKeys_open_options,Open Options,Open Options,,Redefine keys open_options string
+RedefineKeys_open_options,Open Options,Открыть настройки,,Redefine keys open_options string
 RedefineKeys_regenerate_font_texture,Regenerate Font Texture,Regenerate Font Texture,,Redefine keys regenerate_font_texture string
 RedefineKeys_open_tileset_properties,Open Tileset Properties,Open Tileset Properties,,Redefine keys open_tileset_properties string
 RedefineKeys_open_brush_builder,Open Brush Builder,Open Brush Builder,,Redefine keys open_brush_builder string
