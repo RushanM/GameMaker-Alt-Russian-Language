@@ -394,7 +394,7 @@ Event_Other_Views_BoundaryViewN,Intersect View {0} Boundary,Intersect View {0} B
 Event_Other_Views_OutsideViewN,Outside View {0},Outside View {0},,"Other-Views ""Outside view"" event numberN"
 Event_Other_Views_Boundary,Intersect Boundary,Intersect Boundary,,Intersect boundary view group title
 Event_Other_Views_Outside,Outside View,Outside View,,Outside view group title
-Event_Step,Step,Каждый игровой кадр,,Step event name
+Event_Step,Step,Каждый кадр,,Step event name
 Event_StepBegin,Begin Step,Begin Step,,Begin Step event name
 Event_StepEnd,End Step,End Step,,End Step event name
 Event_Unknown,Unknown Event,Unknown Event,,Object editor unknown event name
@@ -5849,7 +5849,7 @@ Debugger_Window_LocalsView,Locals,Locals,,Debugger locals window title
 Debugger_Window_GlobalsView,Globals,Globals,,Debugger globals window title
 Debugger_Window_WatchView,Watch,Watch,,Debugger watch window title
 Debugger_Window_InstanceView,Instance,Instance,,Debugger instance window title
-Debugger_Window_AllInstancesView,All Instances,All Instances,,Debugger all instances window title
+Debugger_Window_AllInstancesView,All Instances,Все экземпляры,,Debugger all instances window title
 Debugger_Window_SelectedInstanceView,Selected Instance,Selected Instance,,Debugger selected instance window title
 Debugger_Window_SelectedInstanceView_Arg,Selected Instance {0},Selected Instance {0},,Debugger selected instance window title with argument
 Debugger_Window_Callstack,Call Stack,Call Stack,,Debugger call stack window title
@@ -6371,10 +6371,10 @@ ResourceTree_ParticleSystems_Singular,Particle System,Particle System,,Particle 
 ResourceTree_ParticleEmitters,Particle Emitters,Particle Emitters,,particle emitters resource plural
 ResourceTree_ParticleEmitters_Singular,Particle Emitter,Particle Emitter,,particle emitter resource singular
 RT_Unknown,Resource,Resource,,unknown resource type name
-RT_RoomInstance,Object Instances,Object Instances,,room instance resource name
-RT_RoomInstance_Singular,Object Instance,Object Instance,,room instance resource name singular
-RT_RoomSpriteGraphic,Sprite Instances,Sprite Instances,,room sprite graphic resource name
-RT_RoomSpriteGraphic_Singular,Sprite Instance,Sprite Instance,,room sprite graphic resource name singular
+RT_RoomInstance,Object Instances,Экземпляры объекта,,room instance resource name
+RT_RoomInstance_Singular,Object Instance,Экземпляр объекта,,room instance resource name singular
+RT_RoomSpriteGraphic,Sprite Instances,Экземпляры спрайта,,room sprite graphic resource name
+RT_RoomSpriteGraphic_Singular,Sprite Instance,Экземпляр спрайта,,room sprite graphic resource name singular
 RT_RoomSequenceGraphic,Sequence Instances,Sequence Instances,,room sequence graphic resource name
 RT_RoomSequenceGraphic_Singular,Sequence Instance,Sequence Instance,,room sequence graphic resource name singular
 RT_RoomParticleSystem,Particle System Instances,Particle System Instances,,room particle system instance resource name plural
@@ -6483,7 +6483,7 @@ TemplateInfo,Template Info,Template Info,,Template Info options group heading
 Graphics,Graphics,Графика,,Graphics options group heading
 Storage,Storage,Storage,,Storage options group heading
 Images,Images,Изображения,,Images options group heading
-Installer,Installer,Installer,,Installer options group heading
+Installer,Installer,Установщик,,Installer options group heading
 Packaging,Packaging,Packaging,,Packaging options group heading
 Device Families,Device Families,Device Families,,Device families options group heading
 Android,Android,Android,DO NOT TRANSLATE,Android preference group subheading
@@ -6854,7 +6854,7 @@ RoomEditor_InheritLayerDepthToolTip,Inherit Layer Depth,Inherit Layer Depth,,too
 RoomEditor_InheritCreationOrderToolTip,Inherit Creation Order,Inherit Creation Order,,tooltip for inherit creation order
 RoomEditor_InheritGraphicToolTip,Inherit Graphic Properties,Inherit Graphic Properties,,tooltip for inherit graphic properties
 RoomEditor_InheritInstanceToolTip,Inherit Instance Properties,Inherit Instance Properties,,tooltip for inherit instance properties
-RoomEditor_InheritInstancesToolTip,Inherit Instances,Inherit Instances,,tooltip for inherit instances
+RoomEditor_InheritInstancesToolTip,Inherit Instances,Перенять экземпляры,,tooltip for inherit instances
 RoomEditor_InheritAssetsToolTip,Inherit Assets,Inherit Assets,,tooltip for inherit assets
 RoomEditor_InheritBackgroundToolTip,Inherit Background Properties,Inherit Background Properties,,tooltip for inherit background
 RoomEditor_InheritTileLayerToolTip,Inherit Tile Properties,Inherit Tile Properties,,tooltip for inherit tile layer properties
