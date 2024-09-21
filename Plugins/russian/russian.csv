@@ -2458,7 +2458,7 @@ ListBoxEnum_eCodeEditorSnappableWidgetOrientation_Left,Left,Left,,snappable orie
 StartPage_Error,Start page failed to load.\nYou can create new projects from the File menu.,Start page failed to load.\nYou can create new projects from the File menu.,,Start page error text
 StartPage_ErrorTitle,An Error Occurred,An Error Occurred,,Start page error title
 StartPage_Title,Start Page,Начальная страница,,Start page title
-StartPage_WelcomeLabel,Welcome To GameMaker,Привет-привет!,,Welcome to GameMaker label on start screen banner
+StartPage_WelcomeLabel,Welcome To GameMaker,Добро пожаловать в GameMaker,,Welcome to GameMaker label on start screen banner
 StripDialog_NumberOfImages,Number of Frames,Number of Frames,,strip dialog frame count
 StripDialog_ImagesPerRow,Frames per Row,Frames per Row,,strip dialog frames per row
 StripDialog_ImageWidth,Frame Width,Frame Width,,strip dialog frame width
@@ -3074,7 +3074,7 @@ ggs_webgl,WebGL,WebGL,,WebGL
 ggs_webgl_disabled,Disabled,Disabled,,WebGL Disabled
 ggs_webgl_required,Required,Required,,WebGL Required
 ggs_webgl_autodetect,Auto Detect,Auto Detect,,Auto Detect WebGL
-ggs_ios_devices_iphone_and_touch,iPhone or iPod Touch,iPhone or iPod Touch,,iPhone or iPod Touch device selection
+ggs_ios_devices_iphone_and_touch,iPhone or iPod Touch,iPhone или iPod Touch,,iPhone or iPod Touch device selection
 ggs_ios_defer_home_indicator,Defer Home Indicator Input,Defer Home Indicator Input,,Defer Home Indicator Input for iPhone X
 ggs_ios_enable_broadcast,Enable broadcast networking,Enable broadcast networking,,Enable broadcast networking
 ggs_ios_devices_ipad,iPad,iPad,,iPad device selection
@@ -3083,14 +3083,14 @@ ggs_orientation,Orientation,Orientation,,Orientation
 ggs_portrait,Portrait,Portrait,,Portrait Orientation
 ggs_landscape,Landscape,Landscape,,Landscape Orientation
 ggs_application,Application,Application,,Application setting
-ggs_game,Game,Game,,Game setting
-ggs_light,Light,Light,,Light setting
-ggs_dark,Dark,Dark,,Dark setting
+ggs_game,Game,Игра,,Game setting
+ggs_light,Light,Светлый,,Light setting
+ggs_dark,Dark,Тёмный,,Dark setting
 ggs_x86,x86,x86,,x86 setting
 ggs_x64,x64,x64,,x64 setting
 ggs_arm,ARM,ARM,,ARM setting
-ggs_displayname,Display Name,Display Name,,Display Name
-ggs_exename,Executable Name,Executable Name,,Executable Name
+ggs_displayname,Display Name,Отображаемое название,,Display Name
+ggs_exename,Executable Name,Название исполняемого файла,,Executable Name
 ggs_display_cursor,Display cursor,Display cursor,,Display Cursor
 ggs_package_domain,Package Domain,Package Domain,,Package Domain (.com)
 ggs_package_company,Package Company,Package Company,,Package Company
@@ -4023,14 +4023,14 @@ windows_package_zip,Package as Zip,Package as Zip,,Package as Zip
 windows_package_type,Package Type,Package Type,,Package Type
 windows_package_default_type,Default packaging type,Default packaging type,,Default Packaging Type
 gx_package_upload_game,Upload as Game,Upload as Game,,gx upload as game
-gx_package_upload_wallpaper,Upload as Live Wallpaper Mod,Upload as Live Wallpaper Mod,,gx upload as wallpaper
-gx_package_upload_gamestrip,Upload as Game Strip Mod,Upload as Game Strip Mod,,gx upload as game strip
+gx_package_upload_wallpaper,Upload as Live Wallpaper Mod,Опубликовать как мод на живые обои,,gx upload as wallpaper
+gx_package_upload_gamestrip,Upload as Game Strip Mod,Опубликовать как мод на игровую панель,,gx upload as game strip
 operagx_package_default_type,Default packaging type,Default packaging type,,opera gx Default Packaging Type
-mac_package_nsis,Package as DMG,Package as DMG,,Package as DMG
-mac_package_zip,Package as Zip,Package as Zip,,Package as Zip
+mac_package_nsis,Package as DMG,Упаковать как DMG,,Package as DMG
+mac_package_zip,Package as Zip,Упаковать как архив ZIP,,Package as Zip
 mac_package_remember,Remember Packaging Option?,Remember Packaging Option?,,Remember Packaging Option?
 html5_package_loose,Package as Loose Files,Package as Loose Files,,Package as Loose Files
-html5_package_zip,Package as Zip,Package as Zip,,Package as Zip
+html5_package_zip,Package as Zip,Упаковать как архив ZIP,,Package as Zip
 html5_package_remember,Remember Packaging Option?,Remember Packaging Option?,,Remember Packaging Option?
 html5_package_default_type,Default packaging type,Default packaging type,,Default Packaging Type
 html5_default_webserver_port,Default Web Server Port,Default Web Server Port,,Default Webserver Port
@@ -4041,19 +4041,19 @@ html5_pretty_print,Pretty Print,Pretty Print,,HTML5 Pretty Print
 html5_remove_unused_functions,Remove Unused Functions,Remove Unused Functions,,HTML5 Remove Unused Functions
 html5_verbose,Verbose,Verbose,,HTML5 Verbose
 ListBoxEnum_HTML5PackageChoice_HTML5Package_LooseFiles,Package as Loose Files,Package as Loose Files,,Package as Loose Files
-ListBoxEnum_HTML5PackageChoice_HTML5Package_Zip,Package as Zip,Package as Zip,,Package as Zip
+ListBoxEnum_HTML5PackageChoice_HTML5Package_Zip,Package as Zip,Упаковать как архив ZIP,,Package as Zip
 ListBoxEnum_HTML5PackageChoice_HTML5Package_Show,Show Dialog,Show Dialog,,Show Dialog
 build_no_packaging_on_platform,Packages can not be built for the selected platform,Packages can not be built for the selected platform,,It is not possible to Create Application on this platform
 build_no_packaging_on_platform_title,Error,Error,,Title for dialog box shown when trying to Create Application with Test platform selected
 ListBoxEnum_WindowsPackageChoice_WindowsPackage_Show,Show Dialog,Show Dialog,,Show Dialog
-ListBoxEnum_WindowsPackageChoice_WindowsPackage_Zip,Create Zip Archive,Create Zip Archive,,Create Zip Archive
-ListBoxEnum_WindowsPackageChoice_WindowsPackage_Nsis,Create Nsis Installer,Create Nsis Installer,,Create Nsis Installer
+ListBoxEnum_WindowsPackageChoice_WindowsPackage_Zip,Create Zip Archive,Создать архив ZIP,,Create Zip Archive
+ListBoxEnum_WindowsPackageChoice_WindowsPackage_Nsis,Create Nsis Installer,Создать установщик NSIS,,Create Nsis Installer
 ListBoxEnum_OperaGXPackageChoice_OperaGXPackage_Show,Show Dialog,Show Dialog,,Show Dialog
-ListBoxEnum_OperaGXPackageChoice_OperaGXPackage_Game,Game,Game,,gx package choice game
-ListBoxEnum_OperaGXPackageChoice_OperaGXPackage_Wallpaper,Live Wallpaper,Live Wallpaper,,gx package choice wallpaper
-ListBoxEnum_OperaGXPackageChoice_OperaGXPackage_Gamestrip,Game Strip,Game Strip,,gx package choice game strip
-ListBoxEnum_MacPackageChoice_MacPackage_Dmg,Create DMG Installer,Create DMG Installer,,Create DMG Installer
-ListBoxEnum_MacPackageChoice_MacPackage_Zip,Create Zip Archive,Create Zip Archive,,Create Zip Archive
+ListBoxEnum_OperaGXPackageChoice_OperaGXPackage_Game,Game,Игра,,gx package choice game
+ListBoxEnum_OperaGXPackageChoice_OperaGXPackage_Wallpaper,Live Wallpaper,Живые обои,,gx package choice wallpaper
+ListBoxEnum_OperaGXPackageChoice_OperaGXPackage_Gamestrip,Game Strip,Игровая панель,,gx package choice game strip
+ListBoxEnum_MacPackageChoice_MacPackage_Dmg,Create DMG Installer,Создать установщик DMG,,Create DMG Installer
+ListBoxEnum_MacPackageChoice_MacPackage_Zip,Create Zip Archive,Создать архив ZIP,,Create Zip Archive
 ListBoxEnum_MacPackageChoice_MacPackage_Show,Show Dialog,Show Dialog,,Show Dialog
 AddWorker_Name,Name,Name,,Worker name
 AddWorker_NameTooltip,The name assigned to this worker,The name assigned to this worker,,Worker name
@@ -4485,7 +4485,7 @@ SourceControlGit_CreateRepoTitle,Source Control (Git) Create,Source Control (Git
 SourceControlGit_CreateRepoMessage,This will create a bare (server) repository and bind your project to it,This will create a bare (server) repository and bind your project to it,,Create Repository message
 SourceControlGit_CreateRepoSuccess,Repository created successfully,Repository created successfully,,Create repository success message
 WorkspaceMenu_Windows_CloseAll,Close All,Close All,,Workspace context menu close all windows
-WorkspaceMenu_Windows_ShowAll,Show All,Show All,,Workspace context menu show all windows
+WorkspaceMenu_Windows_ShowAll,Show All,Показать всё,,Workspace context menu show all windows
 InvalidTTFCharMap,The font {0} does not contain any character maps and cannot be loaded.,The font {0} does not contain any character maps and cannot be loaded.,,TTF error when font has no character maps
 RoomEditor_MousePosStatus,"({0}, {1})","({0}, {1})",,the mouse position label in the room editor status bar
 RoomEditor_SelectedItemStatus,"{0}: ({1}, {2})","{0}: ({1}, {2})",,the current selection status label in the room editor status bar for one selection
@@ -5529,9 +5529,9 @@ WelcomePage_Support,Support,Support,,welcome page external link text
 WelcomePage_Community,Community,Community,,welcome page external link text
 Runtime_Installing_Version,Installing runtime {0},Installing runtime {0},,user facing splash screen message for installing runtime
 StartPage_Web_MyAccount,My Account,My Account,,Start page localised web content
-StartPage_Web_NewProject,New,Новый проект,,Start page localised web content
+StartPage_Web_NewProject,New,Создать проект,,Start page localised web content
 StartPage_Web_OpenProject,Open,Открыть проект,,Start page localised web content
-StartPage_Web_ImportProject,Import,Импортировать проект,,Start page localised web content
+StartPage_Web_ImportProject,Import,Импортировать,,Start page localised web content
 StartPage_Web_Demos,Demos,Demos,,Start page localised web content
 StartPage_Web_Marketplace,Marketplace,Торговая площадка,,Start page localised web content
 StartPage_Web_Tutorials,Tutorials,Уроки,,Start page localised web content
@@ -5565,7 +5565,7 @@ StartPage_Web_Open,Open,Открыть,,Start page tooltip
 StartPage_Web_Remove,Remove Local Files,Remove Local Files,,Start page remove tooltip
 StartScreen_BrowseTutorials,Tutorials,Уроки,,start screen browse tutorials button label
 StartScreen_OpensInBrowser,Opens in web browser,Откроется браузер,,start screen label
-StartScreen_GetStarted,GET STARTED,НАЧИНАЕМ,,start screen get started
+StartScreen_GetStarted,GET STARTED,НАЧНЁМ,,start screen get started
 StartScreen_LastLogin,Last Sign In:,Last Sign In:,,start screen label
 StartScreen_TourIntroTitle,Welcome User,Welcome User,,start screen tour label
 StartScreen_TourIntro_Desc1,The START page is where you can access all you need to help develop your skills and to navigate the application.,The START page is where you can access all you need to help develop your skills and to navigate the application.,,start screen tour label
@@ -5590,13 +5590,13 @@ StartScreen_RecentProjects,RECENT PROJECTS,НЕДАВНИЕ ПРОЕКТЫ,,star
 StartScreen_RecentProjectsEmpty,All recent and past projects will appear here,All recent and past projects will appear here,,start screen label
 StartScreen_CurrOffline,Currently Offline,Currently Offline,,offline label
 StartScreen_AvailableTemplates,Showing all available templates,Showing all available templates,,offline label
-SS_SelectProjectType,SELECT PROJECT TYPE,SELECT PROJECT TYPE,,select project type
-SS_SelectTemplate,SELECT TEMPLATE,SELECT TEMPLATE,,select template
+SS_SelectProjectType,SELECT PROJECT TYPE,ВЫБЕРИТЕ ТИП ПРОЕКТА,,select project type
+SS_SelectTemplate,SELECT TEMPLATE,ОТБЕРИТЕ ШАБЛОН,,select template
 SS_ScriptingLang_Title,SCRIPTING LANGUAGE,SCRIPTING LANGUAGE,,scripting language header
 SS_ScriptingLang_Desc,Available in the following scripting languages:,Available in the following scripting languages:,,scripting language description
-SS_Description,DESCRIPTION,DESCRIPTION,,description header
-SS_ProjectNameLabel,Project Name:,Project Name:,,start screen project name label
-SS_ProjectLocationLabel,Location:,Location:,,start screen project location label
+SS_Description,DESCRIPTION,ОПИСАНИЕ,,description header
+SS_ProjectNameLabel,Project Name:,Название проекта:,,start screen project name label
+SS_ProjectLocationLabel,Location:,Расположение:,,start screen project location label
 SS_ProjDirInUse,Project directory name already exists,Project directory name already exists,,proj dir in use warning
 StartScreen_WizardTitle,Set Up Wizard,Set Up Wizard,,setup wizard title
 SS_WizardStepNum,Step {0} of {1},Step {0} of {1},,setup wizard label
@@ -5606,7 +5606,7 @@ SS_Wizard_StepDesc_3,"Select a template below, or choose {0} to start a fresh ne
 SS_Wizard_StepDesc_3BlankA,You've selected 'New Blank' template.,You've selected 'New Blank' template.,,setup wizard label
 SS_Wizard_StepDesc_4,"Give your project a name, choose a save location, and just jump right in!","Give your project a name, choose a save location, and just jump right in!",,setup wizard label
 SS_Wizard_DontShowAgain,Don't show me again,Don't show me again,,dont show again label
-SS_ButtonGo,Let's Go!,Let's Go!,,startscreen go button label
+SS_ButtonGo,Let's Go!,Начнём!,,startscreen go button label
 SS_DirectoryNotExists,Directory '{0}' does not exist.\nPlease verify the project location and try again.,Directory '{0}' does not exist.\nPlease verify the project location and try again.,,Startscreen project directory does not exist
 SS_DirAlreadyExists,'{0}' Directory already exists at {1}.\nPlease choose a different project name.,'{0}' Directory already exists at {1}.\nPlease choose a different project name.,,placeholder project dir already exists msg
 SS_DownloadingTemplate,Downloading Template...,Downloading Template...,,downloading template title
@@ -5615,25 +5615,25 @@ SS_TemplateLoadError,Error Loading Template,Error Loading Template,,template loa
 SS_TemplateDownloadErrorMsg,Unable to download the template. Please check your firewall permissions for GameMaker and then try again.,Unable to download the template. Please check your firewall permissions for GameMaker and then try again.,,template download error msg
 SS_TemplateFileMissing,Could not found the Template project at '{0}',Could not found the Template project at '{0}',,template file not found
 SS_TemplateInvalidURL,Invalid Download URL,Invalid Download URL,,invalid download url error
-SS_NewDescHeader,Description:,Description:,,start screen new project description
-SS_NewInfoHeader,Other Info:,Other Info:,,start screen new project description
+SS_NewDescHeader,Description:,Описание:,,start screen new project description
+SS_NewInfoHeader,Other Info:,Другая информация:,,start screen new project description
 SS_NewInfo,Set your scripting preference in Game Options/Preferences.,Set your scripting preference in Game Options/Preferences.,,start screen new project description
-SS_Template_Game,Game,Game,,game type button label
-SS_Template_Wallpaper,Live Wallpaper,Live Wallpaper,,wallpaper type button label
-SS_Template_Gamestrip,Game Strip,Game Strip,,gamestrip type button label
+SS_Template_Game,Game,Игра,,game type button label
+SS_Template_Wallpaper,Live Wallpaper,Живые обои,,wallpaper type button label
+SS_Template_Gamestrip,Game Strip,Игровая панель,,gamestrip type button label
 SS_Template_PleaseSelect,Please select a project type,Please select a project type,,start screen select template type
-SSNew_Game_Title,BLANK GAME,BLANK GAME,,start screen new game title
+SSNew_Game_Title,BLANK GAME,ПУСТАЯ ИГРА,,start screen new game title
 SSNew_Game_Desc,Create an empty GameMaker project. Build your game up from a blank canvas.,Create an empty GameMaker project. Build your game up from a blank canvas.,,start screen new project description
-SSNew_Game_ButtonCaption,Blank\nGame,Blank\nGame,,blank game button title
-SSNew_Wallpaper_Title,BLANK LIVE WALLPAPER,BLANK LIVE WALLPAPER,,new project title
+SSNew_Game_ButtonCaption,Blank\nGame,Отказаться\nот шаблона,,blank game button title
+SSNew_Wallpaper_Title,BLANK LIVE WALLPAPER,ПУСТЫЕ ЖИВЫЕ ОБОИ,,new project title
 SSNew_Wallpaper_Desc,Create your own Opera GX Live Wallpaper.\nIncludes basic setup for display on multiple monitors.,Create your own Opera GX Live Wallpaper.\nIncludes basic setup for display on multiple monitors.,,new project description live wallpaper
-SSNew_Wallpaper_ButtonCaption,Blank\nLive Wallpaper,Blank\nLive Wallpaper,,new project button caption
-SSNew_Gamestrip_Title,BLANK GAME STRIP,BLANK GAME STRIP,,new project title
+SSNew_Wallpaper_ButtonCaption,Blank\nLive Wallpaper,Отказаться\nот шаблона,,new project button caption
+SSNew_Gamestrip_Title,BLANK GAME STRIP,ПУСТАЯ ИГРОВАЯ ПАНЕЛЬ,,new project title
 SSNew_Gamestrip_Desc,Create your own Opera GX Game Strip.\nIncludes basic setup for creating your own mod.,Create your own Opera GX Game Strip.\nIncludes basic setup for creating your own mod.,,new project description game strip
-SSNew_Gamestrip_ButtonCaption,Blank\nGame Strip,Blank\nGame Strip,,new project button caption
-SS_GameTemplates_Title,GAME TEMPLATES,GAME TEMPLATES,,game templates title
+SSNew_Gamestrip_ButtonCaption,Blank\nGame Strip,Отказаться\nот шаблона,,new project button caption
+SS_GameTemplates_Title,GAME TEMPLATES,ШАБЛОНЫ ИГР,,game templates title
 SS_GameTemplates_Desc,Make your first game in as little as 15 minutes.,Make your first game in as little as 15 minutes.,,new game template description
-SS_WallpaperTemplates_Title,LIVE WALLPAPERS,LIVE WALLPAPERS,,live wallpapers title
+SS_WallpaperTemplates_Title,LIVE WALLPAPERS,ЖИВЫЕ ОБОИ,,live wallpapers title
 SS_WallpaperTemplates_Desc,Pimp your browsers and desktop by creating your own personalised wallpaper.,Pimp your browsers and desktop by creating your own personalised wallpaper.,,new live wallpapers template description
 SS_GameStrips_Title,GAME STRIPS,GAME STRIPS,,new game strips title
 SS_GameStrips_Desc,Level up your browser by creating your own\nOpera GX Game Strip mod.,Level up your browser by creating your own\nOpera GX Game Strip mod.,,new gamestrip template description
@@ -5642,16 +5642,16 @@ startscreen_pref_showSetupWizard,Show Setup Wizard,Show Setup Wizard,,show wizar
 startscreen_pref_recentProjListStyle,Recent Projects List Style,Recent Projects List Style,,recent proj list style
 startscreen_pref_defaultTemplateFilter,Default Template Filter,Default Template Filter,,default template filter label
 NewProjectDialog_Title,New Project,Новый проект,,new project dialog title label
-NewProjectDialog_DiscardChanges,Discard Changes,Discard Changes,,new project dialog discard changes
-NewProjectDialog_SaveAndClose,Save Changes,Save Changes,,new project dialog save changes
+NewProjectDialog_DiscardChanges,Discard Changes,Отказаться от изменений,,new project dialog discard changes
+NewProjectDialog_SaveAndClose,Save Changes,Сохранить произведённые изменения,,new project dialog save changes
 NewProjectDialog_CloseSaveConfirm,Are you sure you want to close your project and start NEW? Any unsaved changes will be lost,Are you sure you want to close your project and start NEW? Any unsaved changes will be lost,,confirm new project unsaved changes
 NewProjectDialog_CloseConfirm,Are you sure you want to close your project and start NEW?,Are you sure you want to close your project and start NEW?,,confirm new project no changes
-CloseProjectDialog_CloseProject,Close Project,Close Project,,close project button label
+CloseProjectDialog_CloseProject,Close Project,Закрыть проект,,close project button label
 CloseProjectDialog_CloseSaveConfirm,Are you sure you want to close your project and return to the Start Page? Any unsaved changes will be lost,Are you sure you want to close your project and return to the Start Page? Any unsaved changes will be lost,,close project with save confirm
 CloseProjectDialog_CloseConfirm,Are you sure you want to close your project and return to the Start Page?,Are you sure you want to close your project and return to the Start Page?,,close project confirm
 ListBoxEnum_eTemplateFilter_ShowAll,Show ALL,Show ALL,,listbox enum
-ListBoxEnum_eTemplateFilter_Official,Official Templates,Official Templates,,listbox enum
-ListBoxEnum_eTemplateFilter_User,User Templates,User Templates,,listbox enum
+ListBoxEnum_eTemplateFilter_Official,Official Templates,Официальные шаблоны,,listbox enum
+ListBoxEnum_eTemplateFilter_User,User Templates,Людские шаблоны,,listbox enum
 default_audio_setting,Default Audio Device,Default Audio Device,,Default Audio Device setting
 Validate_NameLength,Resource name must be between {2} and {1} characters long,Resource name must be between {2} and {1} characters long,,validation error message for resource name
 Validate_InvalidFolderName,Folder name contains invalid characters: {0},Folder name contains invalid characters: {0},,validation error message for folder names
@@ -6398,7 +6398,7 @@ Views_Menu_Recent_Windows,Recent Windows,Recent Windows,,Recent activated window
 Developer_Menu_Title,Developer,Developer,,Title of the main Developer menu
 HideGameMaker_Menu_Title,Hide GameMaker,Hide GameMaker,,Hide GameMaker menu entry for Mac
 HideOthers_Menu_Title,Hide Others,Hide Others,,Hide others menu entry for Mac
-ShowAll_Menu_Title,Show All,Show All,,Show all windows menu entry for Mac
+ShowAll_Menu_Title,Show All,Показать всё,,Show all windows menu entry for Mac
 BringAllToFront_Menu_Title,Bring All To Front,Bring All To Front,,Bring all windows to front menu entry for Mac
 Project_Error,Project Error,Project Error,,Error in Project
 Project_Error_No_Project_Loaded,No project is loaded.,No project is loaded.,,No project loaded error message
@@ -6873,7 +6873,7 @@ Notification_PrimaryRenewalDays,Your licence is due to expire in under {1} days\
 Notification_RenewalDays,Your {0} licence is due to expire in under {1} days\nRenew now for uninterrupted access to your product,Your {0} licence is due to expire in under {1} days\nRenew now for uninterrupted access to your product,,one week message
 Notification_PrimaryRenewalWeeks,Your licence is due to expire in under {1} weeks\nRenew now for uninterrupted access to your product,Your licence is due to expire in under {1} weeks\nRenew now for uninterrupted access to your product,,several weeks message
 Notification_RenewalWeeks,Your {0} licence is due to expire in under {1} weeks\nRenew now for uninterrupted access to your product,Your {0} licence is due to expire in under {1} weeks\nRenew now for uninterrupted access to your product,,several weeks message
-Notification_NoNotifications,You have no notifications.,You have no notifications.,,No notifications message
+Notification_NoNotifications,You have no notifications.,Для вас нет уведомлений.,,No notifications message
 RenewalNotification_Renew,Renew,Renew,,renew button label
 ide_cache_location,IDE cache directory,IDE cache directory,,IDE cache directory path
 deleteidecacheonquit,Automatically delete ide cache directory on close,Automatically delete ide cache directory on close,,Automatically delete the ide cache directory on close
