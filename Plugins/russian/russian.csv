@@ -5624,13 +5624,13 @@ SS_Template_Gamestrip,Game Strip,Игровая панель,,gamestrip type but
 SS_Template_PleaseSelect,Please select a project type,Please select a project type,,start screen select template type
 SSNew_Game_Title,BLANK GAME,ПУСТАЯ ИГРА,,start screen new game title
 SSNew_Game_Desc,Create an empty GameMaker project. Build your game up from a blank canvas.,Create an empty GameMaker project. Build your game up from a blank canvas.,,start screen new project description
-SSNew_Game_ButtonCaption,Blank\nGame,Отказаться\nот шаблона,,blank game button title
+SSNew_Game_ButtonCaption,Blank\nGame,Пустой\nшаблон,,blank game button title
 SSNew_Wallpaper_Title,BLANK LIVE WALLPAPER,ПУСТЫЕ ЖИВЫЕ ОБОИ,,new project title
 SSNew_Wallpaper_Desc,Create your own Opera GX Live Wallpaper.\nIncludes basic setup for display on multiple monitors.,Create your own Opera GX Live Wallpaper.\nIncludes basic setup for display on multiple monitors.,,new project description live wallpaper
-SSNew_Wallpaper_ButtonCaption,Blank\nLive Wallpaper,Отказаться\nот шаблона,,new project button caption
+SSNew_Wallpaper_ButtonCaption,Blank\nLive Wallpaper,Пустой\nшаблон,,new project button caption
 SSNew_Gamestrip_Title,BLANK GAME STRIP,ПУСТАЯ ИГРОВАЯ ПАНЕЛЬ,,new project title
 SSNew_Gamestrip_Desc,Create your own Opera GX Game Strip.\nIncludes basic setup for creating your own mod.,Create your own Opera GX Game Strip.\nIncludes basic setup for creating your own mod.,,new project description game strip
-SSNew_Gamestrip_ButtonCaption,Blank\nGame Strip,Отказаться\nот шаблона,,new project button caption
+SSNew_Gamestrip_ButtonCaption,Blank\nGame Strip,Пустой\nшаблон,,new project button caption
 SS_GameTemplates_Title,GAME TEMPLATES,ШАБЛОНЫ ИГР,,game templates title
 SS_GameTemplates_Desc,Make your first game in as little as 15 minutes.,Make your first game in as little as 15 minutes.,,new game template description
 SS_WallpaperTemplates_Title,LIVE WALLPAPERS,ЖИВЫЕ ОБОИ,,live wallpapers title
