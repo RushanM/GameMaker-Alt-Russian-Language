@@ -268,8 +268,8 @@ Error_WeakDelegateArgument,Method '{1}' on object '{0}' failed because {2},Metho
 Error_WeakDelegateParameterCount,Method '{1}' on object '{0}' failed due to mismatching parameter count,Method '{1}' on object '{0}' failed due to mismatching parameter count,,Attempting to invoke a method from within a weak delegate with incorrect parameter count
 Event_Alarm,Alarm,Отложка,,Alarm event name
 Event_AlarmN,Alarm {0},Отложка {0},,Key Event Alarm N
-Event_Async_AudioPlayback,Async - Audio Playback,Async — Audio Playback,,Asynchronous event subtype
-Event_Async_AudioPlaybackEnded,Async - Audio Playback Ended,Async — Audio Playback Ended,,Asynchronous event subtype
+Event_Async_AudioPlayback,Async - Audio Playback,Асинхрон. событие: воспроизведение аудио,,Asynchronous event subtype
+Event_Async_AudioPlaybackEnded,Async - Audio Playback Ended,Асинхрон. событие: завершение воспроизведения аудио,,Asynchronous event subtype
 Event_Async_AudioRecording,Async - Audio Recording,Async — Audio Recording,,Asynchronous event subtype
 Event_Async_Cloud,Async - Cloud,Async — Cloud,,Asynchronous event subtype
 Event_Async_Dialog,Async - Dialog,Async — Dialog,,Asynchronous event subtype
@@ -282,21 +282,21 @@ Event_Async_SaveLoad,Async - Save/Load,Async — Save/Load,,Asynchronous event s
 Event_Async_Social,Async - Social,Async — Social,,Asynchronous event subtype
 Event_Async_Steam,Async - Steam,Async — Steam,,Asynchronous event subtype
 Event_Async_SystemEvent,Async - System,Async — System,,Asynchronous event subtype
-Event_Asynchronous,Asynchronous,Asynchronous,,Asynchronous event name
-Event_Collision,Collision,Collision,,Collision event name
+Event_Asynchronous,Asynchronous,Асинхронные события,,Asynchronous event name
+Event_Collision,Collision,При столкновении,,Collision event name
 Event_Create,Create,При создании,,Create event name
 Event_Destroy,Destroy,При разрушении,,Destroy event name
-Event_CleanUp,Clean Up,Clean Up,,Clean Up event name
-Event_Draw,Draw,Draw,,Draw event name
+Event_CleanUp,Clean Up,При очистке,,Clean Up event name
+Event_Draw,Draw,При отрисовке,,Draw event name
 Event_Draw_Draw,Draw,При отрисовке,,Draw event subtype
-Event_Draw_DrawBegin,Draw Begin,Draw Begin,,Draw event subtype
-Event_Draw_DrawEnd,Draw End,Draw End,,Draw event subtype
-Event_Draw_DrawGUI,Draw GUI,Draw GUI,,Draw event subtype
-Event_Draw_DrawGUIBegin,Draw GUI Begin,Draw GUI Begin,,Draw event subtype
-Event_Draw_DrawGUIEnd,Draw GUI End,Draw GUI End,,Draw event subtype
-Event_Draw_PostDraw,Post-Draw,Post-Draw,,Draw event subtype
-Event_Draw_PreDraw,Pre-Draw,Pre-Draw,,Draw event subtype
-Event_Draw_Resize,Window Resize,Window Resize,,Draw event subtype
+Event_Draw_DrawBegin,Draw Begin,При начале отрисовки,,Draw event subtype
+Event_Draw_DrawEnd,Draw End,В конце отрисовки,,Draw event subtype
+Event_Draw_DrawGUI,Draw GUI,При отрисовке слоя интерфейса,,Draw event subtype
+Event_Draw_DrawGUIBegin,Draw GUI Begin,При начале отрисовки слоя интерфейса,,Draw event subtype
+Event_Draw_DrawGUIEnd,Draw GUI End,В конце отрисовки слоя интерфейса,,Draw event subtype
+Event_Draw_PostDraw,Post-Draw,После отрисовки,,Draw event subtype
+Event_Draw_PreDraw,Pre-Draw,Перед отрисовкой,,Draw event subtype
+Event_Draw_Resize,Window Resize,При изменении размера окна,,Draw event subtype
 Event_Key_Alt,Alt,Alt,,Key event subtype
 Event_Key_AnyKey,Any,Any,,Key event subtype
 Event_Key_Backspace,Backspace,Backspace,,"Key event ""others"" subtype"
@@ -306,7 +306,7 @@ Event_Key_DigitN,{0},{0},,event key digit N
 Event_Key_Digits,Digits,Digits,,Key event subtype
 Event_Key_Down,Down,Down,,Key event subtype
 Event_Key_End,End,End,,"Key event ""others"" subtype"
-Event_Key_Enter,Enter,Enter,,Key event subtype
+Event_Key_Enter,Enter,Ввод,,Key event subtype
 Event_Key_Escape,Escape,Escape,,"Key event ""others"" subtype"
 Event_Key_FunctionKeys,Function Keys,Function Keys,,Key event subtype
 Event_Key_Home,Home,Home,,"Key event ""others"" subtype"
@@ -350,12 +350,12 @@ Event_Mouse_GlobalMouse_MiddleReleased,Global Middle Released,Global Middle Rele
 Event_Mouse_GlobalMouse_RightButton,Global Right Down,Global Right Down,,"Mouseevent ""global"" subtype"
 Event_Mouse_GlobalMouse_RightPressed,Global Right Pressed,Global Right Pressed,,"Mouseevent ""global"" subtype"
 Event_Mouse_GlobalMouse_RightReleased,Global Right Released,Global Right Released,,"Mouseevent ""global"" subtype"
-Event_Mouse_LeftButton,Left Down,Left Down,,Mouse event subtype
-Event_Mouse_LeftPressed,Left Pressed,Left Pressed,,Mouse event subtype
-Event_Mouse_LeftReleased,Left Released,Left Released,,Mouse event subtype
-Event_Mouse_MiddleButton,Middle Down,Middle Down,,Mouse event subtype
-Event_Mouse_MiddlePressed,Middle Pressed,Middle Pressed,,Mouse event subtype
-Event_Mouse_MiddleReleased,Middle Released,Middle Released,,Mouse event subtype
+Event_Mouse_LeftButton,Left Down,При нажатии на ЛКМ,,Mouse event subtype
+Event_Mouse_LeftPressed,Left Pressed,При щелчке по ЛКМ,,Mouse event subtype
+Event_Mouse_LeftReleased,Left Released,При отпуске ЛКМ,,Mouse event subtype
+Event_Mouse_MiddleButton,Middle Down,При нажатии на СКМ,,Mouse event subtype
+Event_Mouse_MiddlePressed,Middle Pressed,При щелчке по СКМ,,Mouse event subtype
+Event_Mouse_MiddleReleased,Middle Released,При отпуске СКМ,,Mouse event subtype
 Event_Mouse_MouseEnter,Mouse Enter,Mouse Enter,,Mouse event subtype
 Event_Mouse_MouseLeave,Mouse Leave,Mouse Leave,,Mouse event subtype
 Event_Mouse_MouseWheelDown,Mouse Wheel Down,Mouse Wheel Down,,Mouse event subtype
@@ -1377,7 +1377,7 @@ Navigation_Back,Back,Назад,,Back
 Navigation_Forward,Forward,Forward,,Forward
 Navigation_Reload,Reload,Reload,,Reload webpage
 News_ReleaseNotes,Release Notes,Release Notes,,Release notes window caption
-Object_Mask,Collision Mask:,Collision Mask:,,"object ""mask"" property"
+Object_Mask,Collision Mask:,Маска столкновений:,,"object ""mask"" property"
 Object_Parent,Parent,Parent,,"object ""parent"" property"
 ObjectEditor_ParentChildren,Parent & Children,Parent & Children,,Object editor parent and children caption
 Object_Persistent,Persistent,Persistent,,"Object Model ""persistent"" property"
@@ -1395,7 +1395,7 @@ Object_Solid,Solid,Solid,,"Object Model ""solid"" property"
 Object_Solid_Tooltip,Solid instances will automatically be placed back in their previous position when in collision,Solid instances will automatically be placed back in their previous position when in collision,,object editor solid property tooltip
 Object_UsesPhysics,Uses Physics,Uses Physics,,"Object Model ""uses physics"" property"
 Object_UsesPhysics_Tooltip,Instances use physics processing when in a room with 'Enable Physics' checked,Instances use physics processing when in a room with 'Enable Physics' checked,,object editor uses physics tooltip
-Object_Visible,Visible,Visible,,"Object Model ""visible"" property"
+Object_Visible,Visible,Видим,,"Object Model ""visible"" property"
 Object_Visible_Tooltip,"When unchecked, instances of this object will still be processed, but will not be drawn","When unchecked, instances of this object will still be processed, but will not be drawn",,object editor visible property tooltip
 Object_Managed,Managed,Managed,,The object is managed by the rollback system
 Object_Managed_Tooltip,Instances of this object will have its lifecycle managed during rollback multiplayer,Instances of this object will have its lifecycle managed during rollback multiplayer,,The object is managed by rollback system (tooltip)
@@ -1441,7 +1441,7 @@ ObjectEditor_NoSprite,No Sprite,No Sprite,,"Object editor ""no sprite"" setting"
 ObjectEditor_ObjectProperties,Object Properties,Object Properties,,Object properties window title
 ObjectEditor_Physics,Physics,Физика,,Physics label in Object Editor
 ObjectEditor_InstProps,Variables,Переменные,,Object Variables label in Object Editor
-ObjectEditor_InstPropsDefs,Variable Definitions,Variable Definitions,,Object Variables definitions label in Object Editor
+ObjectEditor_InstPropsDefs,Variable Definitions,Назначенные переменные,,Object Variables definitions label in Object Editor
 ObjectEditor_Multiselect,Multi-select,Multi-select,,Object editor list option multiselect
 ObjectEditor_PropAddButton_Tooltip,Add a new variable,Add a new variable,,Add variable tooltip
 ObjectEditor_ListAddButton_Tooltip,Add a new list item,Add a new list item,,Add list item tooltip
@@ -1467,7 +1467,7 @@ ObjectEditor_Properties,Properties,Свойства,,Object editor properties he
 ObjectEditor_SameMask,Same As Sprite,Same As Sprite,,"Object editor ""same as sprite"" mask setting"
 ObjectEditor_MaskSameAsSprite,Same As Sprite,Same As Sprite,,Object editor same mask caption
 ObjectEditor_Shape,Convex Shape,Convex Shape,,"Object editor collision shape ""shape"""
-ObjectEditor_WindowTitle,Object: {0},Object: {0},,Object properties window title
+ObjectEditor_WindowTitle,Object: {0},Объект: {0},,Object properties window title
 ObjectEditor_Prop_RemoveTooltip,Remove this variable,Remove this variable,,Remove variable row tooltip
 ObjectEditor_Prop_RemoveOverrideTooltip,Reset to default,Reset to default,,remove variable override tooltip
 ObjectEditor_Prop_OptionsTooltip,Open options...,Open options...,,Open variable options tooltip
@@ -1647,11 +1647,11 @@ RoomEditor_DeleteSelectedLayer,Delete Selected Layers,Delete Selected Layers,,to
 RoomEditor_GraphicProperties,Graphic: {0},Graphic: {0},,graphic properties window 
 RoomEditor_ParticleSystemProperties,Particle System: {0},Particle System: {0},,graphic properties window 
 RoomEditor_SequenceProperties,Sequence: {0},Sequence: {0},,graphic properties window 
-RoomEditor_SpriteProperties,Sprite: {0},Sprite: {0},,graphic properties window 
+RoomEditor_SpriteProperties,Sprite: {0},Спрайт: {0},,graphic properties window 
 RoomEditor_GridColour,Colour:,Colour:,,room editor toolbar grid colour select button caption
 RoomEditor_GridSnapX,Snap X:,Snap X:,,room editor toolbar grid horizontal snap numeric textbox caption
 RoomEditor_GridSnapY,Snap Y:,Snap Y:,,room editor toolbar grid vertical snap numeric textbox caption
-RoomEditor_Inherit,Inherit,Inherit,,Inherit button caption
+RoomEditor_Inherit,Inherit,Перенять,,Inherit button caption
 RoomEditor_InheritCode,Inherit Creation Code,Inherit Creation Code,,Tooltip for the button which sets if this room inherits its creation code from the parent
 RoomEditor_InheritEditorSettings,Inherit Editor Properties,Inherit Editor Properties,,Inherit button tool tip caption for editor settings
 RoomEditor_InheritPhysicsSettings,Inherit Physics Properties,Inherit Physics Properties,,Inherit button tool tip caption for physics settings
@@ -1742,7 +1742,7 @@ RoomProperties_ViewFollowing,Object Following,Object Following,,group heading fo
 RoomProperties_ViewH,Height,Height,,numeric text box label for view or view port height
 RoomProperties_Viewport,Viewport Properties,Viewport Properties,,group heading for viewport settings
 RoomProperties_Views,Viewports and Cameras,Viewports and Cameras,,room properties section heading for views
-RoomProperties_ViewVisible,Visible,Visible,,checkbox caption for whether the view is visible from room start
+RoomProperties_ViewVisible,Visible,Видим,,checkbox caption for whether the view is visible from room start
 RoomProperties_ViewW,Width,Width,,numeric text box label for view or view port width
 RoomProperties_ViewX,X Pos,X Pos,,numeric text box label for view or view port x pos
 RoomProperties_ViewY,Y Pos,Y Pos,,numeric text box label for view or view port y pos
@@ -2197,8 +2197,8 @@ SpriteEditor_BBTop,Top:,Top:,,Sprite editor bounding box label
 SpriteEditor_BoundingBox,Boundaries,Boundaries,,Sprite editor bounding box label
 SpriteEditor_ColDiamond,Diamond (Slow),Diamond (Slow),,Sprite editor collision type
 SpriteEditor_ColEllipse,Ellipse (Slow),Ellipse (Slow),,Sprite editor collision type
-SpriteEditor_CollisionMask,Collision Mask,Collision Mask,,Sprite editor collision mask caption
-SpriteEditor_CollisionMaskTimeline,Collision Mask:,Collision Mask:,,Sprite editor collision mask caption in timeline
+SpriteEditor_CollisionMask,Collision Mask,Маска столкновений,,Sprite editor collision mask caption
+SpriteEditor_CollisionMaskTimeline,Collision Mask:,Маска столкновений:,,Sprite editor collision mask caption in timeline
 SpriteEditor_ColPrecise,Precise (Slow),Precise (Slow),,Sprite editor collision type
 SpriteEditor_ColPrecise_Separate,Precise Per Frame (Slow),Precise Per Frame (Slow),,Sprite editor collision mask type
 SpriteEditor_ColRectangle,Rectangle,Rectangle,,Sprite editor collision type
@@ -2251,11 +2251,11 @@ SpriteEditor_Origin_Custom,Custom,Custom,,Sprite editor origin combo menu item
 SpriteEditor_Origin_TopLeft,Top Left,Top Left,,Sprite editor origin combo menu item
 SpriteEditor_Origin_TopMiddle,Top Center,Top Center,,Sprite editor origin combo menu item
 SpriteEditor_Origin_TopRight,Top Right,Top Right,,Sprite editor origin combo menu item
-SpriteEditor_Play,Play Animation,Play Animation,,Sprite editor play animation button
+SpriteEditor_Play,Play Animation,Запустить анимацию,,Sprite editor play animation button
 SpriteEditor_PlaybackOptions,Playback Options,Playback Options,,Sprite editor playback options label
 SpriteEditor_PreviewFrameRanges,Previewing Frames: ,Previewing Frames: ,,Sprite editor label for displaying previewed frame ranges
 SpriteEditor_ShowingColMask,Showing Collision Mask,Showing Collision Mask,,Sprite editor label when showing collision mask over sprite
-SpriteEditor_TextureGroup,Group,Group,,Sprite editor texture group label
+SpriteEditor_TextureGroup,Group,Группа,,Sprite editor texture group label
 SpriteEditor_TextureSettings,Texture Settings:,Texture Settings:,,Sprite editor texture settings label
 SpriteEditor_TileHor,Tile Horizontally,Tile Horizontally,,Sprite editor tile hor label
 SpriteEditor_Tile_Tooltip,Tile Horizontally and Tile Vertically relate to how the edges of the image will be\ncreated when placed on the texture page. An image that is to be tiled will have the edges (horizontal or vertical)\nadded to by the edges from the opposite side.,Tile Horizontally and Tile Vertically relate to how the edges of the image will be\ncreated when placed on the texture page. An image that is to be tiled will have the edges (horizontal or vertical)\nadded to by the edges from the opposite side.,,Tiling tooltip
@@ -2263,10 +2263,10 @@ SpriteEditor_TileVer,Tile Vertically,Tile Vertically,,Sprite editor tile ver lab
 SpriteEditor_Tolerance,Tolerance,Tolerance,,Sprite editor alpha tolerance slider label
 SpriteEditor_Use3D,Separate Texture Page,Separate Texture Page,,Sprite editor use for 3D label
 SpriteEditor_DynamicTexturePage,Dynamic Texture Page,Dynamic Texture Page,,Sprite editor dynamic texture page label
-SpriteEditor_WindowTitle,Sprite: {0},Sprite: {0},,Sprite editor window title
+SpriteEditor_WindowTitle,Sprite: {0},Спрайт: {0},,Sprite editor window title
 SpriteEditor_SpineLabel,Spine Sprite,Spine Sprite,,spine type sprite
 SpriteEditor_SpineLabelTT,Spine Sprite - some editor settings disabled,Spine Sprite - some editor settings disabled,,spine sprite label tooltip
-SpriteEditor_SWFLabel,SWF Sprite,SWF Sprite,,SWF type sprite
+SpriteEditor_SWFLabel,SWF Sprite,Спрайт SWF,,SWF type sprite
 SpriteEditor_SWFLabelTT,SWF Sprite - some editor settings disabled,SWF Sprite - some editor settings disabled,,SWF sprite label tooltip
 NineSlice_Activate,Activate Nine Slice,Activate Nine Slice,,activate nineslice label
 NineSlice_SelectedSlice,Selected Slice:,Selected Slice:,,selected nineslice label
@@ -5358,8 +5358,8 @@ GMStdVar_columns,Columns,Columns,,GML Visual
 GMStdVar_tilewidth,Tile Width,Tile Width,,GML Visual
 GMStdVar_tileheight,Tile Height,Tile Height,,GML Visual
 GMStdVar_tileset,Tile Set Resource,Tile Set Resource,,GML Visual
-GMStdVar_frame,Current Frame,Current Frame,,GML Visual
-GMStdVar_tilemask,Mask,Mask,,GML Visual
+GMStdVar_frame,Current Frame,Текущий кадр,,GML Visual
+GMStdVar_tilemask,Mask,Маска,,GML Visual
 GMStdVar_tileglobalmask,Global Mask,Global Mask,,GML Visual
 GMStdVar_hspeed,Horizontal Speed,Horizontal Speed,,GML Visual
 GMStdVar_vspeed,Vertical Speed,Vertical Speed,,GML Visual
@@ -5368,10 +5368,10 @@ GMStdVar_speed,Speed,Speed,,GML Visual
 GMStdVar_friction,Friction,Friction,,GML Visual
 GMStdVar_gravity,Gravity,Gravity,,GML Visual
 GMStdVar_gravity_direction,Gravity Direction,Gravity Direction,,GML Visual
-GMStdVar_visible,Visible,Visible,,GML Visual
-GMStdVar_sprite_index,Sprite,Sprite,,GML Visual
-GMStdVar_image_index,Image Index,Image Index,,GML Visual
-GMStdVar_layer,Layer,Layer,,GML Visual
+GMStdVar_visible,Visible,Видим,,GML Visual
+GMStdVar_sprite_index,Sprite,Спрайт,,GML Visual
+GMStdVar_image_index,Image Index,Идентификатор изображения,,GML Visual
+GMStdVar_layer,Layer,Слой,,GML Visual
 GMStdVar_persistent,Persistent,Persistent,,GML Visual
 GMStdVar_mask_index,Mask,Mask,,GML Visual
 GMStdVar_score,Score,Score,,GML Visual
@@ -6654,7 +6654,7 @@ Options_XBoxToolsPreference,Go to Xbox settings,Go to Xbox settings,,button mess
 Options_XBoxToolsSetupError,Xbox Tools Missing,Xbox Tools Missing,,error dialog title when unable to find a xbox tool
 Options_XBoxToolsSetupServiceConfigMessage,Unable to find GDK executable xcetool.exe.\nPlease update your GDK base location directory.\n{0},Unable to find GDK executable xcetool.exe.\nPlease update your GDK base location directory.\n{0},,error message when failed to find the xce.exe
 BreakpointManager_Script,Script: {0},Script: {0},,breakpoint manager caption for a script
-BreakpointManager_Object,Object: {0}: {1},Object: {0}: {1},,breakpoint manager caption for an object event
+BreakpointManager_Object,Object: {0}: {1},Объект: {0}: {1},,breakpoint manager caption for an object event
 BreakpointManager_Timeline,Timeline: {0}: moment {1},Timeline: {0}: moment {1},,breakpoint manager caption for a timeline moment
 BreakpointManager_RoomCode,Room Creation Code: {0},Room Creation Code: {0},,breakpoint manager caption for a room's creation code
 BreakpointManager_RoomInstance,Room Instance: {0}: {1},Room Instance: {0}: {1},,breakpoint manager caption for a room instance's creation code
@@ -6709,8 +6709,8 @@ CompileError_ObjVar_WrongType,Not expecting {0} {1} assigned in {2}'s variable '
 CompileError_ObjVar_WrongTypeRoom,Not expecting {0} {1} assigned in room {2} in instance {3}'s variable '{4}' (expected {5}),Not expecting {0} {1} assigned in room {2} in instance {3}'s variable '{4}' (expected {5}),,Object variable wrong type error in room instances
 CompileError_ObjVar,Undefined variable '{0}' referenced in {1}'s variable '{2}',Undefined variable '{0}' referenced in {1}'s variable '{2}',,Object variable undefined reference error
 CompileError_InstVar,Undefined variable '{0}' referenced in room {3} in instance {1}'s variable '{2}',Undefined variable '{0}' referenced in room {3} in instance {1}'s variable '{2}',,Instance variable undefined reference error
-CompileError_Script,Script: {0},Script: {0},,script error
-CompileError_Object,Object: {0},Object: {0},,object event error
+CompileError_Script,Script: {0},Сценарий: {0},,script error
+CompileError_Object,Object: {0},Объект: {0},,object event error
 CompileError_RoomCode,Creation Code in Room: {0},Creation Code in Room: {0},,room creation code error
 CompileError_RoomInstance,Instance Code in Room: {0},Instance Code in Room: {0},,instance creation code error
 CompileError_Vertex,Vertex Shader: {0},Vertex Shader: {0},,vertex shader error
@@ -8815,7 +8815,7 @@ RedefineKeys_edit_mask,Edit Mask,Редактировать маску,,Redefine
 RedefineKeys_open_events_window,Open Events Window,Open Events Window,,Redefine keys open_events_window string
 RedefineKeys_open_parent_window,Open Parent Window,Open Parent Window,,Redefine keys open_parent_window string
 RedefineKeys_open_physics_window,Open Physics Window,Open Physics Window,,Redefine keys open_physics_window string
-RedefineKeys_open_variable_definitions,Open Variable Definitions,Open Variable Definitions,,Redefine keys open_variable_definitions string
+RedefineKeys_open_variable_definitions,Open Variable Definitions,Открыть назначенные переменные,,Redefine keys open_variable_definitions string
 RedefineKeys_add_event,Add Event,Добавить событие,,Redefine keys add_event string
 RedefineKeys_select_parent,Select Parent,Выбрать родительский элемент,,Redefine keys select_parent string
 RedefineKeys_edit_parent,Edit Parent,Редактировать родительский элемент,,Redefine keys edit_parent string
