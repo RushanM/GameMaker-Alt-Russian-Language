@@ -16,11 +16,11 @@ $win_explorer,explorer,Проводник,,windows version of explorer
 $mac_explorer,finder,finder,,mac version of explorer
 $mac_OpenInExplorer,Show In Finder,Показать в Finder,,Mac version of Open In Explorer
 $mac_OpenProjectInExplorer,Show Project In Finder,Показать проект в Finder,,Mac version of Open Project In Explorer
-$mac_ShowLogFileInExplorer,Reveal Log In Finder,Reveal Log In Finder,,Mac version of Show Log In Explorer
+$mac_ShowLogFileInExplorer,Reveal Log In Finder,Показать журнал в Finder,,Mac version of Show Log In Explorer
 $linux_explorer,file manager,file manager,,Linux version of explorer
-$linux_OpenInExplorer,Show In File Manager,Show In File Manager,,Linux version of Open In Explorer
-$linux_OpenProjectInExplorer,Show Project In File Manager,Show Project In File Manager,,Linux version of Open Project In Explorer
-$linux_ShowLogFileInExplorer,Reveal Log In File Manager,Reveal Log In File Manager,,Linux version of Show Log In Explorer
+$linux_OpenInExplorer,Show In File Manager,Показать в File Manager,,Linux version of Open In Explorer
+$linux_OpenProjectInExplorer,Show Project In File Manager,Показать проект в File Manager,,Linux version of Open Project In Explorer
+$linux_ShowLogFileInExplorer,Reveal Log In File Manager,Показать журнал в File Manager,,Linux version of Show Log In Explorer
 $win_ctrl,Ctrl,Ctrl,,Windows version of ctrl key
 $mac_ctrl,Command,Command,,Mac version of ctrl key
 $linux_ctrl,Ctrl,Ctrl,,Linux version of ctrl key
@@ -33,18 +33,18 @@ $linux_IDEMenuHelpAbout,About,О программе,,Linux version of the About 
 $win_IDEMenuViews,Windows,Окна,,Windows version of the views menu entry
 $mac_IDEMenuViews,Window,Окно,,Mac version of the views menu entry
 $linux_IDEMenuViews,Windows,Окна,,Linux version of the views menu entry
-$win_LaptopRHSKeys,Right Control and Right Alt,Right Control and Right Alt,,Windows version of laptop mode keys
-$mac_LaptopRHSKeys,Right Command and Right Alt,Right Command and Right Alt,,Mac version of laptop mode keys
-$linux_LaptopRHSKeys,Right Control and Right Alt,Right Control and Right Alt,,Linux version of laptop mode keys
-$win_LaptopLZoomKey,Left Control,Left Control,,Windows laptop mode zoom key
-$mac_LaptopLZoomKey,Left Command,Left Command,,Mac laptop mode zoom key
-$linux_LaptopLZoomKey,Left Control,Left Control,,Linux laptop mode zoom key
+$win_LaptopRHSKeys,Right Control and Right Alt,Правая Control и правая Alt,,Windows version of laptop mode keys
+$mac_LaptopRHSKeys,Right Command and Right Alt,Правая Command и правая Alt,,Mac version of laptop mode keys
+$linux_LaptopRHSKeys,Right Control and Right Alt,Правая Control и правая Alt,,Linux version of laptop mode keys
+$win_LaptopLZoomKey,Left Control,Левая Control,,Windows laptop mode zoom key
+$mac_LaptopLZoomKey,Left Command,Левая Command,,Mac laptop mode zoom key
+$linux_LaptopLZoomKey,Left Control,Левая Control,,Linux laptop mode zoom key
 AnimationManager_InvalidTransition,The transition specified '{0}' is not valid,The transition specified '{0}' is not valid,,The transition specified in the animation json is not a valid value
-BackgroundLayer_HSpeed,Horizontal Speed,Horizontal Speed,,Numeric textbox label for horizontal scroll speed
+BackgroundLayer_HSpeed,Horizontal Speed,Скорость по горизонтали,,Numeric textbox label for horizontal scroll speed
 BackgroundLayer_HTile,Horizontal Tile,Horizontal Tile,,Checkbox label for horizontal tiling
 BackgroundLayer_NoBackground,<no background>,<no background>,,no background selected caption for the background layer button
-BackgroundLayer_PosX,X Offset,X Offset,,Numeric textbox label for x pos offset
-BackgroundLayer_PosY,Y Offset,Y Offset,,numeric textbox label for y pos offset
+BackgroundLayer_PosX,X Offset,Смещение по X,,Numeric textbox label for x pos offset
+BackgroundLayer_PosY,Y Offset,Смещение по Y,,numeric textbox label for y pos offset
 BackgroundLayer_Stretch,Stretch,Stretch,,Checkbox label for stretch
 BackgroundLayer_VSpeed,Vertical Speed,Vertical Speed,,Numeric textbox label for vertical scroll speed
 BackgroundLayer_VTile,Vertical Tile,Vertical Tile,,Checkbox label for vertical tiling
@@ -56,13 +56,13 @@ Breakpoint_Help,"There are no breakpoints to display.\nTo place one, press F9 on
 Build_FailedCompile,ERROR: Project failed to compile: error code {0},ERROR: Project failed to compile: error code {0},,Error message when the project fails to compile
 Build_FailedDeploy,ERROR: Project failed to deploy: error code {0},ERROR: Project failed to deploy: error code {0},,Error message when the project fails to deploy
 Build_FailedRun,ERROR: Project failed to run: error code {0},ERROR: Project failed to run: error code {0},,Error message when the project fails to run
-Button_Add,Add,Add,,Add button
+Button_Add,Add,Добавить,,Add button
 Button_Cancel,Cancel,Отмена,,cancel button
 Button_Delete,Delete,Delete,,Delete button
-Button_Done,Done,Done,,Done button
+Button_Done,Done,Готово,,Done button
 Button_Import,Import,Import,,import button label
 Button_Manage,Manage,Manage,,Manage button
-Button_No,No,No,,No
+Button_No,No,Нет,,No
 Button_OK,OK,OK,,ok button
 Button_Subscribe,Subscribe,Подписаться,,Subscribe button
 Button_UpdateLicense,Update License,Обновить лицензию,,Update License button
@@ -75,14 +75,14 @@ Button_Create,Create,Создать,,create button label
 Button_Apply,Apply,Применить,,apply button label
 Button_Search,Search,Поиск,,search button label
 Button_Remove_All,Remove All,Remove All,,button label — remove all
-Button_Save,Save,Save,,save button label
+Button_Save,Save,Сохранить,,save button label
 Dialog_ResetLayout_Title,Reset Layout,Reset Layout,,Reset layout dialog title
 Dialog_ResetLayout,Resetting the project layout will close any open resources. Are you sure you want to reset the layout?,Resetting the project layout will close any open resources. Are you sure you want to reset the layout?,,Dialog message reset layout
 Dialog_ResetLayout_ChoicePref,Automatic response to resetting the project layout,Automatic response to resetting the project layout,,Default reset layout dialog choice
 LicenseNotification_TrialExpiring,Your trial is due to expire in {0} days,Your trial is due to expire in {0} days,,Trial licence expiry notification
 LicenseNotification_Expiring,Your licence is due to expire in {0} days,Your licence is due to expire in {0} days,,Licence expiry notification
-LicenseNotification_BuyNow,Buy Now,Buy Now,,Buy Now label
-LicenseNotification_ButtonBuyNow,BUY NOW,BUY NOW,,BUY NOW label
+LicenseNotification_BuyNow,Buy Now,Купить прямо сейчас,,Buy Now label
+LicenseNotification_ButtonBuyNow,BUY NOW,КУПИТЬ ПРЯМО СЕЙЧАС,,BUY NOW label
 IDE_License_Label,Your licence is due to expire in {0} days,Your licence is due to expire in {0} days,,IDE licence label
 IDE_TrialLicense_Label,Your trial is due to expire in {0} days,Your trial is due to expire in {0} days,,IDE trial licence label
 marketplace_certificate_settings,Marketplace Certificate Settings,Marketplace Certificate Settings,,marketplace certificate settings pref
@@ -119,12 +119,12 @@ CodeWindow_AddEvent,Add/Open Event,Add/Open Event,,code editor event script add 
 CodeWindow_OpenInheritedEvent,Open Inherited Event,Open Inherited Event,,open inherited event context menu option
 GotoLine_Title,Go To Line,Go To Line,,goto line dialog title
 GotoLine_Label,Line Number ({0} - {1}),Номер строки ({0} — {1}),,goto line label
-CompileErrors,Compile Errors,Compile Errors,,Compile Errors tab title
+CompileErrors,Compile Errors,Ошибки компиляции,,Compile Errors tab title
 CompileErrors_NoErrors,There are no compile errors to show!,There are no compile errors to show!,,No compile errors message
 Configuration,Configuration,Настройка,,Configuration
-Configuration_Select,Select Configuration,Select Configuration,,Window title for config select
+Configuration_Select,Select Configuration,Выберите настройку,,Window title for config select
 Configurations,Configurations,Настройки,,Configurations
-Configurations_Add,Add New Configuration,Add New Configuration,,Add configuration window title
+Configurations_Add,Add New Configuration,Добавить новую настройку,,Add configuration window title
 Configurations_Delete,Are you sure you want to delete configuration '{0}' and all of its children?,Are you sure you want to delete configuration '{0}' and all of its children?,,Confirm for deleting a configuration
 Configurations_Delete_OtherConfigs,Are you sure? Deleting configuration '{0}' will also delete the following configurations: '{1}'.,Are you sure? Deleting configuration '{0}' will also delete the following configurations: '{1}'.,,Warning about deleting a configuration deleting child configs
 Configurations_DeleteError,Cannot delete configuration '{0}',Cannot delete configuration '{0}',,Cannot delete a configuration error message
@@ -139,7 +139,7 @@ Configurations_Promote,Promote,Promote,,Promotion of a config up the config hier
 Configurations_Rename,Rename Configuration,Rename Configuration,,Rename configuration
 Configurations_RenameError,Cannot rename '{0}' configuration,Cannot rename '{0}' configuration,,Configuration name cannot be renamed error message
 Configurations_ConfirmPromote,Are you sure? Promoting a configuration cannot be undone,Are you sure? Promoting a configuration cannot be undone,,Confirm the user really wants to promote a config
-ContextMenu_AddMenuEntry,Add Menu Entry,Add Menu Entry,,Context menu option to add a menu entry at the end of the context menu
+ContextMenu_AddMenuEntry,Add Menu Entry,Добавить пункт меню,,Context menu option to add a menu entry at the end of the context menu
 ContextMenu_AddMenuEntryAfter,Add Menu Entry Below,Add Menu Entry Below,,Context menu option to add a menu entry below the selected entry
 ContextMenu_AddMenuEntryBefore,Add Menu Entry Above,Add Menu Entry Above,,Context menu option to add a menu entry above the selected entry
 ContextMenu_AddMenuSeparatorAfter,Add Menu Separator Below,Add Menu Separator Below,,Context menu option to add a separator below the selected entry
@@ -149,16 +149,16 @@ ContextMenu_AddSubMenuEntryAfter,Add Sub Menu Entry Below,Add Sub Menu Entry Bel
 ContextMenu_AddSubMenuEntryBefore,Add Sub Menu Entry Above,Add Sub Menu Entry Above,,Context menu option to add a sub menu entry after the selected entry
 ContextMenu_MoveEntryDown,Move Menu Item Down,Move Menu Item Down,,Context menu option to move a menu entry or separator down
 ContextMenu_MoveEntryUp,Move Menu Item Up,Move Menu Item Up,,Context menu option to move a menu entry or separator up
-Dialog_AreYouSure,Are you sure?,Are you sure?,,"Generic ""Are you sure?"" dialog message"
-Dialog_Confirm,Confirm,Confirm,,"Dialog ""confirm"" heading"
-Dialog_Ignore,Ignore,Ignore,,dialog ignore label
+Dialog_AreYouSure,Are you sure?,Вы уверены?,,"Generic ""Are you sure?"" dialog message"
+Dialog_Confirm,Confirm,Подтвердить,,"Dialog ""confirm"" heading"
+Dialog_Ignore,Ignore,Проигнорировать,,dialog ignore label
 Dialog_DeleteEvent_Query,Are you sure you want to remove the event with all its actions?,Are you sure you want to remove the event with all its actions?,,Delete event dialog confirmation query
 Dialog_CutEvent_Query,Are you sure you want to cut the selected event?,Are you sure you want to cut the selected event?,,Cut event dialog confirmation query
 Dialog_DeleteEvent_Query_Multiple,Are you sure you want to remove {0} events with all their actions?,Are you sure you want to remove {0} events with all their actions?,,Delete multiple event dialog confirmation query
 Dialog_DeleteFrame_Query,Delete the selected frames?,Delete the selected frames?,,image editor delete frames confirm query
 Dialog_PasteEvent_NotReady,The event is still being copied. Please try pasting again in a few seconds.,The event is still being copied. Please try pasting again in a few seconds.,,Not ready to paste yet message
 Dialog_DontShowAgain,Don't show this message again,Don't show this message again,,Message next to checkbox to allow the user to choose not to see this popup in future
-Dialog_Error,Error,Error,,error dialog title
+Dialog_Error,Error,Ошибка,,error dialog title
 Dialog_NotReady,Not Ready,Not Ready,,not ready dialog title
 Dialog_Success,Success,Success,,success dialog title
 Dialog_Invalid,Invalid,Invalid,,Dialog caption text for invalid input
@@ -192,7 +192,7 @@ DialogEditor_DuplicateStyleName,A duplicate of stylename '{0}' was found in\n'{1
 DialogEditor_Error,Error,Error,,dialog editor error box title
 DialogEditor_FailedToOpenJSON,Dialog Editor: Failed to open .json file: '{0}',Dialog Editor: Failed to open .json file: '{0}',,The .json file selected failed to load
 DialogEditor_FileBrowse,Browse...,Browse...,,browse for filepath
-DialogEditor_FileName,File name:,File name:,,layout file name
+DialogEditor_FileName,File name:,Название файла:,,layout file name
 DialogEditor_FlattenSubLayout,Flatten SubLayout,Flatten SubLayout,,Context menu/menu bar entry for flattening a sub layout within a layout hierarchy
 DialogEditor_Gadgets,Gadgets,Gadgets,,Layout Hierarchy heading for a gadgets group
 DialogEditor_GUIBase,GUI Base,GUI Base,,gadget properties heading for properties coming from the GUIBase class
@@ -226,7 +226,7 @@ DialogEditor_RevertStyle,Revert Style To Last Save,Revert Style To Last Save,,Re
 DialogEditor_RevertStyleToOriginal,Revert Style To Original State,Revert Style To Original State,,Revert the currently active style to version of unmodified file on disk
 DialogEditor_RGBATextEntry,RGBA Input,RGBA Input,,layout hierarchy label for the RGBA input boxes
 DialogEditor_RowSplitter,Grid Row Splitter,Grid Row Splitter,,Layout Heirarchy heading for a grid row splitter
-DialogEditor_SaveAllStyles,Save All Styles,Save All Styles,,Menu option to save all open styles to file
+DialogEditor_SaveAllStyles,Save All Styles,Сохранить все стили,,Menu option to save all open styles to file
 DialogEditor_SaveAsLayout,Save Layout As...,Save Layout As...,,Dialog editor save as layout menu entry
 DialogEditor_SaveFailed,Dialog Editor: Save failed due to error: {0} - {1},Dialog Editor: Save failed due to error: {0} — {1},,lop propmt for user to indicate the save failed
 DialogEditor_SaveLayout,Save Layout,Save Layout,,Dialog editor save layout menu entry
@@ -235,8 +235,8 @@ DialogEditor_SaveStyleAs,Save Style As...,Save Style As...,,Menu option to save 
 DialogEditor_ScrollPanel,Scroll Panel,Scroll Panel,,layout hierarchy display name for scroll panel
 DialogEditor_SelectContextMenu,Edit Context Menu,Edit Context Menu,,Context menu option to select the context menu for the selected gadget so it can be edited
 DialogEditor_SelectSaveFile,Select the file to save the style to. If the file doesn't already contain the style definition it will search all files within its folder.\nUse 'Save Style As...' to explicitly override save file,Select the file to save the style to. If the file doesn't already contain the style definition it will search all files within its folder.\nUse 'Save Style As...' to explicitly override save file,,Information about selecting a save file. Informs the user that if the file they have chosen doesn't already include the stylename it will search for the file that does inside the parent folder
-DialogEditor_StyleEditor,Style Editor,Style Editor,,the title for the style editor window
-DialogEditor_StyleName,Style name:,Style name:,,style name
+DialogEditor_StyleEditor,Style Editor,Редактор стиля,,the title for the style editor window
+DialogEditor_StyleName,Style name:,Название стили:,,style name
 DialogEditor_StyleNotFound,The style wasn't found in this folder. It will append to the selected file unless an alternative is selected.,The style wasn't found in this folder. It will append to the selected file unless an alternative is selected.,,Warning message that the style wasnt' found so it will be appended to the end of the given style instead
 DialogEditor_SubMenuEntry,Sub Menu Entry,Sub Menu Entry,,Layout hierarchy label for a sub menu entry
 DialogEditor_TabControl,Tab Control Panel,Tab Control Panel,,Gadget toolbox display name for tab control
@@ -381,8 +381,8 @@ Event_Other_RollbackEvent,Rollback Event,Rollback Event,,Other event subtype
 Event_Other_WallpaperConfig,Wallpaper Config,Wallpaper Config,,Other event subtype
 Event_Other_WallpaperSubscriptionData,Wallpaper Subscription Data,Wallpaper Subscription Data,,Other event subtype
 Event_Other_EndOfPath,Path Ended,Path Ended,,Other event subtype
-Event_Other_GameEnd,Game End,Game End,,Other event subtype
-Event_Other_GameStart,Game Start,Game Start,,Other event subtype
+Event_Other_GameEnd,Game End,При закрытии игры,,Other event subtype
+Event_Other_GameStart,Game Start,При запуске игры,,Other event subtype
 Event_Other_IntersectBoundary,Intersect Boundary,Intersect Boundary,,Other event subtype
 Event_Other_OutsideRoom,Outside Room,Outside Room,,Other event subtype
 Event_Other_RoomEnd,Room End,При завершении работы комнаты,,Other event subtype
@@ -410,16 +410,16 @@ Exit_SaveProject,Do you want to save changes before exiting?,Do you want to save
 CloseProject_Save,Do you want to save changes to the current project?,Do you want to save changes to the current project?,,Prompt user to save changes to current project
 Extension_Export,Enable in game,Enable in game,,Enable this extension in the game
 Extension_Import,Import extension,Import extension,,Extension import title
-Extension_Import_Button_Add,Add -->,Add -->,,extension add resource button
-Extension_Import_Button_ImportAll,Import All,Import All,,extension import all button
+Extension_Import_Button_Add,Add -->,Добавить →,,extension add resource button
+Extension_Import_Button_ImportAll,Import All,Импортировать всё,,extension import all button
 Extension_Import_Button_Remove,Remove,Remove,,extension remove resource button
-Extension_Import_Complete,Import Complete!,Import Complete!,,extension import complete message
-Extension_Import_CopyingFiles,Copying files...,Copying files...,,extension import copying files progress label
+Extension_Import_Complete,Import Complete!,Импортирование завершено!,,extension import complete message
+Extension_Import_CopyingFiles,Copying files...,Копирование файлов...,,extension import copying files progress label
 Extension_Import_DuplicateExtensionName,Extension with name '{0}' already exists - delete previous version before importing new version,Extension with name '{0}' already exists - delete previous version before importing new version,,extension import - imported extension has the same name as an existing extension
 Extension_Import_DuplicateExtensionResourceNames,Extension resource names clash with project resources. Please cancel the import and rename your project resources.,Extension resource names clash with project resources. Please cancel the import and rename your project resources.,,extension import - resources being imported from the extension have the same name as existing resources in the destination project
-Extension_Import_Error,An error occured:{0},An error occured:{0},,extension import generic error
+Extension_Import_Error,An error occured:{0},Произошла ошибка:{0},,extension import generic error
 Extension_Import_ExtensionLabel,Extension resources:,Extension resources:,,extension resource import - extension resources label
-Extension_Import_Extracting,Extracting...,Extracting...,,extension importing extracting progress label
+Extension_Import_Extracting,Extracting...,Извлечение...,,extension importing extracting progress label
 Extension_Import_GMEZ_Error,An error occurred,An error occurred,,extension import generic error
 Extension_Import_GMEZ_InvalidData,Unable to read the extension file,Unable to read the extension file,,extension import parse error
 Extension_Import_GMEZ_Missing,Unable to find an extension within the GMEZ file,Unable to find an extension within the GMEZ file,,extension import missing gmez
@@ -464,11 +464,11 @@ FileError_FilesLost,Fatal error: the file watcher detected all your files are go
 Font_CannotRegenerate_FontNotAvailable,Font {0} texture generation skipped (font is not available on this machine),Font {0} texture generation skipped (font is not available on this machine),,Font generation failed
 Font_CannotRegenerate_NoGlyphs,Font {0} cannot regenerate texture because there are no glyphs / ranges selected!,Font {0} cannot regenerate texture because there are no glyphs / ranges selected!,,Font gen failed no glyphs
 Font_TTF_BaseAlphabet,"!\""#$%&'()*+,-./00300123456789:;<=>?0040@ABCDEFGHIJKLMNO0050PQRSTUVWXYZ[\\]^_0060`abcdefghijklmno0070pqrstuvwxyz{}|~","!\""#$%&'()*+,-./00300123456789:;<=>?0040@ABCDEFGHIJKLMNO0050PQRSTUVWXYZ[\\]^_0060`abcdefghijklmno0070pqrstuvwxyz{}|~",,FontTTF standard English alphabet<
-Inspector,Inspector,Inspector,,Inspector preference heading
-Inspector_WindowTitle,Inspector,Inspector,,Inspector window title
-Inspector_WindowTitleArg,Inspector: {0},Inspector: {0},,Inspector window title with argument
-Inspector_WindowTitleMulti,Inspector Window: Multiple Items,Inspector Window: Multiple Items,,Inspector window title multi select
-Inspector_ErrorTitle,Inspector Error,Inspector Error,,An error occurred in the inspector
+Inspector,Inspector,Окно свойств,,Inspector preference heading
+Inspector_WindowTitle,Inspector,Окно свойств,,Inspector window title
+Inspector_WindowTitleArg,Inspector: {0},Окно свойств: {0},,Inspector window title with argument
+Inspector_WindowTitleMulti,Inspector Window: Multiple Items,Окно свойств: несколько элементов,,Inspector window title multi select
+Inspector_ErrorTitle,Inspector Error,"С окном свойств какая-то неладица",,An error occurred in the inspector
 Inspector_Lock,Lock inspector to current selection,Lock inspector to current selection,,Lock inspector tooltip
 Inspector_Unlock,Unlock inspector to allow new selections,Unlock inspector to allow new selections,,Unlock inspector tooltip
 Inspector_MultiSortMode,Multi-select order,Multi-select order,,multi select order menu entry
@@ -570,7 +570,7 @@ Inspector_Category_Presets,Presets,Предустановки,,Inspector categor
 Inspector_Category_FiltersEffects,Filters & Effects,Фильтры и эффекты,,filters and effects category
 Inspector_Category_PathPoints,Path Points,Path Points,,inspector path points category
 Inspector_OpenEditor,Open Editor,Открыть редактор,,open editor
-Inspector_OpenInspector,Open Inspector,Open Inspector,,open inspector
+Inspector_OpenInspector,Open Inspector,Открыть окно свойств,,open inspector
 Inspector_ObjNoEvents,This Object currently has no Events.\nAdd Events here or via the editor,This Object currently has no Events.\nAdd Events here or via the editor,,no object events inspector label
 Inspector_OpenEditors,Open Editors,Открыть редакторы,,open multiple editors
 Inspector_Category_Properties,Properties,Свойства,,inspector category
@@ -776,7 +776,7 @@ GadgetToolbox_Grid,Grid,Grid,,Gadget toolbox display name for grid
 GadgetToolbox_Group,Group,Group,,Gadget toolbox display name for group
 GadgetToolbox_HorizontalScrollbar,Horizontal Scrollbar,Horizontal Scrollbar,,Gadget toolbox display name for vertical scrollbar
 GadgetToolbox_HorizontalSeparator,Horizontal Separator,Horizontal Separator,,Gadget toolbox display name for horizontal separator
-GadgetToolbox_Image,Image,Image,,Gadget toolbox display name for image
+GadgetToolbox_Image,Image,Изображение,,Gadget toolbox display name for image
 GadgetToolbox_Input,Input,Input,,Gadget toolbox display name for input
 GadgetToolbox_Label,Label,Label,,Gadget toolbox display name for label
 GadgetToolbox_LinkLabel,Link Label,Link Label,,Gadget toolbox display name for link label
@@ -785,7 +785,7 @@ GadgetToolbox_SearchBar,Search bar,Search bar,,gadget toolbox search bar
 GadgetToolbox_ZoomSlider,Zoom slider,Zoom slider,,gadget toolbox zoom slider
 GadgetToolbox_ListBox,Listbox,Listbox,,Gadget toolbox display name for listbox
 GadgetToolbox_HeaderedListBox,Headered Listbox,Headered Listbox,,Gadget toolbox display name for headered listbox
-GadgetToolbox_Lists,Lists,Lists,,Gadget toolbox display name for lists group
+GadgetToolbox_Lists,Lists,Списки,,Gadget toolbox display name for lists group
 GadgetToolbox_MenuBar,Menu Bar,Menu Bar,,Gadget toolbox display name for menu bar
 GadgetToolBox_Misc,Miscellaneous,Miscellaneous,,Gadget toolbox display name for miscellaneous group
 GadgetToolbox_MultiLineTextBox,Multiline Text Box,Multiline Text Box,,A multiline text input box
@@ -811,7 +811,7 @@ GadgetToolbox_ToggleButton,Toggle Button,Toggle Button,,Gadget GadgetToolbox_Exp
 GadgetToolbox_TreeView,Tree View,Tree View,,Gadget toolbox display name for tree view
 GadgetToolbox_VerticalScrollbar,Vertical Scrollbar,Vertical Scrollbar,,Gadget toolbox display name for horizontal scrollbar
 GadgetToolbox_VerticalSeparator,Vertical Separator,Vertical Separator,,Gadget toolbox display name for vertical separator
-GadgetToolbox_Window,Window,Window,,Gadget toolbox display name for window
+GadgetToolbox_Window,Window,Окно,,Gadget toolbox display name for window
 GadgetToolbox_WindowFrame,Window Frame,Window Frame,,Gadget toolbox display name for window frame
 GadgetToolBox_Windowing,Windowing,Windowing,,Gadget toolbox display name for windowing group
 GadgetToolbox_TextEditorPanel,Text Editor Panel,Text Editor Panel,,Gadget toolbox display for the text editor panel
@@ -908,14 +908,14 @@ IDETooltip_Package_Run,Create Executable and Launch,Создать исполн�
 IDETooltip_Package_FreeDisabled,Create Executable (not available with Trial Licence),Создать исполняемый файл (не работает в пробной версии),,IDE toolbar tooltip
 IDETooltip_Package_NotLoggedInDisabled,Create Executable (Sign In to Export),Создать исполняемый файл (авторизуйтесь, чтобы иметь возможность экспортировать),,IDE toolbar tooltip
 IDETooltip_Package_Run_NotLoggedInDisabled,Create Executable And Run (Sign In to Export),Создать исполняемый файл и сразу запустить (авторизуйтесь, чтобы иметь возможность экспортировать),,IDE toolbar tooltip
-IDETooltip_Debug,Debug ,Debug ,,IDE toolbar tooltip
+IDETooltip_Debug,Debug ,Отладить ,,IDE toolbar tooltip
 IDETooltip_Run,Run ,Запустить ,,IDE toolbar tooltip
 IDETooltip_Stop,Stop,Остановить выполнение,,IDE toolbar tooltip
 IDETooltip_Clean,Clean ,Очистить ,,IDE toolbar tooltip
 IDETooltip_GameSettings,Game Options,Настройки игры,,IDE toolbar tooltip
 IDETooltip_Help,Help ,Помощь ,,IDE toolbar tooltip
 IDETooltip_Targets,Targets,Targets,,IDE toolbar tooltip
-IDETooltip_Notifications,Notifications,Notifications,,IDE toolbar notifications tooltip
+IDETooltip_Notifications,Notifications,Уведомления,,IDE toolbar notifications tooltip
 IDETooltip_InvalidFilename,Invalid characters,Invalid characters,,Invalid characters in a filename
 IDETooltop_WorkspaceZoomIn,Zoom In ,Zoom In ,,workspace zoom in ide toolbar tooltip
 IDETooltop_WorkspaceZoomOut,Zoom Out ,Zoom Out ,,workspace zoom out ide toolbar tooltip
@@ -925,7 +925,7 @@ ImageEditor_AddFrame,Add Frame,Add Frame,,Image editor menu option -Add frame
 ImageEditor_AddFromFile,Import Image(s),Import Image(s),,Add images from file menu option
 ImageEditor_CreateFromStrip,Convert to Frames,Convert to Frames,,create from strip menu option
 ImageEditor_ImportFromStrip,Import Strip Image,Import Strip Image,,import strip image menu option
-ImageEditor_ExportToPNG,Export to PNG,Export to PNG,,export to png image menu option
+ImageEditor_ExportToPNG,Export to PNG,Экспортировать в PNG,,export to png image menu option
 ImageEditor_AddGroup,Add group,Add group,,Image editor layer context menu - add group
 ImageEditor_AddLayer,Add layer,Add layer,,Image editor layer context menu - add layer
 ImageEditor_AllLayers,All Layers,All Layers,,effect all layers option
@@ -1380,7 +1380,7 @@ News_ReleaseNotes,Release Notes,Release Notes,,Release notes window caption
 Object_Mask,Collision Mask:,Маска столкновений:,,"object ""mask"" property"
 Object_Parent,Parent,Parent,,"object ""parent"" property"
 ObjectEditor_ParentChildren,Parent & Children,Parent & Children,,Object editor parent and children caption
-Object_Persistent,Persistent,Persistent,,"Object Model ""persistent"" property"
+Object_Persistent,Persistent,Остаётся,,"Object Model ""persistent"" property"
 Object_Persistent_Tooltip,Instances of this object will persist between rooms,Instances of this object will persist between rooms,,object editor persistent property tooltip
 Object_PhysicsAngularDamping,Angular Damping,Angular Damping,,"object ""physicsAngularDamping"" property label"
 Object_PhysicsDensity,Density,Density,,"object ""physicsDensity"" property label"
@@ -1655,7 +1655,7 @@ RoomEditor_Inherit,Inherit,Перенять,,Inherit button caption
 RoomEditor_InheritCode,Inherit Creation Code,Inherit Creation Code,,Tooltip for the button which sets if this room inherits its creation code from the parent
 RoomEditor_InheritEditorSettings,Inherit Editor Properties,Inherit Editor Properties,,Inherit button tool tip caption for editor settings
 RoomEditor_InheritPhysicsSettings,Inherit Physics Properties,Inherit Physics Properties,,Inherit button tool tip caption for physics settings
-RoomEditor_InheritRoomSettings,Inherit Room Settings,Inherit Room Settings,,Inherit button tool tip caption for room settings
+RoomEditor_InheritRoomSettings,Inherit Room Settings,Перенять настройки комнаты,,Inherit button tool tip caption for room settings
 RoomEditor_InheritSubLayers,Inherit Sub Layers,Inherit Sub Layers,,Context menu option for inheriting sub layers from the parent layer
 RoomEditor_InheritView,Inherit View,Inherit View,,inherit toggle button caption for a single view entry
 RoomEditor_InheritViewSettings,Inherit View Properties,Inherit View Properties,,Inherit button tool tip caption for view settings
@@ -1678,8 +1678,8 @@ RoomEditor_PreviewEffects_Disable,Disable Filters Preview,Disable Filters Previe
 RoomEditor_NoParentItemToolTip,"{0} ({1}, {2})","{0} ({1}, {2})",,instance/graphic tooltip when there is no parent item
 RoomEditor_ItemToolTip,"{0} ({1}, {2}) parent - {3}","{0} ({1}, {2}) parent - {3}",,instance/graphic tooltip when there is no parent item
 RoomEditor_RoomProperties,Properties - {0},Properties - {0},,Window title for room properties
-RoomEditor_InstanceCreationOrder,Instance Creation Order - {0},Instance Creation Order - {0},,Window title for instance creation order
-RoomEditorMenu_InstanceCreationOrder,Instance Creation Order,Instance Creation Order,,menu entry for instance creation order window
+RoomEditor_InstanceCreationOrder,Instance Creation Order - {0},Порядок создания экземпляров: {0},,Window title for instance creation order
+RoomEditorMenu_InstanceCreationOrder,Instance Creation Order,Порядок создания экземпляров,,menu entry for instance creation order window
 RoomEditor_SelectedTileBrush,Brush:,Brush:,,Label for the currently selected tile editing brush
 RoomEditor_SelectedTileTool,Tool:,Tool:,,Label for the currently selected tile editing tool
 RoomEditor_EditingWindowMode,Editing Mode:,Editing Mode:,,Label for the TileSet macro page mode (selection or editing)
@@ -1719,31 +1719,31 @@ RoomEditor_RenameInstance,Rename Instance,Rename Instance,,rename
 RoomProperties_BackgroundColour,Room Colour,Room Colour,,room properties section heading for background colour
 RoomProperties_ClearDisplayBuffer,Clear Display Buffer,Clear Display Buffer,,checkbox caption for clear display buffer option
 RoomProperties_ClearView,Clear Viewport Background,Clear Viewport Background,,checkbox caption for clear view background option
-RoomProperties_Colour,Colour,Colour,,colour select box caption
+RoomProperties_Colour,Colour,Цвет,,colour select box caption
 RoomProperties_CreationCode,Creation Code,Код при создании,,button caption for opening creation code
-RoomProperties_CreationOrder,Instance Creation Order,Instance Creation Order,, button caption for opening the instance creation order window
-RoomProperties_EnablePhysics,Enable Physics,Enable Physics,,Checkbox caption for enabling physics
-RoomProperties_EnableViews,Enable Viewports,Enable Viewports,,checkbox caption for enable views option
+RoomProperties_CreationOrder,Instance Creation Order,Порядок создания экземпляров,, button caption for opening the instance creation order window
+RoomProperties_EnablePhysics,Enable Physics,Включить физику,,Checkbox caption for enabling physics
+RoomProperties_EnableViews,Enable Viewports,Включить порты просмотра,,checkbox caption for enable views option
 RoomProperties_GravityX,Gravity X,Gravity X,,Numeric textbox caption for horizontal gravity
 RoomProperties_GravityY,Gravity Y,Gravity Y,,Numeric textbox caption for vertical gravity
 RoomProperties_HBorder,Horizontal Border,Horizontal Border,,numeric text box label for view for horizontal border
-RoomProperties_Height,Height,Height,,numeric textbox caption for room height
+RoomProperties_Height,Height,Высота,,numeric textbox caption for room height
 RoomProperties_HSpeed,Horizontal Speed,Horizontal Speed,,numeric text box label for view for horizontal speed
-RoomProperties_Persistent,Persistent,Persistent,,checkbox caption for persistent setting
-RoomProperties_Physics,Room Physics,Room Physics,,Room properties section heading for physics
+RoomProperties_Persistent,Persistent,Остаётся,,checkbox caption for persistent setting
+RoomProperties_Physics,Room Physics,Физика комнаты,,Room properties section heading for physics
 RoomProperties_PixsToMeters,Pixels To Meters,Pixels To Meters,,Numeric textbox caption for pixels to meters conversion
-RoomProperties_Settings,Room Settings,Room Settings,,room properties section heading for settings
+RoomProperties_Settings,Room Settings,Настройки комнаты,,room properties section heading for settings
 RoomProperties_ShowColour,Draw Background Colour,Draw Background Colour,,checkbox caption for drawing background colour
 RoomProperties_Speed,Speed,Speed,,numeric textbox caption for room speed
 RoomProperties_VBorder,Vertical Border,Vertical Border,,numeric text box label for view for vertical border
 RoomProperties_View,Viewport {0},Viewport {0},,view instance heading in room properties
 RoomProperties_ViewArea,Camera Properties,Camera Properties,,group heading for room view area settings
 RoomProperties_ViewFollowing,Object Following,Object Following,,group heading for object following settings
-RoomProperties_ViewH,Height,Height,,numeric text box label for view or view port height
+RoomProperties_ViewH,Height,Высота,,numeric text box label for view or view port height
 RoomProperties_Viewport,Viewport Properties,Viewport Properties,,group heading for viewport settings
 RoomProperties_Views,Viewports and Cameras,Viewports and Cameras,,room properties section heading for views
 RoomProperties_ViewVisible,Visible,Видим,,checkbox caption for whether the view is visible from room start
-RoomProperties_ViewW,Width,Width,,numeric text box label for view or view port width
+RoomProperties_ViewW,Width,Ширина,,numeric text box label for view or view port width
 RoomProperties_ViewX,X Pos,X Pos,,numeric text box label for view or view port x pos
 RoomProperties_ViewY,Y Pos,Y Pos,,numeric text box label for view or view port y pos
 RoomProperties_VSpeed,Vertical Speed,Vertical Speed,,numeric text box label for view for vertical speed
@@ -2743,16 +2743,16 @@ Validate_StringLength,{0} - String length is invalid must be between {1} and {2}
 Validate_UniqueLayerName,Failed to set layer name '{0}' it is not unique within room,Failed to set layer name '{0}' it is not unique within room,,validation error message for non-unique layer name
 Validate_UniqueName,Failed to set property on model '{0}' name is not unique,Failed to set property on model '{0}' name is not unique,,validation error message for non-unique resource name
 Validate_ImageLayerName,Layer name cannot be blank,Layer name cannot be blank,,validation error message for image layer name
-View_Menu_Bookmarks,Bookmarks,Bookmarks,,Bookmarks menu item
+View_Menu_Bookmarks,Bookmarks,Закладки,,Bookmarks menu item
 View_Menu_Breakpoints,Breakpoints,Breakpoints,,View breakpoints menu item
 View_Menu_GlobalGameSettings,Global Game Settings,Global Game Settings,,View the Global Game Settings menu item
 View_Menu_OutputWindow,Output Window,Output Window,,View output window menu item
-Views_Menu_History,History,History,,Views menu entry for undo history
+Views_Menu_History,History,История,,Views menu entry for undo history
 Views_Menu_Output,Output,Output,,Views menu entry for the output panel
 Views_Menu_Worker,Build Worker,Build Worker,,Views menu entry for the build worker window
 Views_Menu_Resources,Resources,Resources,,Views menu entry for resources
 Views_Menu_AssetBrowser,Asset Browser,Обозреватель ассетов,,Views menu entry for resources
-Views_Menu_Inspector,Inspector,Inspector,,Views menu entry for inspector
+Views_Menu_Inspector,Inspector,Окно свойств,,Views menu entry for inspector
 Views_Menu_Tutorial,Tutorial Windows,Tutorial Windows,,Views menu entry for tutorial windows
 Views_Menu_SearchResults,Search Results,Search Results,,Views menu entry for the search results panel
 Views_Menu_SourceControl,Source Control Output,Source Control Output,,Views menu entry for the source control output window
@@ -4204,7 +4204,7 @@ ColourPicker_SaveNewColour,Store Colour,Store Colour,,Save new Custom Colour but
 ColourPicker_PickColour,Select Colour:,Select Colour:,,Select Colour Label
 ColourPicker_BasicColours,Basic Colours:,Basic Colours:,,Basic Colours Label
 ColourPicker_SavedColours,Custom Colours:,Custom Colours:,,Custom Colours Label
-SpriteSelector_Source,Sprite:,Sprite:,,The sprite selector button heading
+SpriteSelector_Source,Sprite:,Спрайт:,,The sprite selector button heading
 SpriteSelector_SelectSprite,Select Sprite,Select Sprite,,The sprite selector button heading
 SpriteSelector_EditSprite,Edit Sprite,Edit Sprite,,The edit sprite button tooltip
 SpriteSelector_EditImage,Edit Image,Edit Image,,The edit image button tooltip
@@ -4328,7 +4328,7 @@ ExtensionEditor_InjectToManifestApplication,Inject to AndroidManifest.xml Applic
 ExtensionEditor_InjectToManifestRunnerActivity,Inject to AndroidManifest.xml RunnerActivity:,Inject to AndroidManifest.xml RunnerActivity:,,manifest injection label
 ExtensionEditor_PlistInject,Inject to Info.plist:,Inject to Info.plist:,,manifest injection label
 ExtensionEditor_AndroidPermissions,Android Permissions:,Android Permissions:,,android permissions label
-ExtensionEditor_ProxyFileName,File Name,File Name,,file name label
+ExtensionEditor_ProxyFileName,File Name,Название файла,,file name label
 ExtensionEditor_ProxyTarget,Target,Target,,target label
 ExtensionEditor_FileExistsTitle,File already exists,File already exists,,title for file already exists yes/no dialog
 ExtensionEditor_FileExistsMessage,A file with the same name already exists. Would you like to overwrite it?,A file with the same name already exists. Would you like to overwrite it?,,proxy file overwrite prompt
@@ -4338,7 +4338,7 @@ ExtensionEditor_DeleteFileAreYouSure,Are you sure you want to delete the file?,A
 ExtensionEditor_AddGenericPlaceholder,Add Generic Placeholder,Add Generic Placeholder,,context menu entry
 ExtensionEditor_AddGMLPlaceholder,Add GML Placeholder,Add GML Placeholder,,context menu entry
 ExtensionEditor_AddJSPlaceholder,Add JS Placeholder,Add JS Placeholder,,context menu entry
-ExtensionEditor_AddFile,Add File,Add File,,context menu entry
+ExtensionEditor_AddFile,Add File,Добавить файл,,context menu entry
 ExtensionEditor_DeleteProxyAreYouSure,Are you sure you want to delete the proxy?,Are you sure you want to delete the proxy?,,confirm message
 ExtensionEditor_DeleteResourceAreYouSure,Are you sure you want to delete the resource?,Are you sure you want to delete the resource?,,confirm message
 ExtensionEditor_DeleteArgumentAreYouSure,Are you sure you want to delete the argument?,Are you sure you want to delete the argument?,,confirm message
@@ -4360,7 +4360,7 @@ ExtensionEditor_Config_Reset_Tooltip,Reset to default value,Reset to default val
 ExtensionEditor_Option_Name,Name,Название,,Option name
 ExtensionEditor_Option_Name_Tooltip,This is how you will refer to it at compile/run time.,This is how you will refer to it at compile/run time.,,Tooltip option name
 ExtensionEditor_Option_Default,Default,По умолчанию,,Default value
-ExtensionEditor_Option_Type,Type,Type,,Option type
+ExtensionEditor_Option_Type,Type,Тип,,Option type
 ExtensionEditor_Option_Extras,Extras,Extras,,Extra option parameters
 ExtensionEditor_Options_Window,Extension Options,Extension Options,,Extension Options definitions label in Extension Editor
 ExtensionEditor_OptionAddButton,Add Option,Add Option,,Add an extension option
@@ -4369,9 +4369,9 @@ ExtensionEditor_OptionAddButton_Tooltip,Add a new option,Add a new option,,Add o
 ExtensionEditor_OptionAddSectionButton_Tooltip,Add a new section,Add a new section,,add a new ext option section button tooltip
 ExtensionEditor_OptionBoolean_Label,True,True,,Boolean label
 ExtensionEditor_WindowExtras,Extras: {0},Extras: {0},,Extras window title
-ExtensionEditor_WindowExtras_DisplayName,Display Name:,Display Name:,,extension option display name label
-ExtensionEditor_WindowExtras_Description,Description (tooltip):,Description (tooltip):,,extension option description tooltip label
-ExtensionEditor_WindowExtras_Export,Export to INI file:,Export to INI file:,,extension option export to INI label
+ExtensionEditor_WindowExtras_DisplayName,Display Name:,Отображаемое название:,,extension option display name label
+ExtensionEditor_WindowExtras_Description,Description (tooltip):,Описание (подсказка):,,extension option description tooltip label
+ExtensionEditor_WindowExtras_Export,Export to INI file:,Экспортировать в файл INI:,,extension option export to INI label
 ExtensionEditor_WindowExtras_ListItems,List Items:,List Items:,,list items for list extension option type
 ExtensionEditor_WindowExtras_ListAddButton_Tooltip,Add Item,Add Item,,button to add new item to list
 ExtensionEditor_WindowExtras_ListRemoveItem_Tooltip,Remove Item,Remove Item,,button to remove item from list
@@ -4379,7 +4379,7 @@ ExtensionEditor_Option_ExtrasTooltip,Open extras...,Open extras...,,Open option 
 ExtensionEditor_Option_RemoveTooltip,Remove this option,Remove this option,,Remove option row tooltip
 ExtensionEditor_OptionWarning_Message,This window should only be used by the extension's author!\nDo you want to proceed?,This window should only be used by the extension's author!\nDo you want to proceed?,,Extension Options editor warning
 ExtensionEditor_OptionWarning_Title,Modifying Extension Options,Modifying Extension Options,,Extension Options editor warning title
-ExtensionEditor_OpenCodeEditor,Open in Code Editor,Open in Code Editor,,Open in Code Editor
+ExtensionEditor_OpenCodeEditor,Open in Code Editor,Открыть в редакторе кода,,Open in Code Editor
 Help_eExtensionOptionType_Boolean,The value is a bool (true/false),The value is a bool (true/false),,Boolean value type help tip
 Help_eExtensionOptionType_Number,The value is a real number and accepts decimal places,The value is a real number and accepts decimal places,,Real value type help tip
 Help_eExtensionOptionType_String,The value is a string (quotes are optional),The value is a string (quotes are optional),,String value type help tip
@@ -4403,7 +4403,7 @@ GoTo_Driver_Preferences,Preferences,Настройки,,preferences driver name
 GoTo_Driver_PreferencesDesc,This driver exposes preferences to Go To,This driver exposes preferences to Go To,,preferences driver description
 GoTo_Driver_GameOptions,Game Options,Настройки игры,,game options driver name
 GoTo_Driver_GameOptionsDesc,This driver exposes game options to Go To,This driver exposes game options to Go To,,game options driver description
-GoTo_Driver_PreferenceLabel,{0} - Preference,{0} - Preference,,Preference label
+GoTo_Driver_PreferenceLabel,{0} - Preference,{0} — настройка,,Preference label
 GoTo_Driver_GameOptionLabel,{0} - Game Options,{0} — настройки игры,,Game options label
 ExtensionEditor_ExportPropertiesTitle,Extension Properties - Export,Extension Properties - Export,,export dialog title
 ExtensionEditor_ImportPropertiesTitle,Extension Properties - Import,Extension Properties - Import,,import dialog title
@@ -4415,14 +4415,14 @@ ExtensionEditor_AddFunction,Add Function,Add Function,,add function label
 ExtensionEditor_AddMacro,Add Macro,Add Macro,,add macro label
 ExtensionEditor_RemoveSelected,Remove Selected,Remove Selected,,Remove Selected label
 WorkspaceOverview_Title,Workspace Overview,Workspace Overview,,Workspace overview window title
-WorkspaceOverview_Tabs,Workspaces,Workspaces,,Workspace overview workspaces box caption
-WorkspaceOverview_ActiveWindows,Active Windows,Active Windows,,Workspace overview active window caption
-WorkspaceOverview_ActiveTabs,Active Tabs,Active Tabs,,Workspace overview active tabs caption
+WorkspaceOverview_Tabs,Workspaces,Рабочие пространства,,Workspace overview workspaces box caption
+WorkspaceOverview_ActiveWindows,Active Windows,Активные окна,,Workspace overview active window caption
+WorkspaceOverview_ActiveTabs,Active Tabs,Активные вкладки,,Workspace overview active tabs caption
 WorkspaceMenu_Windows,Windows,Windows,,Workspace area context menu
 WorkspaceMenu_Resources,Assets,Assets,,Workspace area context menu
 WorkspaceMenu_GoTo,Go To...,Go To...,,Workspace area context menu
-ExtensionEditor_AddSDK,Add SDK,Add SDK,,main properties context menu entry
-ExtensionEditor_AddSource,Add Source,Add Source,,main properties context menu entry
+ExtensionEditor_AddSDK,Add SDK,Добавить SDK,,main properties context menu entry
+ExtensionEditor_AddSource,Add Source,Добавить источник,,main properties context menu entry
 ExtensionEditor_AddIosFrameworkFromMac,Enter framework path on Mac,Enter framework path on Mac,,main properties context menu entry
 ExtensionEditor_AddPlaceholder,Add Placeholder,Add Placeholder,,main properties context menu entry
 ExtensionEditor_AddArgument,Add Argument,Add Argument,,function properties context menu entry
@@ -4445,15 +4445,15 @@ Surveys_OptIn,Opt-in to feedback surveys,Opt-in to feedback surveys,,feedback su
 Notifications_Hub,Notification Hub,Notification Hub,,Notification Hub string
 SoundMixer_ToolTip_AddGroup,Add sound group,Add sound group,,Sound mixer tool tip for adding a sound group to the mixer
 SoundMixer_ToolTip_CloseGroup,Close sound group,Close sound group,,Sound mixer tool tip for adding a sound group to the mixer
-SoundMixer_ToolTip_SoundGroup,Sound group,Sound group,,Sound mixer tool tip for the sound group
+SoundMixer_ToolTip_SoundGroup,Sound group,Аудиогруппа,,Sound mixer tool tip for the sound group
 SoundMixer_ToolTip_MuteGroup,Mute all sounds in group,Mute all sounds in group,,Sound mixer tool tip
 SoundMixer_ToolTip_ColumnVolume,Column volume,Column volume,,Sound mixer tool tip for the column volume
 SoundMixer_ToolTip_PlayGroup,Play all sounds in group,Play all sounds in group,,Sound mixer tool tip
 SoundMixer_ToolTip_LoopGroup,Loop playback for all sounds in group,Loop playback for all sounds in group,,Sound mixer tool tip
 SoundMixer_ToolTip_RewindGroup,Rewind all sounds in group to start,Rewind all sounds in group to start,,Sound mixer tool tip
 SoundMixer_ToolTip_CloseSound,Close sound,Close sound,,Tool tip for closing the sound in the mixer
-SoundMixer_ToolTip_PlaySound,Play sound,Play sound,,Tool tip for playing an individual sound in the sound mixer
-SoundMixer_ToolTip_MuteSound,Mute sound,Mute sound,,Tool tip for muting an individual sound in the sound mixer
+SoundMixer_ToolTip_PlaySound,Play sound,Воспроизвести аудиофайл,,Tool tip for playing an individual sound in the sound mixer
+SoundMixer_ToolTip_MuteSound,Mute sound,Выключить звук аудиофайла,,Tool tip for muting an individual sound in the sound mixer
 SoundMixer_ToolTip_RepeatSound,Loop playback,Loop playback,,Tool tip for looping an individual sound in the sound mixer
 SoundMixer_ToolTip_RewindSound,Rewind to start,Rewind to start,,Tool tip for rewinding an individual sound in the sound mixer
 SoundMixer_ToolTip_PlaybackPosition,Playback position,Playback position,,Tool tip for setting the playback position an individual sound in the sound mixer
@@ -4465,7 +4465,7 @@ SoundEditor_ToolTip_RewindSound,Rewind to start,Rewind to start,,Tool tip for re
 SoundEditor_ToolTip_Volume,Sound volume,Sound volume,,Tool tip for the volume slider in the sound editor
 SoundEditor_ToolTip_OpenGroupMixer,Sound group mixer,Sound group mixer,,Tool tip for the button to open the sound group mixer
 SoundEditor_ToolTip_BrowseForSound,Choose sound file,Choose sound file,,Tool tip for the button used to open the file browser to choose a new file
-Shader_ChangeShaderType,Shader Type,Shader Type,,Context menu sub menu heading for choosing the shader type
+Shader_ChangeShaderType,Shader Type,Тип шейдера,,Context menu sub menu heading for choosing the shader type
 ShaderType_GLSLES,GLSL ES,GLSL ES,,the glsles shader type option
 ShaderType_GLSL,GLSL,GLSL,,the glsl shader type option
 ShaderType_HLSL9,HLSL 9,HLSL 9,,the hlsl9 shader type option
@@ -4495,17 +4495,17 @@ RoomEditor_TileLayerStatus_BrushIndices,Brush tiles: ({0}),Brush tiles: ({0}),,t
 RoomEditor_TileLayerStatus_Full,"Tile map coordinate: ({0}, {1}) Brush tiles: ({2})","Tile map coordinate: ({0}, {1}) Brush tiles: ({2})",,the current tile map coordinate and tile brush indices status in the room editor status bar
 RoomEditor_PathLayerStatus,Selected control point(s): {0},Selected control point(s): {0},,the selected control points status for the path layer shown in the room editor status bar
 RoomEditor_PathLayerPointStatus,"({0}, {1}),","({0}, {1}),",,the an individual control point status for the path layer shown in the room editor status bar
-ListBoxEnum_eAnimSpeedType_FramesPerSecond,Frames per second,Frames per second,,the playback type comboxbox entry for fps
+ListBoxEnum_eAnimSpeedType_FramesPerSecond,Frames per second,Кадр в секунду,,the playback type comboxbox entry for fps
 ListBoxEnum_eAnimSpeedType_FramesPerGameFrame,Frames per game frame,Frames per game frame,,the playback type comboxbox entry for game frame locked playback
-ListBoxEnum_eObjectPropertyType_Real,Real,Real,,Real value type
-ListBoxEnum_eObjectPropertyType_Integer,Integer,Integer,,Integer value type
-ListBoxEnum_eObjectPropertyType_String,String,String,,String value type
-ListBoxEnum_eObjectPropertyType_Boolean,Boolean,Boolean,,Boolean value type
-ListBoxEnum_eObjectPropertyType_Expression,Expression,Expression,,Expression value type
-ListBoxEnum_eObjectPropertyType_Resource,Asset,Asset,,Asset value type
-ListBoxEnum_eObjectPropertyType_Color,Colour,Colour,,Color value type
-ListBoxEnum_eObjectPropertyType_List,List,List,,List value type
-ResourcePickerButton_ToolTip,Select an Asset,Select an Asset,,Resource picker button tooltip
+ListBoxEnum_eObjectPropertyType_Real,Real,Дробное число,,Real value type
+ListBoxEnum_eObjectPropertyType_Integer,Integer,Целое число,,Integer value type
+ListBoxEnum_eObjectPropertyType_String,String,Строка,,String value type
+ListBoxEnum_eObjectPropertyType_Boolean,Boolean,Булева переменная,,Boolean value type
+ListBoxEnum_eObjectPropertyType_Expression,Expression,Выражение,,Expression value type
+ListBoxEnum_eObjectPropertyType_Resource,Asset,Ассет,,Asset value type
+ListBoxEnum_eObjectPropertyType_Color,Colour,Цвет,,Color value type
+ListBoxEnum_eObjectPropertyType_List,List,Список,,List value type
+ResourcePickerButton_ToolTip,Select an Asset,Выберите ассет,,Resource picker button tooltip
 Help_eObjectPropertyType_Real,The value is a real number and accepts decimal places (allows expressions),The value is a real number and accepts decimal places (allows expressions),,Real value type help tip
 Help_eObjectPropertyType_Integer,The value is a whole number (allows expressions),The value is a whole number (allows expressions),,Integer value type help tip
 Help_eObjectPropertyType_String,The value is a string (quotes are optional),The value is a string (quotes are optional),,String value type help tip
@@ -4551,7 +4551,7 @@ enable_reference_warnings,Enable variable reference warnings,Enable variable ref
 enable_statement_folding,Enable statement folding as regions,Enable statement folding as regions,,Enable statement folding as regions
 GMStdCatDefault,Default,Default,,GML Visual library category name
 GMStdFunction,Function,Function,,GML Visual label
-GMStdOption,Option,Option,,GML Visual label
+GMStdOption,Option,Настройка,,GML Visual label
 GMStdChoose_Name,Choose,Choose,,GML Visual label
 GMStdChoose_Desc,Randomly chooses one of the supplied arguments.,Randomly chooses one of the supplied arguments.,,GML Visual label
 GMStdCallFunction_Name,Function Call,Function Call,,GML Visual label
@@ -4565,9 +4565,9 @@ GMStdCatSequences,Sequences,Sequences,,GML Visual library category name
 GMStdCatMouseKeyboard,Mouse & Keyboard,Mouse & Keyboard,,GML Visual library category name
 GMStdCatGamepad,Gamepad,Gamepad,,GML Visual library category name
 GMStdCatMovement,Movement,Movement,,GML Visual library category name
-GMStdCatCollisions,Collisions,Collisions,,GML Visual library category name
+GMStdCatCollisions,Collisions,Столкновения,,GML Visual library category name
 GMStdCatDrawing,Drawing,Drawing,,GML Visual library category name
-GMStdCatTiles,Tiles,Tiles,,GML Visual library category name
+GMStdCatTiles,Tiles,Тайлы,,GML Visual library category name
 GMStdCatInstVars,Instance Variables,Instance Variables,,GML Visual library category name
 GMStdCatGlobal,Global,Global,,GML Visual library category name
 GMStdCatRandom,Random,Random,,GML Visual library category name
@@ -5328,7 +5328,7 @@ GMStdFileType,Type,Type,,GML Visual
 GMStdFileType_Bin,Binary,Binary,,GML Visual
 GMStdFileType_Text,Text,Text,,GML Visual
 GMStdCopyTo,Copy To,Copy To,,GML Visual
-GMStdNewFilename,New Name,New Name,,GML Visual
+GMStdNewFilename,New Name,Новое название,,GML Visual
 GMStdFile,File,Файл,,GML Visual
 GMStdBuffer,Buffer,Buffer,,GML Visual
 GMStdSeek,Seek,Seek,,GML Visual
@@ -5351,8 +5351,8 @@ GMStdVar_xprevious,Previous X Coordinate,Previous X Coordinate,,GML Visual
 GMStdVar_yprevious,Previous Y Coordinate,Previous Y Coordinate,,GML Visual
 GMStdVar_x,X Coordinate,X Coordinate,,GML Visual
 GMStdVar_y,Y Coordinate,Y Coordinate,,GML Visual
-GMStdVar_width,Width,Width,,GML Visual
-GMStdVar_height,Height,Height,,GML Visual
+GMStdVar_width,Width,Ширина,,GML Visual
+GMStdVar_height,Height,Высота,,GML Visual
 GMStdVar_rows,Rows,Rows,,GML Visual
 GMStdVar_columns,Columns,Columns,,GML Visual
 GMStdVar_tilewidth,Tile Width,Tile Width,,GML Visual
@@ -5363,8 +5363,8 @@ GMStdVar_tilemask,Mask,Маска,,GML Visual
 GMStdVar_tileglobalmask,Global Mask,Global Mask,,GML Visual
 GMStdVar_hspeed,Horizontal Speed,Horizontal Speed,,GML Visual
 GMStdVar_vspeed,Vertical Speed,Vertical Speed,,GML Visual
-GMStdVar_direction,Direction,Direction,,GML Visual
-GMStdVar_speed,Speed,Speed,,GML Visual
+GMStdVar_direction,Direction,Направление,,GML Visual
+GMStdVar_speed,Speed,Скорость,,GML Visual
 GMStdVar_friction,Friction,Friction,,GML Visual
 GMStdVar_gravity,Gravity,Gravity,,GML Visual
 GMStdVar_gravity_direction,Gravity Direction,Gravity Direction,,GML Visual
@@ -5372,12 +5372,12 @@ GMStdVar_visible,Visible,Видим,,GML Visual
 GMStdVar_sprite_index,Sprite,Спрайт,,GML Visual
 GMStdVar_image_index,Image Index,Идентификатор изображения,,GML Visual
 GMStdVar_layer,Layer,Слой,,GML Visual
-GMStdVar_persistent,Persistent,Persistent,,GML Visual
-GMStdVar_mask_index,Mask,Mask,,GML Visual
-GMStdVar_score,Score,Score,,GML Visual
-GMStdVar_lives,Lives,Lives,,GML Visual
-GMStdVar_health,Health,Health,,GML Visual
-GMStdVar_depth,Depth,Depth,,GML Visual
+GMStdVar_persistent,Persistent,Остаётся,,GML Visual
+GMStdVar_mask_index,Mask,Маска,,GML Visual
+GMStdVar_score,Score,Очки,,GML Visual
+GMStdVar_lives,Lives,Жизни,,GML Visual
+GMStdVar_health,Health,Здоровье,,GML Visual
+GMStdVar_depth,Depth,Глубина,,GML Visual
 GMStdVar_image_xscale,Horizontal Scale,Horizontal Scale,,GML Visual
 GMStdVar_image_yscale,Vertical Scale,Vertical Scale,,GML Visual
 GMStdVar_image_angle,Image Rotation,Image Rotation,,GML Visual
@@ -7325,8 +7325,8 @@ SequenceCanvas_Menu_Record,Record,Record,,Sequence canvas context menu entry to 
 SequenceCanvas_Menu_RecordTranslation,Record Position,Record Position,,Sequence canvas context menu entry to record translation
 SequenceCanvas_Menu_RecordScale,Record Scale,Record Scale,,Sequence canvas context menu entry to record scale
 SequenceCanvas_Menu_RecordRotation,Record Rotation,Record Rotation,,Sequence canvas context menu entry to record rotation
-SequenceCanvas_Menu_OpenEditor,Open Editor...,Open Editor...,,Open editor for item resource
-SequenceCanvas_Menu_OpenInspector,Open Inspector,Open Inspector,,open inspector for item resource
+SequenceCanvas_Menu_OpenEditor,Open Editor...,Открыть редактор,,Open editor for item resource
+SequenceCanvas_Menu_OpenInspector,Open Inspector,Открыть окно свойств,,open inspector for item resource
 SequenceCanvas_Menu_Remove,Remove Key,Remove Key,,Sequence canvas context menu entry to remove selected items
 SequenceCanvas_Menu_RemoveTracks,Remove Track,Remove Track,,Sequence canvas context menu entry to remove selected tracks
 SequenceCanvas_ToggleGizmos,Toggle Gizmos,Toggle Gizmos,,Toggle gizmos on/off tooltip
@@ -8458,7 +8458,7 @@ RedefineKeys_Get Bookmark 8,Get Bookmark 8,Get Bookmark 8,,Redefine keys Get Boo
 RedefineKeys_Get Bookmark 9,Get Bookmark 9,Get Bookmark 9,,Redefine keys Get Bookmark 9 string
 RedefineKeys_Get Bookmark 0,Get Bookmark 0,Get Bookmark 0,,Redefine keys Get Bookmark 0 string
 RedefineKeys_manage_plugins,Manage Plugins,Manage Plugins,,Redefine keys manage_plugins string
-RedefineKeys_Open Inspector,Open Inspector,Open Inspector,,Redefine keys open_inspector string
+RedefineKeys_Open Inspector,Open Inspector,Открыть окно свойств,,Redefine keys open_inspector string
 RedefineKeys_Open Asset Browser,Open Asset Browser,Open Asset Browser,,Redefine keys open_asset_browser string
 RedefineKeys_do_nothing_rewrite,Do Nothing Rewrite,Do Nothing Rewrite,,Redefine keys do_nothing_rewrite string
 RedefineKeys_enumerate_references,Enumerate References,Enumerate References,,Redefine keys enumerate_references string
@@ -8496,7 +8496,7 @@ RedefineKeys_decrement_brush_size,Decrement Brush Size,Decrement Brush Size,,Red
 RedefineKeys_Open In Explorer,Open In Explorer,Open In Explorer,,Redefine keys Open In Explorer string
 RedefineKeys_Open Room Properties,Open Room Properties,Open Room Properties,,Redefine keys Open Room Properties string
 RedefineKeys_Open Layer Properties,Open Layer Properties,Open Layer Properties,,Redefine keys Open Layer Properties string
-RedefineKeys_Open Instance Creation Order,Open Instance Creation Order,Open Instance Creation Order,,Redefine keys Open Instance Creation Order string
+RedefineKeys_Open Instance Creation Order,Open Instance Creation Order,Открыть порядок создания экземпляров,,Redefine keys Open Instance Creation Order string
 RedefineKeys_Open Layer View,Open Layer View,Open Layer View,,Redefine keys Open Layer View string
 RedefineKeys_cut_selection_win,Cut Selection Win,Cut Selection Win,,Redefine keys cut_selection_win string
 RedefineKeys_copy_selection_win,Copy Selection Win,Copy Selection Win,,Redefine keys copy_selection_win string
@@ -9367,7 +9367,7 @@ BugReport_ContinueAnon,Continue Anonymously,Continue Anonymously,,continue anon
 BugReport_ManualContentURL,URL of the manual page which has the problem:*,URL of the manual page which has the problem:*,,bug report label
 BugReport_ManualDescText,"Describe the issue in as much detail as possible - please say exactly where on the page you found this issue (screenshots are welcomed), what the problem is, and how you think the current content should be changed to fix the situation.","Describe the issue in as much detail as possible - please say exactly where on the page you found this issue (screenshots are welcomed), what the problem is, and how you think the current content should be changed to fix the situation.",,manual bug description tooltip
 BugReport_PlatformsReproduced,Platforms reproduced on:,Platforms reproduced on:,,bug report label
-BugReport_Platforms,Platforms,Platforms,,bug report platforms label
+BugReport_Platforms,Platforms,Платформы,,bug report platforms label
 BugReport_PlatformsTT,Please indicate the target platform(s) on which the issue occurs,Please indicate the target platform(s) on which the issue occurs,,platforms tooltip
 IDEMenu_Help_CreateBugPackage,Upload a Bug/Ticket Sample,Upload a Bug/Ticket Sample,,Menu Item for creating a bug package
 BugPackage_Title,Create Bug Package,Create Bug Package,,bug package title
@@ -9377,7 +9377,7 @@ BugPackage_Progress_CopyingProject,Copying project files...,Copying project file
 BugPackage_Progress_CopyingPrefabs,Copying prefabs...,Copying prefabs...,,progress message
 BugPackage_Progress_ZippingProject,Archiving project...,Archiving project...,,progress message
 BugPackage_Progress_ZippingPackage,Archiving package...,Archiving package...,,progress message
-BugPackage_Progress_Uploading,Uploading...,Uploading...,,progress message
+BugPackage_Progress_Uploading,Uploading...,Загрузка...,,progress message
 BugPackage_PleaseWait,Please wait while the package is created.,Please wait while the package is created.,,please wait
 BugPackage_CreateFailed,Failed to create package,Failed to create package,,package create fail
 BugPackage_UploadFailed,Upload failed,Upload failed,,upload fail
@@ -9387,8 +9387,8 @@ BugPackage_UploadLink,Bug package upload link: {0},Bug package upload link: {0},
 BugPackage_ZipCreatedAt,Bug package created at: {0},Bug package created at: {0},,bug package location msg
 BugPackage_SignInMsg,You must be signed-in to upload a bug / ticket sample.,You must be signed-in to upload a bug / ticket sample.,,bug package sign-in
 verbose_logging,Enable Verbose Logging,Enable Verbose Logging,,Enable Verbose Logging
-TextDocumentTab_CMenu_ShowInAssetBrowser,Show in Asset Browser,Show in Asset Browser,,Show in Asset Browser
-TextDocumentTab_CMenu_ShowInInspector,Show in Inspector,Show in Inspector,,Show in Inspector
+TextDocumentTab_CMenu_ShowInAssetBrowser,Show in Asset Browser,Показать в обозревателе ассетов,,Show in Asset Browser
+TextDocumentTab_CMenu_ShowInInspector,Show in Inspector,Показать в окне свойств,,Show in Inspector
 TextDocumentTab_CMenu_CopyFullPath,Copy Full Path,Copy Full Path,,Copy Full Path
 Plugin_UpgradePrompt,A new version of {0} is available. Would you like to update?,A new version of {0} is available. Would you like to update?,,Plugin upgrade prompt
 Plugin_CheckForNewReleases,Automatically check for new plugin versions on startup,Automatically check for new plugin versions on startup,,
@@ -9436,14 +9436,14 @@ TextMateTheme_Restore,Restore Default Colours,Restore Default Colours,,Restore O
 TextMate_NewScope_Name,New Scope,New Scope,,New Scope
 TextMateTheme_Readonly,This theme is readonly as it is a default theme; New... from Copy of Selected to customize.,This theme is readonly as it is a default theme; New... from Copy of Selected to customize.,,This theme is readonly as it is a default theme; New... from Copy of Selected to customize.
 TextMateTheme_Warning_ChangesDiscarded,Unsaved changes to the previous theme have been discarded.,Unsaved changes to the previous theme have been discarded.,,Unsaved changes to the previous theme have been discarded.
-codeeditor_theme,Theme,Theme,,Theme
+codeeditor_theme,Theme,Тема,,Theme
 CodeEditor2_SplitterButton_Tooltip,Click and drag to split view vertically or horizontally.\nRight click to split horizontally.,Click and drag to split view vertically or horizontally.\nRight click to split horizontally.,,Click and drag to split view vertically or horizontally.\nRight click to split horizontally.
 LanguageServerMessage_Error,Language Services - Error,Language Services - Error,,Language Services - Error
 LanguageServerMessage_Warning,Language Services - Warning,Language Services - Warning,,Language Services - Warning
 LanguageServerMessage_Info,Language Services - Info,Language Services - Info,,Language Services - Info
 LanguageServerMessage_Log,Language Services - Log,Language Services - Log,,Language Services - Log
 FontManager_VirusErrorTitle,Font Virus Error,Font Virus Error,,font virus error dialog title
-Button_OpenGuide,Open Guide,Open Guide,,font virus error open guide button
+Button_OpenGuide,Open Guide,Открыть руководство,,font virus error open guide button
 FontManager_VirusError,"""Mysql"" virus font directory found.\nNot all fonts were loaded, please read the attached guide to fix the issue and restart GameMaker.","""Mysql"" virus font directory found.\nNot all fonts were loaded, please read the attached guide to fix the issue and restart GameMaker.",,error message for "Mysql" virus font
 PrefabBrowser_AvailablePrefabs,Available Prefabs,Available Prefabs,,The title on the PrefabBrowser gadget
 PrefabBrowser_CountSelected,{0} selected of {1},{0} selected of {1},,Summary of multi selection status
@@ -9484,8 +9484,8 @@ PrefabMetadataEditor_BadImageFile,File selected is invalid image,File selected i
 PrefabMetadataEditor_DisplayName,Display name,Display name,,Prefab metadata editor DisplayName
 PrefabMetadataEditor_Description,Description,Description,,Prefab metadata editor Description
 PrefabMetadataEditor_PackageId,Package ID,Package ID,,Prefab metadata editor PackageId
-PrefabMetadataEditor_Version,Version,Version,,Prefab metadata editor Version
-PrefabMetadataEditor_Author,Author,Author,,Prefab metadata editor Author
+PrefabMetadataEditor_Version,Version,Версия,,Prefab metadata editor Version
+PrefabMetadataEditor_Author,Author,Автор,,Prefab metadata editor Author
 PrefabMetadataEditor_Signature,Signature,Signature,,Prefab metadata editor Signature
 PrefabMetadataEditor_Verify,Verify,Verify,,Prefab metadata editor Verify
 PrefabMetadataEditor_Icon,Icon,Icon,,Prefab metadata editor change the icon file (overwrite from another source)
@@ -9510,7 +9510,7 @@ ProjectTool_NoSourceProject,No Source Project Selected,No Source Project Selecte
 ProjectTool_NoDestinationProject,No Destination Project Selected,No Destination Project Selected,,No Destination Project Selected message
 Project Tool Output,Project Tool Output,Project Tool Output,,Project Tool Output menu option
 CodeSnippets_ConversionWarning,An old code snippets format was detected. Would you like to convert these to the new format?,An old code snippets format was detected. Would you like to convert these to the new format?,,Code snippets conversion warning
-RedefineKeys_TextEditor2,Code Editor 2,Code Editor 2,,Text Editor 2
+RedefineKeys_TextEditor2,Code Editor 2,Редактор кода 2,,Text Editor 2
 RedefineKeys_Show Code Completion Parameters,Show Code Completion Parameters,Show Code Completion Parameters,,Show Code Completion Parameters
 RedefineKeys_Dismiss Code Completion,Dismiss Code Completion,Dismiss Code Completion,,Dismiss Code Completion
 RedefineKeys_Format Document,Format Document,Format Document,,Format Document
