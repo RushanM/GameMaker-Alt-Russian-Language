@@ -120,7 +120,7 @@ CodeWindow_OpenInheritedEvent,Open Inherited Event,Open Inherited Event,,open in
 GotoLine_Title,Go To Line,Go To Line,,goto line dialog title
 GotoLine_Label,Line Number ({0} - {1}),Номер строки ({0} — {1}),,goto line label
 CompileErrors,Compile Errors,Ошибки компиляции,,Compile Errors tab title
-CompileErrors_NoErrors,There are no compile errors to show!,There are no compile errors to show!,,No compile errors message
+CompileErrors_NoErrors,There are no compile errors to show!,Ошибок компиляции нет!,,No compile errors message
 Configuration,Configuration,Настройка,,Configuration
 Configuration_Select,Select Configuration,Выберите настройку,,Window title for config select
 Configurations,Configurations,Настройки,,Configurations
@@ -471,7 +471,7 @@ Inspector_WindowTitleMulti,Inspector Window: Multiple Items,Окно свойс�
 Inspector_ErrorTitle,Inspector Error,"С окном свойств какая-то неладица",,An error occurred in the inspector
 Inspector_Lock,Lock inspector to current selection,Lock inspector to current selection,,Lock inspector tooltip
 Inspector_Unlock,Unlock inspector to allow new selections,Unlock inspector to allow new selections,,Unlock inspector tooltip
-Inspector_MultiSortMode,Multi-select order,Multi-select order,,multi select order menu entry
+Inspector_MultiSortMode,Multi-select order,Порядок выделения нескольких элементов,,multi select order menu entry
 Inspector_MultiSelLabel,Selection: ,Selection: ,,inspector multi select label
 Inspector_SelectExistingTag,Select existing tag,Select existing tag,,inspector tag combo label
 Inspector_TagsWindowTitleArg,Tags: {0},Tags: {0},,tags window title
@@ -634,7 +634,7 @@ ListBoxEnum_ePSEmitterMode_Burst,Burst,Burst,,particle emitter mode burst
 ListBoxEnum_ePSysTexture_Pixel,Pixel,Pixel,,particle texture type
 ListBoxEnum_ePSysTexture_Disk,Disk,Disk,,particle texture type
 ListBoxEnum_ePSysTexture_Square,Square,Square,,particle texture type
-ListBoxEnum_ePSysTexture_Line,Line,Line,,particle texture type
+ListBoxEnum_ePSysTexture_Line,Line,Строка,,particle texture type
 ListBoxEnum_ePSysTexture_Star,Star,Star,,particle texture type
 ListBoxEnum_ePSysTexture_Circle,Circle,Circle,,particle texture type
 ListBoxEnum_ePSysTexture_Ring,Ring,Ring,,particle texture type
@@ -1393,7 +1393,7 @@ Object_PhysicsSensor,Sensor,Sensor,,"object ""physicsSensor"" property label"
 Object_PhysicsStartAwake,Start Awake,Start Awake,,"object ""physicsStartAwake"" property label"
 Object_Solid,Solid,Solid,,"Object Model ""solid"" property"
 Object_Solid_Tooltip,Solid instances will automatically be placed back in their previous position when in collision,Solid instances will automatically be placed back in their previous position when in collision,,object editor solid property tooltip
-Object_UsesPhysics,Uses Physics,Uses Physics,,"Object Model ""uses physics"" property"
+Object_UsesPhysics,Uses Physics,Использует физику,,"Object Model ""uses physics"" property"
 Object_UsesPhysics_Tooltip,Instances use physics processing when in a room with 'Enable Physics' checked,Instances use physics processing when in a room with 'Enable Physics' checked,,object editor uses physics tooltip
 Object_Visible,Visible,Видим,,"Object Model ""visible"" property"
 Object_Visible_Tooltip,"When unchecked, instances of this object will still be processed, but will not be drawn","When unchecked, instances of this object will still be processed, but will not be drawn",,object editor visible property tooltip
@@ -1415,7 +1415,7 @@ ObjectEditor_EventTypeScript,GML Code,GML Code,,Event type when script
 ObjectEditor_EventTypeGMLVisual,GML Visual,GML Visual,,Event type when GML Visual
 ObjectEditor_Children,Children,Children,,Children label in Object Editor
 ObjectEditor_Circle,Circle,Circle,,Object editor collision shape circle
-ObjectEditor_CodeWindow,Code,Code,,object editor code window heading
+ObjectEditor_CodeWindow,Code,Код,,object editor code window heading
 ObjectEditor_CollisionShape,Collision Shape,Collision Shape,,Object editor collision shape label
 ObjectEditor_CurrentFrame,Current Frame,Current Frame,,Physics collision window current frame
 ObjectEditor_DeleteEvent,Delete Event,Delete Event,,Object Editor delete event menu option
@@ -1464,8 +1464,8 @@ ObjectEditor_RemoveListItem,Remove this item,Remove this item,,Remove this item 
 ObjectEditor_PhysicsProperties,Physics Properties,Physics Properties,,Object editor physics properties label
 ObjectEditor_PhysicsShape_WindowTitle,Physics Collision Shape,Physics Collision Shape,,Object editor physics shape window title
 ObjectEditor_Properties,Properties,Свойства,,Object editor properties heading
-ObjectEditor_SameMask,Same As Sprite,Same As Sprite,,"Object editor ""same as sprite"" mask setting"
-ObjectEditor_MaskSameAsSprite,Same As Sprite,Same As Sprite,,Object editor same mask caption
+ObjectEditor_SameMask,Same As Sprite,Такая же как у спрайта,,"Object editor ""same as sprite"" mask setting"
+ObjectEditor_MaskSameAsSprite,Same As Sprite,Такая же как у спрайта,,Object editor same mask caption
 ObjectEditor_Shape,Convex Shape,Convex Shape,,"Object editor collision shape ""shape"""
 ObjectEditor_WindowTitle,Object: {0},Объект: {0},,Object properties window title
 ObjectEditor_Prop_RemoveTooltip,Remove this variable,Remove this variable,,Remove variable row tooltip
@@ -1477,7 +1477,7 @@ ObjectEditor_EventReplaceLabel,Replace,Replace,,replace button label
 ObjectEditor_EventNewLabel,New Event,New Event,,new event button label
 InstanceEditor_Prop_OverrideTooltip,Override this variable,Override this variable,,Override variable tooltip
 OutputPanel_Output,Output,Вывод,,Output panel output tab name
-OutputPanel_SearchResults,Search Results,Search Results,,Output panel search results tab name
+OutputPanel_SearchResults,Search Results,Результаты поиска,,Output panel search results tab name
 OutputPanel_SourceControl,Source Control,Система управления версиями,,Output panel source control tab name
 OutputPanel_ProjectTool,Project Tool,Project Tool,,Output panel project tool tab name
 PathEditor_Increment,Increment:,Increment:,,Increment path label
@@ -1530,7 +1530,7 @@ DebugInfo_DumpMemory,Memory Usage,Memory Usage,,Dump memory button label
 DebugInfo_CrashButton,DIE DIE DIE (Crash),DIE DIE DIE (Crash),,Crash button label
 DebugInfo_SkinChangeButton, Update Skin, Update Skin,,Debug Skin Change button label
 OutputPanel_Title,Output,Вывод,,Output panel window title
-PropertyButton_NoResourceArg,No {0},No {0},,no resource (type name) selected caption for resource button
+PropertyButton_NoResourceArg,No {0},{0} отсутствует,,no resource (type name) selected caption for resource button
 PropertyButton_NoResource,No Resource,No Resource,,no resource selected caption for resource button
 PropertyButton_NoGMObject,No Object,No Object,,no object selected caption for the view object button
 PropertyButton_NoGMSprite,No Sprite,No Sprite,,Button caption for when no sprite is selected
@@ -1588,7 +1588,7 @@ ResourceTree_Extensions,Extensions,Extensions,,"Resource tree ""Extensions"" lab
 ResourceTree_FileDelete_Confirm,"You are about to delete the file ""{0}"". Continue?","You are about to delete the file ""{0}"". Continue?",,Resource tree file delete user confirmation
 ResourceTree_Fonts,Fonts,Fonts,,"Resource tree ""Fonts"" label"
 ResourceTree_Folders,Folders,Folders,,resource tree folders resource label
-ResourceTree_IncludedFiles,Included Files,Included Files,,"Resource tree ""Included Files"" label"
+ResourceTree_IncludedFiles,Included Files,Вложенные файлы,,"Resource tree ""Included Files"" label"
 ResourceTree_NoResourceFound,No results found,No results found,,message when nothing found when searching resource tree
 ResourceMenu_CreateExtension,Create Extension,Create Extension,,"Resource menu ""Create Extension"" entry"
 ResourceMenu_CreateFont,Create Font,Create Font,,"Resource menu ""Create Font"" entry"
@@ -2051,7 +2051,7 @@ SearchReplace_FindAll,Find All,Find All,,Search and Replace - Find All
 SearchReplace_FindNext,Find Next,Find Next,,Search and Replace - Find Next
 SearchReplace_FindPrevious,Find Previous,Find Previous,,Search and Replace - Find Previous
 SearchReplace_ItemHeader,Item,Item,,"Search & Replace - Output window ""item"" header"
-SearchReplace_LineHeader,Line,Line,,"Search & Replace - Output window ""line"" header"
+SearchReplace_LineHeader,Line,Строка,,"Search & Replace - Output window ""line"" header"
 SearchReplace_NoResults,No results were found.,No results were found.,,Search and Replace - No results found.
 SearchReplace_Replace,Replace:,Replace:,,Search and Replace - Replace
 SearchReplace_ReplaceAll,Replace All,Replace All,,Search and Replace - Replace All
@@ -2427,14 +2427,14 @@ ListBoxEnum_eParticleDistribution_Linear,Linear,Linear,,Linear particle distribu
 ListBoxEnum_eParticleDistribution_Gaussian,Gaussian,Gaussian,,Gaussian particle distribution
 ListBoxEnum_eParticleDistribution_InverseGaussian,Inverse Gaussian,Inverse Gaussian,,Inverse gaussian particle distribution
 ListBoxEnum_eEmitterShape_Rectangle,Rectangle,Rectangle,,Rectangular emitter shape
-ListBoxEnum_eEmitterShape_Line,Line,Line,,Line emitter shape
+ListBoxEnum_eEmitterShape_Line,Line,Строка,,Line emitter shape
 ListBoxEnum_eEmitterShape_Ellipse,Ellipse,Ellipse,,Ellipse emitter shape
 ListBoxEnum_eEmitterShape_Diamond,Diamond,Diamond,,Diamond emitter shape
 ListBoxEnum_ePartTypeTexture_Pixel,Pixel,Pixel,,Particle type texture
 ListBoxEnum_ePartTypeTexture_Disk,Disk,Disk,,Particle type texture
 ListBoxEnum_ePartTypeTexture_Circle,Circle,Circle,,Particle type texture
 ListBoxEnum_ePartTypeTexture_Ring,Ring,Ring,,Particle type texture
-ListBoxEnum_ePartTypeTexture_Line,Line,Line,,Particle type texture
+ListBoxEnum_ePartTypeTexture_Line,Line,Строка,,Particle type texture
 ListBoxEnum_ePartTypeTexture_Square,Square,Square,,Particle type texture
 ListBoxEnum_ePartTypeTexture_Star,Star,Star,,Particle type texture
 ListBoxEnum_ePartTypeTexture_Spark,Spark,Spark,,Particle type texture
@@ -2754,7 +2754,7 @@ Views_Menu_Resources,Resources,Resources,,Views menu entry for resources
 Views_Menu_AssetBrowser,Asset Browser,Обозреватель ассетов,,Views menu entry for resources
 Views_Menu_Inspector,Inspector,Окно свойств,,Views menu entry for inspector
 Views_Menu_Tutorial,Tutorial Windows,Tutorial Windows,,Views menu entry for tutorial windows
-Views_Menu_SearchResults,Search Results,Search Results,,Views menu entry for the search results panel
+Views_Menu_SearchResults,Search Results,Результаты поиска,,Views menu entry for the search results panel
 Views_Menu_SourceControl,Source Control Output,Source Control Output,,Views menu entry for the source control output window
 Views_Menu_Breakpoints,Breakpoints,Breakpoints,,Views menu entry for the breakpoints window
 Views_Menu_CompileErrors,Compile Errors,Compile Errors,,Views menu entry for the compile errors window
@@ -2766,7 +2766,7 @@ TimeLine_MergeWarning,Merging moments is a permanent action that cannot be undon
 TimeLine_MergeWarningTitle,Merge Moments,Merge Moments,,Merge moments warning dialog title
 TimeLine_DeleteWarning,Deleting moments is a permanent action that cannot be undone. Are you sure you want to continue?,Deleting moments is a permanent action that cannot be undone. Are you sure you want to continue?,,Delete warning for time lines
 TimeLine_DeleteWarningTitle,Delete Moments,Delete Moments,,Delete moments warning dialog title
-Workspace_TabTitle,Workspace {0},Workspace {0},,The default tab name for workspace tabs
+Workspace_TabTitle,Workspace {0},Раб. пространство {0},,The default tab name for workspace tabs
 Dock_TabTitle,Dock Tab{0},Dock Tab{0},,the default tab name for dock tabs
 RoomEditor_InvalidDragGadgetType,"{0} assets can't be added directly to a Room.","{0} assets can't be added directly to a Room.",,room unsupported asset type msg
 RoomEditor_InvalidDragGadget,"The selected layer does not accept the dragged assets, please select an appropriate layer type, ie. object -> instance layer, sprite -> asset or background layer, path -> path layer","The selected layer does not accept the dragged assets, please select an appropriate layer type, ie. object -> instance layer, sprite -> asset or background layer, path -> path layer",, Information warning for dropping resource gadgets on a layer which won't accept them
@@ -4549,7 +4549,7 @@ use_us_customs,Use US Date Format,Use US Date Format,,Use the US date format on 
 max_num_syntax_errors,Maximum number of Syntax Errors to display,Maximum number of Syntax Errors to display,,Maximum number of Syntax Errors to display
 enable_reference_warnings,Enable variable reference warnings,Enable variable reference warnings,,Enable variable reference warnings
 enable_statement_folding,Enable statement folding as regions,Enable statement folding as regions,,Enable statement folding as regions
-GMStdCatDefault,Default,Default,,GML Visual library category name
+GMStdCatDefault,Default,По умолчанию,,GML Visual library category name
 GMStdFunction,Function,Function,,GML Visual label
 GMStdOption,Option,Настройка,,GML Visual label
 GMStdChoose_Name,Choose,Choose,,GML Visual label
@@ -5131,7 +5131,7 @@ GMStdVAlign,VAlign,VAlign,,GML Visual library argument label
 GMStdLayerName,Layer,Layer,,GML Visual library argument label
 GMStdTileIndex,Tile,Tile,,GML Visual library argument label
 GMStdData,Data,Data,,GML Visual label
-GMStdColumn,Column,Column,,GML Visual library argument label
+GMStdColumn,Column,Столбец,,GML Visual library argument label
 GMStdRow,Row,Row,,GML Visual library argument label
 GMStdScore,Score,Score,,GML Visual library argument label
 GMStdLives,Lives,Lives,,GML Visual library argument label
@@ -5167,7 +5167,7 @@ GMStdDefault,Default,По умолчанию,,GML Visual library argument label
 GMStdTimeline,Timeline,Timeline,,GML Visual library argument label
 GMStdMoment,Moment,Moment,,GML Visual library argument label
 GMStdState,State,State,,GML Visual library argument label
-GMStdMessage,Message,Message,,GML Visual library argument label
+GMStdMessage,Message,Сообщение,,GML Visual library argument label
 GMStdMap,Map,Map,,GML Visual library argument label
 GMStdKey,Key,Key,,GML Visual library argument label
 GMStdColorMix,Colour Mix,Colour Mix,,GML Visual library argument label
@@ -5302,7 +5302,7 @@ GMStdXAndY,X And Y,X And Y,,GML Visual
 GMStdXOnly,X Only,X Only,,GML Visual
 GMStdYOnly,Y Only,Y Only,,GML Visual
 GMStdRectangle,Rectangle,Rectangle,,GML Visual
-GMStdLine,Line,Line,,GML Visual
+GMStdLine,Line,Строка,,GML Visual
 GMStdLeftStickHor,Left Stick (Horizontal),Left Stick (Horizontal),,GML Visual
 GMStdLeftStickVer,Left Stick (Vertical),Left Stick (Vertical),,GML Visual
 GMStdRightStickHor,Right Stick (Horizontal),Right Stick (Horizontal),,GML Visual
@@ -5442,7 +5442,7 @@ GMStdBufferEOS_Name,If End Of Buffer,If End Of Buffer,,GML Visual action name
 GMStdBufferEOS_Desc,Checks if the end of a buffer has been reached.,Checks if the end of a buffer has been reached.,,GML Visual action description
 GMStdBufferExists_Name,If Buffer Exists,If Buffer Exists,,GML Visual action name
 GMStdBufferExists_Desc,Checks if a buffer exists.,Checks if a buffer exists.,,GML Visual action description
-GMStdDefault_Name,Default,Default,,GML Visual action name
+GMStdDefault_Name,Default,По умолчанию,,GML Visual action name
 GMStdDefault_Desc,A default switch case for when no other case is matched.,A default switch case for when no other case is matched.,,GML Visual action description
 GMStdLoop_Name,Loop,Loop,,GML Visual action name
 GMStdLoop_Desc,A generic loop that continues until a Break action is hit.,A generic loop that continues until a Break action is hit.,,GML Visual action description
@@ -5664,8 +5664,8 @@ RemoteWorker_Error_Connect,Failed to connect to the remote worker.\nVerify the h
 RemoteWorker_NameErrorTitle,Remote Worker Name Error,Remote Worker Name Error,,Error with Remote Worker Name
 RemoteWorker_NameError,A Remote Worker with this name already exists.,A Remote Worker with this name already exists.,,Remote Worker Name error message
 RemoteWorker_PlatformNotSupported,The current platform is not supported on this Remote Worker.,The current platform is not supported on this Remote Worker.,,Platform is not supported on this remote worker
-SearchOutput_Default,Press ${open_search_replace} to open the Search and Replace window.,Press ${open_search_replace} to open the Search and Replace window.,,Default text for the Search Output Window
-SourceControl_Default,Source Control Output will go here.,Source Control Output will go here.,,Default text for the Source Control Window
+SearchOutput_Default,Press ${open_search_replace} to open the Search and Replace window.,"Нажмите ${open_search_replace}, чтобы открыть окно поиска и замены.",,Default text for the Search Output Window
+SourceControl_Default,Source Control Output will go here.,Здесь будет весь вывод системы управления версиями.,,Default text for the Source Control Window
 SourceControl_Trial,"Source Control Output would go here, but you are currently using a Trial version.\nPlease upgrade to a paid version to enable the Source Control features!\nVisit https://www.yoyogames.com/get2 to view our pricing.","Source Control Output would go here, but you are currently using a Trial version.\nPlease upgrade to a paid version to enable the Source Control features!\nVisit https://www.yoyogames.com/get2 to view our pricing.",,Default text for source control window when in trial mode.
 TileSetEditor_WarningRoomTileLayersAffected,"Tile size increase will cause rooms to lose some tile layer data, are you sure you want to make this change?\n\nTo avoid data loss press cancel and increase room size of the affected rooms: {0}","Tile size increase will cause rooms to lose some tile layer data, are you sure you want to make this change?\n\nTo avoid data loss press cancel and increase room size of the affected rooms: {0}",,warning for user when increasing tile width/height which would cause a room tile layer to be truncated and lose painted tiles
 GMStdAlpha_Name,Set Draw Alpha,Set Draw Alpha,,GML Visual set draw alpha node
@@ -6096,8 +6096,8 @@ ListBoxEnum_eSymbolType_eEnum,Enum,Enum,,Symbol type
 ListBoxEnum_eSymbolType_eKeyword,Keyword,Keyword,,Symbol type
 ListBoxEnum_eSymbolType_eConstant,Constant,Constant,,Symbol type
 ListBoxEnum_eSymbolType_eFunction,Function,Function,,Symbol type
-ListBoxEnum_eSymbolType_eScript,Script,Script,,Symbol type
-ListBoxEnum_eSymbolType_eResource,Resource,Resource,,Symbol type
+ListBoxEnum_eSymbolType_eScript,Script,Сценарий,,Symbol type
+ListBoxEnum_eSymbolType_eResource,Resource,Ресурс,,Symbol type
 ListBoxEnum_eSymbolType_eObsolete,Obsolete,Obsolete,,Symbol type
 Sprite_PreviewErrorMsg,The file '{0}' is not supported. See Compile Errors window.,The file '{0}' is not supported. See Compile Errors window.,,Generate preview error message
 Spine_PreviewErrorMsg,The file '{0}' is not supported. See Compile Errors window for further information and try re-exporting using a supported version of Spine.,The file '{0}' is not supported. See Compile Errors window for further information and try re-exporting using a supported version of Spine.,,Generate preview error message for Spine sprites
@@ -6370,7 +6370,7 @@ ResourceTree_ParticleSystems,Particle Systems,Particle Systems,,Particle systems
 ResourceTree_ParticleSystems_Singular,Particle System,Particle System,,Particle system resource name singular
 ResourceTree_ParticleEmitters,Particle Emitters,Particle Emitters,,particle emitters resource plural
 ResourceTree_ParticleEmitters_Singular,Particle Emitter,Particle Emitter,,particle emitter resource singular
-RT_Unknown,Resource,Resource,,unknown resource type name
+RT_Unknown,Resource,Ресурс,,unknown resource type name
 RT_RoomInstance,Object Instances,Экземпляры объекта,,room instance resource name
 RT_RoomInstance_Singular,Object Instance,Экземпляр объекта,,room instance resource name singular
 RT_RoomSpriteGraphic,Sprite Instances,Экземпляры спрайта,,room sprite graphic resource name
@@ -6439,7 +6439,7 @@ Tile Sets Editor,Tile Sets Editor,Tile Sets Editor,,Tile Sets Editor preference 
 Timelines,Timelines,Timelines,,Timelines preference group heading
 Extension Editor,Extension Editor,Extension Editor,,Extension Editor preference group heading
 Resource Tree,Resource Tree,Resource Tree,,Resource Tree preference group heading
-Text Editors,Text Editors,Text Editors,,Text Editors preference group heading
+Text Editors,Text Editors,Текстовые редакторы,,Text Editors preference group heading
 Languages,Languages,Языки программирования,,Languages preference group heading
 Marketplace,Marketplace,Торговая площадка,,Marketplace preference group heading
 Platform Settings,Platform Settings,Настройки платформ,,Platform Settings preference group heading
@@ -6562,7 +6562,7 @@ Surveys,Surveys,Surveys,,Surveys preference group subheading
 IDE,IDE,ИСР,,IDE preference group subheading
 External Editors,External Editors,External Editors,,External Editors preference group subheading
 Source Control,Source Control,Система управления версиями,,Source Control preference group subheading
-Search Results,Search Results,Search Results,,Search Results preference group subheading
+Search Results,Search Results,Результаты поиска,,Search Results preference group subheading
 Output,Output,Output,,Output preference group subheading
 Compile Errors,Compile Errors,Compile Errors,,Compile Errors preference group subheading
 Syntax Errors,Syntax Errors,Syntax Errors,,Syntax Errors preference group subheading
@@ -7053,7 +7053,7 @@ SequenceEditor_Pref_SelectTogether,Select asset keys and keyframes together,Sele
 SequenceEditor_Pref_BackdropWidth,Canvas frame width on newly created sequences,Canvas frame width on newly created sequences,,canvas frame width newly created sequence preference
 SequenceEditor_Pref_BackdropHeight,Canvas frame height on newly created sequences,Canvas frame height on newly created sequences,,canvas frame height newly created sequence preference
 SequenceEditor_Toolbar_Design,Design,Design,,Design button
-SequenceEditor_Toolbar_Code,Code,Code,,Code button
+SequenceEditor_Toolbar_Code,Code,Код,,Code button
 SequenceEditor_Toolbar_Split,Split,Split,,Split button
 AnimCurveEditor_Title,Animation Curve: {0},Animation Curve: {0},,Animation Curve editor window title
 ShapeViewerEditor_Title,Shape Viewer: {0},Shape Viewer: {0},,Shape Viewer editor window title
@@ -7129,11 +7129,11 @@ Track_Text,Text,Text,,Text track display name
 Track_Instance,Instance,Instance,,Instance track display name
 Track_Sound,Sound,Sound,,Sound track display name
 Track_Sequence,Sequence,Sequence,,Sequence track display name
-Track_Code,Code,Code,,Code track display name
+Track_Code,Code,Код,,Code track display name
 Track_Real,Real,Real,,Real track display name
 Track_String,String,String,,String track display name
-Track_Resource,Resource,Resource,,Resource track display name
-Track_Color,Colour,Colour,,Colour track display name
+Track_Resource,Resource,Ресурс,,Resource track display name
+Track_Color,Colour,Цвет,,Colour track display name
 Track_Bool,Boolean,Boolean,,Boolean track display name
 Track_Width,Width,Width,,Width parameter track display name
 Track_Height,Height,Height,,Height parameter track display name
@@ -7470,7 +7470,7 @@ Seq_ContextMenu_Locked,Locked,Locked,,Locked dopesheet track context menu entry
 SequenceTrack_ParamReal,Number,Number,,Add real parameter track
 SequenceTrack_ParamString,String,Строка,,Add string parameter track
 SequenceTrack_ParamBool,Boolean,Boolean,,Add boolean parameter track
-SequenceTrack_ParamResource,Resource,Resource,,Add resource parameter track
+SequenceTrack_ParamResource,Resource,Ресурс,,Add resource parameter track
 SequenceTrack_ParamColor,Colour,Colour,,Add colour parameter track
 SequenceTrack_ParamAudioEffect,Audio Effect,Audio Effect,,Add audio effect parameter track
 WindowTitle_RaiseEvents,Broadcast messages,Broadcast messages,,Broadcast messages dialog title
@@ -7479,7 +7479,7 @@ WindowTitle_NewKeyValue,Assign Value at Key {0},Assign Value at Key {0},,assign 
 WindowTitle_BaseValue,Assign Base Value for Track {0},Assign Base Value for Track {0},,assign base track value dialog title
 ValueDialog_Value,Value,Value,,Value label
 ValueDialog_TabTitle,Channel {0},Channel {0},,Value dialog channel tab title
-ValueDialog_Resource,Resource,Resource,,Resource label
+ValueDialog_Resource,Resource,Ресурс,,Resource label
 ValueDialog_EditEmbedCurve,Edit embedded curve,Edit embedded curve,,Resource label
 ValueDialog_EnterBaseValue,Enter the base value of this track:,Enter the base value of this track:,,Enter a base value for this track label
 ValueDialog_RealValue,Numeric Value,Numeric Value,,Real value for real track
@@ -7612,7 +7612,7 @@ AssetBrowser_ListView,List View,List View,,list view
 AssetBrowser_GridView,Grid View,Grid View,,grid view
 AssetBrowser_ShowTreeLocation,Show Tree Location,Show Tree Location,,show main tree location
 AssetBrowser_GameOptions,Game Options,Настройки игры,,game options
-AssetBrowser_IncludedFiles,Included Files,Included Files,,included files
+AssetBrowser_IncludedFiles,Included Files,Вложенные файлы,,included files
 AssetBrowser_TTSortFilter,Sort/Filter,Sort/Filter,,sort filter button tooltip
 AssetBrowser_TTMenu,Menu,Menu,,menu button tooltip
 AssetBrowser_DeleteTagConfirmMessage,Are you sure you want to delete selected Tags? Deleted Tags will be removed from all Assets.,Are you sure you want to delete selected Tags? Deleted Tags will be removed from all Assets.,,delete tag confirm message
@@ -8054,7 +8054,7 @@ Feather_GM1037,GM1037 - Static variables cannot be declared outside of a functio
 Feather_GM1038,GM1038 - Macro with this name has been previously declared.,GM1038 - Macro with this name has been previously declared.,,Feather rule
 Feather_GM1039,GM1039 - Recursive constructor function declaration.,GM1039 - Recursive constructor function declaration.,,Feather rule
 Feather_GM1040,GM1040 - argument# and argument[#] referencing cannot be mixed.,GM1040 - argument# and argument[#] referencing cannot be mixed.,,Feather rule
-Feather_GM1041,GM1041 - The type '{1}' appears where the type '{0}' is expected.,GM1041 - The type '{1}' appears where the type '{0}' is expected.,,Feather rule
+Feather_GM1041,GM1041 - The type '{1}' appears where the type '{0}' is expected.,GM1041: вставлено значение типа «{1}» заместо ожидаемого «{0}».,,Feather rule
 Feather_GM1042,GM1042 - Parameter name '{0}' differs from '{1}' specified in jsdoc.,GM1042 - Parameter name '{0}' differs from '{1}' specified in jsdoc.,,Feather rule
 Feather_GM1043,GM1043 - Potentially unintentional type reassignment from '{0}' to '{1}'.,GM1043 - Potentially unintentional type reassignment from '{0}' to '{1}'.,,Feather rule
 Feather_GM1044,GM1044 - Constant is expected to be one of the following: {0},GM1044 - Constant is expected to be one of the following: {0},,Feather rule
@@ -8094,7 +8094,7 @@ Feather_GM2013,GM2013 - Closing a vertex format without opening a vertex format.
 Feather_GM2014,GM2014 - The function '{0}' cannot be called outside of a vertex_format_begin()/vertex_format_end() block.,GM2014 - The function '{0}' cannot be called outside of a vertex_format_begin()/vertex_format_end() block.,,Feather rule
 Feather_GM2015,GM2015 - Not all code paths call vertex_format_end() before the end of the script.,GM2015 - Not all code paths call vertex_format_end() before the end of the script.,,Feather rule
 Feather_GM2016,"GM2016 - Instance variable '{0}' declared outside of Create event, declare with 'var' or move to Create event.","GM2016 - Instance variable '{0}' declared outside of Create event, declare with 'var' or move to Create event.",,Feather rule
-Feather_GM2017,GM2017 - Inconsistent naming. Recommended name is '{0}'.,GM2017 - Inconsistent naming. Recommended name is '{0}'.,,Feather rule
+Feather_GM2017,GM2017 - Inconsistent naming. Recommended name is '{0}'.,GM2017: различающийся стиль названия. Рекомендуемое название — «{0}».,,Feather rule
 Feather_GM2018,GM2018 - Potentially dangerous variable declaration.,GM2018 - Potentially dangerous variable declaration.,,Feather rule
 Feather_GM2019,GM2019 - Not all code paths call draw_set_valign(fa_top) before the end of the script.,GM2019 - Not all code paths call draw_set_valign(fa_top) before the end of the script.,,Feather rule
 Feather_GM2020,GM2020 - all cannot be referenced in this way.,GM2020 - all cannot be referenced in this way.,,Feather rule
