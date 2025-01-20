@@ -94,13 +94,13 @@ PluginWarning_PluginMetadataLoadError,Error loading plugin metadata file {0},Err
 PluginWarning_SymbolsFailedToLoadWarning,Symbols failed to load for assembly {0},Symbols failed to load for assembly {0},,SymbolsFailedToLoadWarning
 PluginWarning_UnknownPluginTypeError,Unknown plugin type for GMPlugin {0},Unknown plugin type for GMPlugin {0},,UnknownPluginTypeError
 PluginWarning_InvalidPluginDataError,GMPlugin {0} plugin data was invalid,GMPlugin {0} plugin data was invalid,,InvalidPluginDataError
-UserLogin_RetrySSO,Retry Opera Login,Retry Opera Login,,User Login — Error Retry SSO login
+UserLogin_RetrySSO,Retry Opera Login,Retry Opera Login,,User Login - Error Retry SSO login
 UserLogin_NoRuntime,Unable to access the Runtime Feed and no local Runtime installed. Please check your internet connection and start GameMaker again.,Unable to access the Runtime Feed and no local Runtime installed. Please check your internet connection and start GameMaker again.,,user login no runtime message
 UserLogin_InstallRuntimeTitle,Install Runtime {0},Install Runtime {0},,install runtime title
-UserLogin_RuntimeSpaceWarningMessage,Destination drive {0} has only {1} GB free space available.\nAt least 2 GB of free space is recommended - please ensure there is enough free space available before proceeding.,Destination drive {0} has only {1} GB free space available.\nAt least 2 GB of free space is recommended — please ensure there is enough free space available before proceeding.,,runtime free space warning message
+UserLogin_RuntimeSpaceWarningMessage,Destination drive {0} has only {1} GB free space available.\nAt least 2 GB of free space is recommended - please ensure there is enough free space available before proceeding.,Destination drive {0} has only {1} GB free space available.\nAt least 2 GB of free space is recommended - please ensure there is enough free space available before proceeding.,,runtime free space warning message
 UserLogin_Continue,Continue,Continue,,continue label
 UserLogin_MaxDevice,Maximum sign ins exceeded \nYou can manage your account sessions at {0},Maximum sign ins exceeded \nYou can manage your account sessions at {0},,User Login Error response 29
-User_OK,OK,OK,,User Login — two step authentication ok button
+User_OK,OK,OK,,User Login - two step authentication ok button
 runtime_selection,Runtime Selection,Runtime Selection,,Runtime Selection Window title
 runtime_onstartup_change,Do you want to change your current runtime to the matching IDE version {0}?,Do you want to change your current runtime to the matching IDE version {0}?,,Change current runtime to the version matching the IDE
 UserLogin_OfflineError,Unable to take user offline,Unable to take user offline,,offline error
@@ -110,3 +110,9 @@ IDETooltip_Notifications,Notifications,Notifications,,IDE toolbar notifications 
 runtime_dns_ResolvingFailed,DNS resolving has failed,DNS resolving has failed,,A title of the warning which is shown when after the IDE failed to resolve an address against an alternative DNS
 runtime_dns_ResolvingFailedMessage,Could not resolve {0} with an alternative DNS. A system DNS has been used,Could not resolve {0} with an alternative DNS. A system DNS has been used,,Could not use an alternative DNS
 ThemeError_MissingComma,"Error in theme at '{0}', check all entries are separated with commas","Error in theme at '{0}', check all entries are separated with commas",,error in skin theme message
+SplashScreen_PluginLoadFailed,Failed to load a required plug-in.  Please try restarting GameMaker.  If the problem persists please reinstall GameMaker.,Failed to load a required plug-in.  Please try restarting GameMaker.  If the problem persists please reinstall GameMaker.,,Error message when you fail to load a required plugin dll
+SplashScreen_PluginLoadFailedTitle,Failed to load a required plug-in,Failed to load a required plug-in,,Title for error message when you fail to load a required plugin dll
+SplashScreen_UserPluginLoadFailed,A failure occurred while loading user plugins. Consult your ui.log for more details,A failure occurred while loading user plugins. Consult your ui.log for more details,,Failed loading user plugin
+SplashScreen_UserPluginLoadFailedTitle,Failed loading a user plugin,Failed loading a user plugin,,Failed loading a user plugin
+RuntimeDownload_FailedTitle,Runtime install incomplete,Runtime install incomplete,,Runtime download failed title
+RuntimeDownload_Failed,The selected runtime could not fully install,The selected runtime could not fully install,,Runtime download failed message
