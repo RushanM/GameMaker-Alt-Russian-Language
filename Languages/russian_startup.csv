@@ -1,46 +1,51 @@
 Name,English,Translation,Restrictions,Comment
 _Language,English,Russian,,Название языка на английском
-_LanguageNative,English,Русский,,Language name in the native language
-_LanguageCode,ru,ru,,standard windows os language code this pack represents (can be primary code only ie. en or primary-secondary ie. en-GB)
-_GameMaker2016,GameMaker,GameMaker,,IDE title
-Splash_Done,Done.,Готово.,,Finished loading
-Splash_Loading,Loading....,Загрузка....,,Generic loading text
-Splash_WaitingNetwork,Checking Network...,Проверка сети...,,Network step
-Splash_LoadingLanguages,Loading Languages...,Загрузка языков...,,Loading the languages prefix
-Splash_LoadingPlugins,Loading Plugins...,Загрузка плагинов...,,Loading the plugins
-Splash_LoadingPrefs,Loading Preferences...,Загрузка настроек...,,Loading the preferences
-Splash_UserLogin,User Processing,User Processing,,User Processing has been started
-Notifications_Hub,Notification Hub,Центр уведомлений,,Notification Hub string
-IDEMenu_File,File,Файл,,The File menu item name
-IDEMenu_Edit,Edit,Редактирование,,The Edit menu item name
+_LanguageNative,English,Русский,,Название языка на родном языке
+_LanguageCode,ru,ru,,Стандартный код языка Windows для данного пакета (может быть только основной код, например, en, или основной-дополнительный код, например en-GB)
+_GameMaker2016,GameMaker,GameMaker,,Название ИСР
+Splash_Done,Done.,Готово.,,Загрузка завершена
+Splash_Loading,Loading....,Загрузка....,,Универсальный текст загрузки
+Splash_WaitingNetwork,Checking Network...,Проверка сети...,,Шаг проверки сети
+Splash_LoadingLanguages,Loading Languages...,Загрузка языков...,,Загрузка языковых пакетов
+Splash_LoadingPlugins,Loading Plugins...,Загрузка плагинов...,,Загрузка плагинов
+Splash_LoadingPrefs,Loading Preferences...,Загрузка настроек...,,Загрузка настроек
+Splash_UserLogin,User Processing,Обработка пользователя,,Начало обработки пользователя
+Notifications_Hub,Notification Hub,Центр уведомлений,,Строка для центра уведомлений
+IDEMenu_File,File,Файл,,Название пункта меню File
+IDEMenu_Edit,Edit,Редактирование,,Название пункта меню Edit
 IDEMenu_Build,Build,Сборка,,"File menu ""Build"""
-IDEMenu_Views,${IDEMenuViews},${IDEMenuViews},,Main menu entry for views
-$win_IDEMenuViews,Windows,Окна,,Windows version of the views menu entry
-$mac_IDEMenuViews,Window,Окно,,Mac version of the views menu entry
-$linux_IDEMenuViews,Windows,Окна,,Linux version of the views menu entry
-IDEMenu_Tools,Tools,Инструменты,,Main menu entry for tools
+IDEMenu_Views,${IDEMenuViews},${IDEMenuViews},,Главный пункт меню для Views
+$win_IDEMenuViews,Windows,Окна,,Версия меню Views для Windows
+$mac_IDEMenuViews,Window,Окно,,Версия меню Views для Mac
+$linux_IDEMenuViews,Windows,Окна,,Версия меню Views для Linux
+IDEMenu_Tools,Tools,Инструменты,,Главный пункт меню для Tools
 IDEMenu_Layouts,Layouts,Шаблоны среды,,Layouts
-IDEMenu_Marketplace,Marketplace,Торговая площадка,,Main menu entry for marketplace
-IDEMenu_Help,Help,Помощь,,Main menu entry for HELP
-IDETooltip_LaptopMode_On,On,вкл.,,On text
-IDETooltip_LaptopMode_Off,Off,выкл.,,Off text
-IDETooltip_LaptopMode_Description,"In Laptop Mode you can pan, scroll and zoom by moving the mouse over an area\nwhile holding ${LaptopLZoomKey} to zoom and Left Alt to pan and scroll.\nUse ${LaptopRHSKeys} for non-mouse interactions while Laptop Mode is enabled.","In Laptop Mode you can pan, scroll and zoom by moving the mouse over an area\nwhile holding ${LaptopLZoomKey} to zoom and Left Alt to pan and scroll.\nUse ${LaptopRHSKeys} for non-mouse interactions while Laptop Mode is enabled.",,IDE toolbar laptop mode description
-IDETooltip_LaptopMode_Title,Laptop Mode ({0}),Laptop Mode ({0}),,IDE toolbar laptop mode title
-StartPage_Title,Start Page,Начальная страница,,Start page title
-IDE_FatalErrorTitle,Fatal Error,Fatal Error,,Title for the fatal error warning dialog
-IDE_FatalErrorWarning,GameMaker has become unstable.\nPlease save changes and exit.,GameMaker has become unstable.\nPlease save changes and exit.,,Warn the user they should try saving changes and exit
-IDE_Warning,Warning,Warning,,Warning for IDE
-IDE_FolderPermsWarning,GameMaker is unable to access vital system folders.\nPlease check your paths in preferences and verify your folder permissions or contact your system administrator.\n\n{0},GameMaker is unable to access vital system folders.\nPlease check your paths in preferences and verify your folder permissions or contact your system administrator.\n\n{0},,File permissions failure on startup
-Button_OK,OK,OK,,ok button
-Button_Yes,Yes,Yes,,Yes
-Button_No,No,No,,No
-Dialog_CopyToClipboard,Copy to clipboard,Copy to clipboard,,Copy the dialog message to the clipboard
-IDE_VersionInfo,{1} IDE v{0},{1} ИСР {0},,the ide version information string
-IDE_SteamVersionInfo,{1} IDE v{0} Steam,"{1} ИСР {0}, версия со Steam",,the ide version information string when running from steam
-UpdateDialogDownloadNow,Download now,Download now,,Update new version dialog — download now button
-UpdateDialogRemindMe,Remind me later,Remind me later,,Update new version dialog — remind me later button
-UpdateDialogLabel,New version is available! \nYou are on v{0}\nNew version is {1},New version is available! \nYou are on v{0}\nNew version is {1},,Update new version dialog — tell user which version they are on and which version update will take them to
-UpdateDialogReleaseNotes,View Release notes,View Release notes,,Update new version dialog — view release notes button
+IDEMenu_Marketplace,Marketplace,Торговая площадка,,Главный пункт меню для Marketplace
+IDEMenu_Help,Help,Помощь,,Главный пункт меню для HELP
+IDETooltip_LaptopMode_On,On,вкл.,,Текст «Включено»
+IDETooltip_LaptopMode_Off,Off,выкл.,,Текст «Выключено»
+IDETooltip_LaptopMode_Description,"In Laptop Mode you can pan, scroll and zoom by moving the mouse over an area\nwhile holding ${LaptopLZoomKey} to zoom and Left Alt to pan and scroll.\nUse ${LaptopRHSKeys} for non-mouse interactions while Laptop Mode is enabled.","В режиме ноутбука вы можете перемещаться, прокручивать и масштабировать, перемещая курсор мыши над областью,\nудерживая ${LaptopLZoomKey} для увеличения и левый Alt для перемещения и прокрутки.\nИспользуйте ${LaptopRHSKeys} для взаимодействия без мыши при включённом режиме ноутбука.",,Описание для режима ноутбука в ИСР
+IDETooltip_LaptopMode_Title,Laptop Mode ({0}),Режим ноутбука ({0}),,Заголовок панели инструментов ИСР для режима ноутбука
+StartPage_Title,Start Page,Начальная страница,,Заголовок стартовой страницы
+IDE_FatalErrorTitle,Fatal Error,Критическая ошибка,,Заголовок диалогового окна критической ошибки
+IDE_FatalErrorWarning,GameMaker has become unstable.\nPlease save changes and exit.,GameMaker работает нестабильно.\nСохраните изменения и выйдите.,,Предупреждение пользователя о том что следует сохранить изменения и выйти
+IDE_Warning,Warning,Предупреждение,,Предупреждение для ИСР
+IDE_FolderPermsWarning,GameMaker is unable to access vital system folders.\nPlease check your paths in preferences and verify your folder permissions or contact your system administrator.\n\n{0},GameMaker не может получить доступ к важным системным папкам.\nПроверьте пути в настройках и убедитесь в корректности разрешений на папки или обратитесь к администратору.\n\n{0},,Отсутствие доступа к системным каталогам при запуске
+Button_OK,OK,ОК,,Кнопка ОК
+Button_Yes,Yes,Да,,Кнопка Yes
+Button_No,No,Нет,,Кнопка «No»
+Dialog_CopyToClipboard,Copy to clipboard,Копировать в буфер,,Копировать сообщение диалогового окна в буфер
+IDE_VersionInfo,{1} IDE v{0},{1} ИСР {0},,Информация о версии IDE
+IDE_SteamVersionInfo,{1} IDE v{0} Steam,"{1} ИСР {0}, версия со Steam",,Информация о версии ИСР при запуске из Steam
+UpdateDialogDownloadNow,Download now,Скачать сейчас,,Диалоговое окно нового обновления: кнопка «скачать»
+UpdateDialogRemindMe,Remind me later,Напомнить позже,,Диалоговое окно нового обновления: кнопка «напомнить позже»
+UpdateDialogLabel,New version is available! \nYou are on v{0}\nNew version is {1},Доступна новая версия! \nУ вас установлена версия {0}\nНовая версия: {1},,Диалоговое окно нового обновления: указывает какая версия сейчас и какая версия доступна
+UpdateDialogReleaseNotes,View Release notes,Посмотреть список изменений,,Диалог нового обновления: кнопка для просмотра списка изменений
+UpdateDialogTitle,IDE Update,Обновление IDE,,Заголовок диалогового окна обновления ИСР
+UpdateDialogRestartNow,Restart Now,Перезапустить сейчас,,Перезапустить сейчас
+UpdateDialogUpdateOnClose,Update On Close IDE,Обновить при закрытии ИСР,,Обновление при закрытии
+UpdateDialog_ViewReleaseNotes,Release Notes,Список изменений,,Просмотр списка изменений
+UpdateDialog_IgnoreUpdate,Skip Update,Пропустить обновление,,Пропустить обновление
 UpdateDialogTitle,New Version,New Version,,Update new version dialog title
 UpdateDialog_ViewReleaseNotes,View release notes,View release notes,,view release notes
 UpdateDialog_IgnoreUpdate,Ignore this update,Ignore this update,,ignore this update
