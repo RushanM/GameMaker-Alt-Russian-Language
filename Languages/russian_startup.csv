@@ -1,7 +1,7 @@
 Name,English,Translation,Restrictions,Comment
 _Language,English,Russian,,Название языка на английском
 _LanguageNative,English,Русский,,Название языка на родном языке
-_LanguageCode,ru,ru,,Стандартный код языка Windows для данного пакета (может быть только основной код, например, en, или основной-дополнительный код, например en-GB)
+_LanguageCode,ru,ru,,Стандартный код языка Windows для данного пакета (может быть только основной код например en или основной-дополнительный код например en-GB)
 _GameMaker2016,GameMaker,GameMaker,,Название ИСР
 Splash_Done,Done.,Готово.,,Загрузка завершена
 Splash_Loading,Loading....,Загрузка....,,Универсальный текст загрузки
