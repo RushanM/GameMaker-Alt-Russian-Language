@@ -1717,7 +1717,7 @@ RoomEditor_InstanceNameFirst,Show Instance names first,Show Instance names first
 RoomEditor_AssetNameFirst,Show Asset names first,Show Asset names first,,room instances panel - show asset name first
 RoomEditor_RenameInstance,Rename Instance,Rename Instance,,rename
 RoomProperties_BackgroundColour,Room Colour,Room Colour,,room properties section heading for background colour
-RoomProperties_ClearDisplayBuffer,Clear Display Buffer,Clear Display Buffer,,checkbox caption for clear display buffer option
+RoomProperties_ClearDisplayBuffer,Clear Display Buffer,Очистить буфер экрана,,Приписка к полю галочки опции очистки буфера экрана
 RoomProperties_ClearView,Clear Viewport Background,Clear Viewport Background,,checkbox caption for clear view background option
 RoomProperties_Colour,Colour,Цвет,,colour select box caption
 RoomProperties_CreationCode,Creation Code,Код при создании,,button caption for opening creation code
