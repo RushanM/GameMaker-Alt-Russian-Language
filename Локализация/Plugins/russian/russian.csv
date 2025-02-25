@@ -67,57 +67,56 @@ Button_OK,OK,ОК,,ok button
 Button_Subscribe,Subscribe,Подписаться,,Subscribe button
 Button_UpdateLicense,Update License,Обновить лицензию,,Update License button
 Button_Rename,Rename,Переименовать,,Rename button
-Button_Resize,Resize,Resize,,resize button label
-Button_Scale,Scale,Scale,,Image editor — scale button
-Button_Yes,Yes,Yes,,Yes
-Button_Next,Next,Next,,next button label
+Button_Resize,Resize,Изменить размер,,Метка кнопки изменения размера
+Button_Scale,Scale,Масштабировать,,Кнопка масштабирования (в редакторе изображений)
+Button_Yes,Yes,Да,,Да
+Button_Next,Next,Далее,,Метка кнопки «Далее»
 Button_Create,Create,Создать,,create button label
 Button_Apply,Apply,Применить,,apply button label
 Button_Search,Search,Поиск,,search button label
-Button_Remove_All,Remove All,Remove All,,button label — remove all
+Button_Remove_All,Remove All,Удалить всё,,Метка кнопки для удаления всего
 Button_Save,Save,Сохранить,,save button label
-Dialog_ResetLayout_Title,Reset Layout,Reset Layout,,Reset layout dialog title
-Dialog_ResetLayout,Resetting the project layout will close any open resources. Are you sure you want to reset the layout?,Resetting the project layout will close any open resources. Are you sure you want to reset the layout?,,Dialog message reset layout
-Dialog_ResetLayout_ChoicePref,Automatic response to resetting the project layout,Automatic response to resetting the project layout,,Default reset layout dialog choice
-LicenseNotification_TrialExpiring,Your trial is due to expire in {0} days,Your trial is due to expire in {0} days,,Trial licence expiry notification
-LicenseNotification_Expiring,Your licence is due to expire in {0} days,Your licence is due to expire in {0} days,,Licence expiry notification
+Dialog_ResetLayout_Title,Reset Layout,Сбросить раскладку,,Заголовок диалогового окна сброса макета
+Dialog_ResetLayout,Resetting the project layout will close any open resources. Are you sure you want to reset the layout?,"Сброс макета проекта закроет все открытые ресурсы. Вы уверены, что хотите сбросить раскладку?",,Сообщение диалогового окна для сброса макета
+Dialog_ResetLayout_ChoicePref,Automatic response to resetting the project layout,Автоматический ответ на сброс макета проекта,,Стандартный выбор в диалоговом окне сброса макета
+LicenseNotification_TrialExpiring,Your trial is due to expire in {0} days,Ваша пробная версия истекает через {0} дней,,Уведомление об истечении срока пробной лицензии
+LicenseNotification_Expiring,Your licence is due to expire in {0} days,Ваша лицензия истекает через {0} дней,,Уведомление об истечении срока лицензии
 LicenseNotification_BuyNow,Buy Now,Купить прямо сейчас,,Buy Now label
 LicenseNotification_ButtonBuyNow,BUY NOW,КУПИТЬ ПРЯМО СЕЙЧАС,,BUY NOW label
-IDE_License_Label,Your licence is due to expire in {0} days,Your licence is due to expire in {0} days,,IDE licence label
-IDE_TrialLicense_Label,Your trial is due to expire in {0} days,Your trial is due to expire in {0} days,,IDE trial licence label
-marketplace_certificate_settings,Marketplace Certificate Settings,Marketplace Certificate Settings,,marketplace certificate settings pref
-Certificate_GenerateSucceeded,Successfully created certificate file: {0},Successfully created certificate file: {0},,certificate create success
-Certificate_GenerateFailed,Failed to create certificate file: {0},Failed to create certificate file: {0},,certificate create failed
-Certificate_FileAlreadyExists,Certificate file '{0}' already exists; please choose a new filename,Certificate file '{0}' already exists; please choose a new filename,,certificate file exists
-Certificate_RequiredFieldsMissing,Name and Password fields must be set,Name and Password fields must be set,,create certificate missing fields
-Certificate_FileMissing,Unable to find certificate file '{0}',Unable to find certificate file '{0}',,certificate file missing
-Certificate_Test_Title,Certificate Check,Certificate Check,,certificate test title
-Certificate_PasswordFail,Password is NOT valid for certificate,Password is NOT valid for certificate,,certificate password fail
-Certificate_PasswordOK,Password is valid for certificate,Password is valid for certificate,,certificate password ok
-CertProperties_Heading,Set .pem certificate file and password,Set .pem certificate file and password,,certificate properties heading
-CertProperties_Heading2,(you can use an existing GameMaker marketplace certificate),(you can use an existing GameMaker marketplace certificate),,certificate properties heading 2
-CertProperties_CertificateFile,Certificate File:,Certificate File:,,certificate file label
-CertProperties_CertificatePassword,Certificate Password:,Certificate Password:,,certificate password label
-CertProperties_Check,Check,Check,,certificate properties check certificate button label
-CertProperties_CheckTooltip,Check that the password is valid for the selected certficate file,Check that the password is valid for the selected certficate file,,certificate properties check tooltip
-CertProperties_CreateInfoLabel,"If you don't have a certificate, you can create one:","If you don't have a certificate, you can create one:",,certificate properties create info
-CertProperties_CreateNewCertificate,Create new certificate,Create new certificate,,certificate properties create new certificate button label
-CertProperties_CreateCertificate,Create Certificate,Create Certificate,,certificate properties create certificate button label
-CertProperties_EnterCertDetails,Enter new certificate details:,Enter new certificate details:,,certificate properties enter certificate details
-CertProperties_PublisherName,Publisher Name:,Publisher Name:,,cert properties author name
-CertProperties_CreatePublisherAccount,Create Publisher Account,Create Publisher Account,,create publisher account button label
-CodeWindow_2Column,2 columns,2 columns,,Document window layout menu option — 2columns
-CodeWindow_3Column,3 columns,3 columns,,Document window layout menu option — 3 columns
-CodeWindow_Fullscreen,Fullscreen workspace tab,Fullscreen workspace tab,,Document window layout menu option — fullscreen workspace tab
-CodeWindow_Menu_Help,Keyword help,Keyword help,,Code window help menu option
-CodeWindow_Menu_ShowResource,Show resource,Show resource,,Code window show resource menu option
-CodeWindow_SingleColumn,Single pane,Single pane,,Document window layout menu option — 1 column
-CodeWindow_Title,Code,Код,,fullscreen code editor workspace tab title
-CodeWindow_RestoreToWorkspace,Restore to Workspace,Restore to Workspace,,code editor restore to workspace context menu option
-CodeWindow_GotoObject,Go to Object,Go to Object,,code editor go to object context menu option
-CodeWindow_AddEvent,Add/Open Event,Add/Open Event,,code editor event script add event context menu option
-CodeWindow_OpenInheritedEvent,Open Inherited Event,Open Inherited Event,,open inherited event context menu option
-GotoLine_Title,Go To Line,Go To Line,,goto line dialog title
+IDE_License_Label,Your licence is due to expire in {0} days,Ваша лицензия истекает через {0} дней,,Надпись лицензии в ИСР
+IDE_TrialLicense_Label,Your trial is due to expire in {0} days,Ваша пробная версия истекает через {0} дней,,Надпись пробной лицензии в ИСР
+marketplace_certificate_settings,Marketplace Certificate Settings,Настройки сертификата торговой площадки,,Настройки сертификата торговой площадки
+Certificate_GenerateSucceeded,Successfully created certificate file: {0},Сертификат успешно создан: {0},,Успешное создание файла сертификата
+Certificate_GenerateFailed,Failed to create certificate file: {0},Не удалось создать файл сертификата: {0},,Ошибка создания файла сертификата
+Certificate_FileAlreadyExists,Certificate file '{0}' already exists; please choose a new filename,Файл сертификата «{0}» уже существует. Выберите другое имя файла.,,Файл сертификата уже существует
+Certificate_RequiredFieldsMissing,Name and Password fields must be set,Поля «Имя» и «Пароль» обязательны для заполнения,,Отсутствует текст в обязательных полях при создании сертификата
+Certificate_FileMissing,Unable to find certificate file '{0}',Не удалось найти файл сертификата «{0}»,,Файл сертификата не найден
+Certificate_Test_Title,Certificate Check,Проверка сертификата,,Заголовок проверки сертификата
+Certificate_PasswordFail,Password is NOT valid for certificate,Пароль для сертификата неверный,,Неверный пароль для сертификата
+Certificate_PasswordOK,Password is valid for certificate,Пароль для сертификата верный,,Пароль для сертификата корректен
+CertProperties_Heading,Set .pem certificate file and password,Установить файл сертификата .pem и пароль,,Заголовок настроек сертификата
+CertProperties_Heading2,(you can use an existing GameMaker marketplace certificate),(можно использовать существующий сертификат торговой площадки GameMaker),,Дополнительное пояснение к настройкам сертификата
+CertProperties_CertificateFile,Certificate File:,Файл сертификата:,,Метка для выбора файла сертификата
+CertProperties_CertificatePassword,Certificate Password:,Пароль сертификата:,,Метка для ввода пароля сертификата
+CertProperties_Check,Check,Проверить,,Кнопка проверки сертификата
+CertProperties_CheckTooltip,Check that the password is valid for the selected certficate file,"Проверить, что пароль соответствует выбранному файлу сертификата",,Подсказка для проверки сертификата
+CertProperties_CreateInfoLabel,"If you don't have a certificate, you can create one:","Если у вас нет сертификата, вы можете создать его:",,Информационная надпись для создания сертификата
+CertProperties_CreateNewCertificate,Create new certificate,Создать новый сертификат,,Кнопка создания нового сертификата
+CertProperties_CreateCertificate,Create Certificate,Создать сертификат,,Кнопка создания сертификата
+CertProperties_EnterCertDetails,Enter new certificate details:,Введите данные нового сертификата:,,Метка для ввода данных нового сертификата
+CertProperties_PublisherName,Publisher Name:,Имя издателя:,,Метка для ввода имени издателя
+CertProperties_CreatePublisherAccount,Create Publisher Account,Создать учётную запись издателя,,Кнопка создания учётной записи издателя
+CodeWindow_2Column,2 columns,2 колонки,,Пункт меню для раскладки окна документа — 2 колонки
+CodeWindow_3Column,3 columns,3 колонки,,Пункт меню для раскладки окна документа — 3 колонки
+CodeWindow_Fullscreen,Fullscreen workspace tab,Полноэкранная вкладка рабочего пространства,,Пункт меню для раскладки окна документа — полноэкранная вкладка рабочего пространства
+CodeWindow_Menu_Help,Keyword help,Помощь по ключевым словам,,Пункт меню для справки по ключевым словам
+CodeWindow_Menu_ShowResource,Show resource,Показать ресурс,,Пункт меню для показа ресурса
+CodeWindow_SingleColumn,Single pane,Один столбец,,Пункт меню для раскладки окна документа — один столбец
+CodeWindow_RestoreToWorkspace,Restore to Workspace,Восстановить в рабочое пространство,,Пункт контекстного меню для восстановления в рабочей области
+CodeWindow_GotoObject,Go to Object,Перейти к объекту,,Пункт контекстного меню для перехода к объекту
+CodeWindow_AddEvent,Add/Open Event,Добавить/открыть событие,,Пункт контекстного меню для добавления или открытия события
+CodeWindow_OpenInheritedEvent,Open Inherited Event,Открыть унаследованное событие,,Пункт контекстного меню для открытия унаследованного события
+GotoLine_Title,Go To Line,Перейти к строке,,Заголовок диалога "Перейти к строке"
 GotoLine_Label,Line Number ({0} - {1}),Номер строки ({0} — {1}),,goto line label
 CompileErrors,Compile Errors,Ошибки компиляции,,Compile Errors tab title
 CompileErrors_NoErrors,There are no compile errors to show!,Ошибок компиляции нет!,,No compile errors message
@@ -125,20 +124,20 @@ Configuration,Configuration,Настройка,,Configuration
 Configuration_Select,Select Configuration,Выберите настройку,,Window title for config select
 Configurations,Configurations,Настройки,,Configurations
 Configurations_Add,Add New Configuration,Добавить новую настройку,,Add configuration window title
-Configurations_Delete,Are you sure you want to delete configuration '{0}' and all of its children?,Are you sure you want to delete configuration '{0}' and all of its children?,,Confirm for deleting a configuration
-Configurations_Delete_OtherConfigs,Are you sure? Deleting configuration '{0}' will also delete the following configurations: '{1}'.,Are you sure? Deleting configuration '{0}' will also delete the following configurations: '{1}'.,,Warning about deleting a configuration deleting child configs
-Configurations_DeleteError,Cannot delete configuration '{0}',Cannot delete configuration '{0}',,Cannot delete a configuration error message
-Configurations_DuplicateEntryError,Cannot duplicate existing configuration name,Cannot duplicate existing configuration name,,Configuration name cannot be duplicated error message
-Configurations_InvalidLicenseError,Cannot create configurations with GameMaker Trial,Cannot create configurations with GameMaker Trial,,Cannot create configurations with the Trial version of GameMaker error message
-Configurations_InvalidNameError,The configuration name '{0}' is not valid,The configuration name '{0}' is not valid,,Configuration name provided is invalid
-Configurations_Manage,Manage Configurations,Manage Configurations,,Manage Configurations window title
-Configurations_NameEmptyError,New configuration name cannot be empty,New configuration name cannot be empty,,Configuration name cannot be empty error message
-Configurations_NewName,New Configuration Name,New Configuration Name,,New configuration label
-Configurations_Parent,Parent Configuration,Parent Configuration,,Choose parent configuration label
-Configurations_Promote,Promote,Promote,,Promotion of a config up the config hierarchy
-Configurations_Rename,Rename Configuration,Rename Configuration,,Rename configuration
-Configurations_RenameError,Cannot rename '{0}' configuration,Cannot rename '{0}' configuration,,Configuration name cannot be renamed error message
-Configurations_ConfirmPromote,Are you sure? Promoting a configuration cannot be undone,Are you sure? Promoting a configuration cannot be undone,,Confirm the user really wants to promote a config
+Configurations_Delete,Are you sure you want to delete configuration '{0}' and all of its children?,"Вы уверены, что хотите удалить конфигурацию «{0}» и все её дочерние конфигурации?",,Подтверждение удаления конфигурации
+Configurations_Delete_OtherConfigs,Are you sure? Deleting configuration '{0}' will also delete the following configurations: '{1}'.,Вы уверены? Удаление конфигурации «{0}» также удалит следующие конфигурации: «{1}».,,"Предупреждение о том, что удаление конфигурации затронет её дочерние конфигурации"
+Configurations_DeleteError,Cannot delete configuration '{0}',Невозможно удалить конфигурацию «{0}»,,Сообщение об ошибке при попытке удалить конфигурацию
+Configurations_DuplicateEntryError,Cannot duplicate existing configuration name,Невозможно дублировать существующее название конфигурации,,Сообщение об ошибке: название конфигурации не может быть дублировано
+Configurations_InvalidLicenseError,Cannot create configurations with GameMaker Trial,Невозможно создать конфигурацию с пробной версией GameMaker,,Ошибка: нельзя создавать конфигурации в пробной версии GameMaker
+Configurations_InvalidNameError,The configuration name '{0}' is not valid,Название конфигурации «{0}» недопустимо,,Сообщение об ошибке: указанное название конфигурации недопустимо
+Configurations_Manage,Manage Configurations,Управление конфигурациями,,Заголовок окна управления конфигурациями
+Configurations_NameEmptyError,New configuration name cannot be empty,Новое название конфигурации не может быть пустым,,Сообщение об ошибке: название новой конфигурации не может быть пустым
+Configurations_NewName,New Configuration Name,Новое название конфигурации,,Метка для новой конфигурации
+Configurations_Parent,Parent Configuration,Родительская конфигурация,,Метка для выбора родительской конфигурации
+Configurations_Promote,Promote,Повысить,,Пункт меню для повышения конфигурации в иерархии
+Configurations_Rename,Rename Configuration,Переименовать конфигурацию,,Пункт меню для переименования конфигурации
+Configurations_RenameError,Cannot rename '{0}' configuration,Невозможно переименовать конфигурацию «{0}»,,Сообщение об ошибке при попытке переименования конфигурации
+Configurations_ConfirmPromote,Are you sure? Promoting a configuration cannot be undone,Вы уверены? Повышение конфигурации необратимо,,Подтверждение повышения конфигурации
 ContextMenu_AddMenuEntry,Add Menu Entry,Добавить пункт меню,,Context menu option to add a menu entry at the end of the context menu
 ContextMenu_AddMenuEntryAfter,Add Menu Entry Below,Add Menu Entry Below,,Context menu option to add a menu entry below the selected entry
 ContextMenu_AddMenuEntryBefore,Add Menu Entry Above,Add Menu Entry Above,,Context menu option to add a menu entry above the selected entry
