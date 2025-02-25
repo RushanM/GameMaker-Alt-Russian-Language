@@ -15,7 +15,7 @@
 ## Установка
 
 1. Нажмите зелёную кнопку **`< > Code ▾`** над репозиторием.
-2. Нажмите [**`Download ZIP`**](https://github.com/RushanM/Clickteam-Fusion-2.5-Russian-Translation/archive/refs/heads/main.zip) cнизу появившегося окна, чтобы скачать архив.
+2. Нажмите [**`Download ZIP`**](https://github.com/RushanM/GameMaker-Alt-Russian-Language/archive/refs/heads/main.zip) cнизу появившегося окна, чтобы скачать архив.
 3. Откройте архив.
 4. Закройте GameMaker, если он открыт.
 5. Переместите папки Language и Plugins из папки «Локализация» в архиве в папку вашей установки GameMaker с заменой.
