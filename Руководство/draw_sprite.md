@@ -18,10 +18,10 @@ draw_sprite(sprite, subimg, x, y);
 
 | Аргумент | Тип | Описание |
 | --- | --- | --- |
-| sprite | [Sprite Asset](https://manual.gamemaker.io/beta/en/The_Asset_Editors/Sprites.htm) | Спрайт, который нужно отрисовать |
-| subimg | [Real](https://manual.gamemaker.io/beta/en/GameMaker_Language/GML_Overview/Data_Types.htm) | Номер подизображения (кадра) спрайта (может быть `image_index` или `-1` для текущего кадра анимации в объекте). |
-| x      | [Real](https://manual.gamemaker.io/beta/en/GameMaker_Language/GML_Overview/Data_Types.htm) | Координата x, где нужно нарисовать спрайт |
-| y      | [Real](https://manual.gamemaker.io/beta/en/GameMaker_Language/GML_Overview/Data_Types.htm) | Координата y, где нужно нарисовать спрайт |
+| sprite | [**Спрайтовый ассет**](https://manual.gamemaker.io/beta/en/The_Asset_Editors/Sprites.htm) | Спрайт, который нужно отрисовать |
+| subimg | [**Вещественное число**](https://manual.gamemaker.io/beta/en/GameMaker_Language/GML_Overview/Data_Types.htm) | Номер подизображения (кадра) спрайта (может быть `image_index` или `-1` для текущего кадра анимации в объекте). |
+| x      | [**Вещественное число**](https://manual.gamemaker.io/beta/en/GameMaker_Language/GML_Overview/Data_Types.htm) | Координата x, где нужно нарисовать спрайт |
+| y      | [**Вещественное число**](https://manual.gamemaker.io/beta/en/GameMaker_Language/GML_Overview/Data_Types.htm) | Координата y, где нужно нарисовать спрайт |
 
 ## Возвращаемое значение
 
@@ -39,4 +39,4 @@ draw_sprite(spr_Halo, 0, x, y - 32);
 ---
 
 * назад: [«Спрайты и тайлы»](https://manual.gamemaker.io/beta/en/GameMaker_Language/GML_Reference/Drawing/Sprites_And_Tiles/Sprites_And_Tiles.htm);
-* далее: [«draw_sprite_ext»](https://manual.gamemaker.io/beta/en/GameMaker_Language/GML_Reference/Drawing/Sprites_And_Tiles/draw_sprite_ext.htm).
+* далее: [«draw_sprite_ext»](https://github.com/RushanM/GameMaker-Alt-Russian-Language/blob/main/%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE/draw_sprite_ext.md).
