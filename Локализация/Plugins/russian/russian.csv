@@ -12,7 +12,7 @@ _TUTORIALS_ONLINE_URL,https://gamemaker.io/en/tutorials,https://gamemaker.io/en/
 $win_OpenInExplorer,Open In Explorer,Открыть в «Проводнике»,,Windows version of Open In Explorer
 $win_OpenProjectInExplorer,Open Project In Explorer,Открыть проект в «Проводнике»,,Windows version of Open Project In Explorer
 $win_ShowLogFileInExplorer,Open Log In Explorer,Открыть журнал в «Проводнике»,,Windows version of Show Log In Explorer
-$win_explorer,explorer,Проводник,,windows version of explorer
+$win_explorer,explorer,проводник,,windows version of explorer
 $mac_explorer,finder,finder,,mac version of explorer
 $mac_OpenInExplorer,Show In Finder,Показать в Finder,,Mac version of Open In Explorer
 $mac_OpenProjectInExplorer,Show Project In Finder,Показать проект в Finder,,Mac version of Open Project In Explorer
@@ -7563,7 +7563,7 @@ AssetBrowser_RoomInheritance,Room Inheritance,Room Inheritance,,room inheritance
 AssetBrowser_RoomManager,Room Manager,Менеджер комнат,,room manager title
 AssetBrowser_SavedFilters,Saved Searches,Сохранённые результаты,,quick access node title
 AssetBrowser_EditTags,Edit Tags,Редактировать теги,,edit tags label
-AssetBrowser_CreateGroup,Create Group,Создать папку,,create group
+AssetBrowser_CreateGroup,Create Group,Создать группу,,create group
 AssetBrowser_Create,Create,Создать,,create asset
 AssetBrowser_CreateResourceType,Create {0},Создать {0},,create (resource type name)
 AssetBrowser_AddFavourite,Favourite,Favourite,,add to favourites
