@@ -1,11 +1,11 @@
 Name,English,Translation,Restrictions,Comment
 __Priority,0,0,,Order of language importance. Allows other packs to supplement or replace sections
 _Argument0,{0},{0},,single unlocalised argument
-_Error,Error: {0},Ошибка: {0},,General error prefix
+_Error,Error: {0},Ошибка: {0},,Общий префикс ошибки
 _Language,English,Russian,,Название языка на английском
-_LanguageNative,English,Русский,,Language name in the native language
-_LanguageCode,ru,ru,,standard windows os language code this pack represents (can be primary code only ie. en or primary-secondary ie. en-GB)
-_GameMaker2016,GameMaker,GameMaker,,IDE title
+_LanguageNative,English,Русский,,Название языка на родном языке
+_LanguageCode,ru,ru,,"Стандартный языковой код ОС Windows, который представляет этот пакет (может быть только основным кодом, например, en, или основным-вторичным, например, en-GB)"
+_GameMaker2016,GameMaker,GameMaker,,Название ИСР
 _MANUAL_LOCATION,http://zeus.yoyogames.com/GMS2_English-master.zip,http://zeus.yoyogames.com/GMS2_English-master.zip,,Location of language manual
 _MANUAL_ONLINE_URL,https://manual.gamemaker.io/monthly/en,https://manual.gamemaker.io/monthly/en,,online manual url
 _TUTORIALS_ONLINE_URL,https://gamemaker.io/en/tutorials,https://gamemaker.io/en/tutorials,,Location of Tutorials url
@@ -85,17 +85,17 @@ LicenseNotification_BuyNow,Buy Now,Купить прямо сейчас,,Buy Now
 LicenseNotification_ButtonBuyNow,BUY NOW,КУПИТЬ ПРЯМО СЕЙЧАС,,BUY NOW label
 IDE_License_Label,Your licence is due to expire in {0} days,Ваша лицензия истекает через {0} дней,,Надпись лицензии в ИСР
 IDE_TrialLicense_Label,Your trial is due to expire in {0} days,Ваша пробная версия истекает через {0} дней,,Надпись пробной лицензии в ИСР
-marketplace_certificate_settings,Marketplace Certificate Settings,Настройки сертификата торговой площадки,,Настройки сертификата торговой площадки
+marketplace_certificate_settings,Marketplace Certificate Settings,Настройки сертификата маркетплейса,,Настройки сертификата маркетплейса
 Certificate_GenerateSucceeded,Successfully created certificate file: {0},Сертификат успешно создан: {0},,Успешное создание файла сертификата
 Certificate_GenerateFailed,Failed to create certificate file: {0},Не удалось создать файл сертификата: {0},,Ошибка создания файла сертификата
-Certificate_FileAlreadyExists,Certificate file '{0}' already exists; please choose a new filename,Файл сертификата «{0}» уже существует. Выберите другое имя файла.,,Файл сертификата уже существует
+Certificate_FileAlreadyExists,Certificate file '{0}' already exists; please choose a new filename,Файл сертификата «{0}» уже существует. Выберите другое название файла.,,Файл сертификата уже существует
 Certificate_RequiredFieldsMissing,Name and Password fields must be set,Поля «Имя» и «Пароль» обязательны для заполнения,,Отсутствует текст в обязательных полях при создании сертификата
 Certificate_FileMissing,Unable to find certificate file '{0}',Не удалось найти файл сертификата «{0}»,,Файл сертификата не найден
 Certificate_Test_Title,Certificate Check,Проверка сертификата,,Заголовок проверки сертификата
 Certificate_PasswordFail,Password is NOT valid for certificate,Пароль для сертификата неверный,,Неверный пароль для сертификата
 Certificate_PasswordOK,Password is valid for certificate,Пароль для сертификата верный,,Пароль для сертификата корректен
 CertProperties_Heading,Set .pem certificate file and password,Установить файл сертификата .pem и пароль,,Заголовок настроек сертификата
-CertProperties_Heading2,(you can use an existing GameMaker marketplace certificate),(можно использовать существующий сертификат торговой площадки GameMaker),,Дополнительное пояснение к настройкам сертификата
+CertProperties_Heading2,(you can use an existing GameMaker marketplace certificate),(можно использовать существующий сертификат маркетплейса GameMaker),,Дополнительное пояснение к настройкам сертификата
 CertProperties_CertificateFile,Certificate File:,Файл сертификата:,,Метка для выбора файла сертификата
 CertProperties_CertificatePassword,Certificate Password:,Пароль сертификата:,,Метка для ввода пароля сертификата
 CertProperties_Check,Check,Проверить,,Кнопка проверки сертификата
@@ -116,7 +116,7 @@ CodeWindow_RestoreToWorkspace,Restore to Workspace,Восстановить в �
 CodeWindow_GotoObject,Go to Object,Перейти к объекту,,Пункт контекстного меню для перехода к объекту
 CodeWindow_AddEvent,Add/Open Event,Добавить/открыть событие,,Пункт контекстного меню для добавления или открытия события
 CodeWindow_OpenInheritedEvent,Open Inherited Event,Открыть унаследованное событие,,Пункт контекстного меню для открытия унаследованного события
-GotoLine_Title,Go To Line,Перейти к строке,,Заголовок диалога "Перейти к строке"
+GotoLine_Title,Go To Line,Перейти к строке,,Заголовок диалога «Перейти к строке»
 GotoLine_Label,Line Number ({0} - {1}),Номер строки ({0} — {1}),,goto line label
 CompileErrors,Compile Errors,Ошибки компиляции,,Compile Errors tab title
 CompileErrors_NoErrors,There are no compile errors to show!,Ошибок компиляции нет!,,No compile errors message
@@ -887,7 +887,7 @@ IDEMenu_Help_About,${IDEMenuHelpAbout},${IDEMenuHelpAbout},,Help menu item for a
 IDEMenu_Help_Licenses,Licences,Лицензии,,Help menu item for licences
 IDEMenu_Help_OpenInExplorer,${OpenProjectInExplorer},${OpenProjectInExplorer},,Help menu item for opening the explorer window at the current project's location
 IDEMenu_Help_LogFile,${ShowLogFileInExplorer},${ShowLogFileInExplorer},,Help menu item for taking the user to the log file location
-IDEMenu_Marketplace,Marketplace,Торговая площадка,,Main menu entry for marketplace
+IDEMenu_Marketplace,Marketplace,Маркетплейс,,Main menu entry for marketplace
 IDEMenu_Texturepage,Texture Groups,Группы текстур,,Texture group manager
 IDEMenu_Audiogroups,Audio Groups,Аудиогруппы,,Audio group manager
 IDEMenu_SoundMixer,Sound Mixer,Аудиомикшер,,Open Sound Mixer
@@ -905,8 +905,8 @@ IDETooltip_Save,Save Project ,Сохранить проект ,,IDE toolbar tool
 IDETooltip_Package,Create Executable ,Создать исполняемый файл ,,IDE toolbar tooltip
 IDETooltip_Package_Run,Create Executable and Launch,Создать исполняемый файл и сразу запустить,,IDE toolbar tooltip
 IDETooltip_Package_FreeDisabled,Create Executable (not available with Trial Licence),Создать исполняемый файл (не работает в пробной версии),,IDE toolbar tooltip
-IDETooltip_Package_NotLoggedInDisabled,Create Executable (Sign In to Export),Создать исполняемый файл (авторизуйтесь, чтобы иметь возможность экспортировать),,IDE toolbar tooltip
-IDETooltip_Package_Run_NotLoggedInDisabled,Create Executable And Run (Sign In to Export),Создать исполняемый файл и сразу запустить (авторизуйтесь, чтобы иметь возможность экспортировать),,IDE toolbar tooltip
+IDETooltip_Package_NotLoggedInDisabled,Create Executable (Sign In to Export),"Создать исполняемый файл (авторизуйтесь, чтобы иметь возможность экспортировать)",,IDE toolbar tooltip
+IDETooltip_Package_Run_NotLoggedInDisabled,Create Executable And Run (Sign In to Export),"Создать исполняемый файл и сразу запустить (авторизуйтесь, чтобы иметь возможность экспортировать)",,IDE toolbar tooltip
 IDETooltip_Debug,Debug ,Отладить ,,IDE toolbar tooltip
 IDETooltip_Run,Run ,Запустить ,,IDE toolbar tooltip
 IDETooltip_Stop,Stop,Остановить выполнение,,IDE toolbar tooltip
@@ -1230,7 +1230,7 @@ ListBoxEnum_eIncludedFileOption_Properties,Properties,Properties,,
 ListBoxEnum_eIncludedFileOption_ScriptEditor,Script Editor,Script Editor,,
 ListBoxEnum_eIncludedFileOption_ExternalEditor,External Editor,External Editor,,
 Loading,Loading...,Loading...,,Loading
-Marketplace_Go,Open Marketplace,Открыть торговую площадку,,Open Marketplace
+Marketplace_Go,Open Marketplace,Открыть маркетплейс,,Open Marketplace
 Marketplace_Assets,My Library,Моя библиотека,,Downloaded assets
 Marketplace_Downloads,Downloads,Downloads,,Downloads
 Marketplace_Login,Sign In,Sign In,,Sign In
@@ -1251,7 +1251,7 @@ Marketplace_MyLibrary_EULA,End User Licence Agreement: (EULA),End User Licence A
 Marketplace_MyLibrary_Categories,Categories,Categories,,Marketplace Categories title
 Marketplace_MyLibary_AssetVerifying,Verifying...,Verifying...,,Marketplace my library asset being verified label
 Marketplace_MyLibary_AssetDownloaded,Downloaded,Downloaded,,Marketplace my library asset downloaded label
-Marketplace_MyLibrary_ViewAsset,View in marketplace,Посмотреть на торговой площадке,,Marketplace view asset
+Marketplace_MyLibrary_ViewAsset,View in marketplace,Посмотреть на маркетплейсе,,Marketplace view asset
 Marketplace_MyLibrary_Author,By {0},By {0},,Marketplace author line
 Marketplace_MyLibrary_Delete,Delete,Delete,,Delete marketplace asset button caption
 Marketplace_MyLibrary_Download,Download,Download,,Download asset button
@@ -1261,7 +1261,7 @@ Marketplace_MyLibrary_UpdateTooltip,An update is available for this asset.,An up
 Marketplace_MyLibrary_Import,Import,Import,,Import asset button
 Marketplace_MyLibrary_LeaveReview,Review This Asset,Написать обзор на этот ассет,,Review this asset marketplace tooltip
 Marketplace_MyLibrary_Title,My Library,Моя библиотека,,Marketplace my library window title
-Marketplace_MyLibrary_ViewMarketplace,View in Marketplace,Посмотреть на торговой площадке,,View asset button
+Marketplace_MyLibrary_ViewMarketplace,View in Marketplace,Посмотреть на маркетплейсе,,View asset button
 Marketplace_MyLibrary_Install,Install,Install,,marketplace library install label
 Marketplace_MyLibrary_Installing,Installing...,Installing...,,marketplace library installing label
 Marketplace_MyLibrary_Installed,Installed,Installed,,marketplace library installed label
@@ -1318,7 +1318,7 @@ Marketplace_Package_PackageResources,Package Resources:,Package Resources:,,pack
 Marketplace_Package_ImportResources,Resources to Import:,Resources to Import:,,package import - resource to import caption
 Marketplace_CheckForUpdates,Check For Updates,Check For Updates,,check for updates button label
 Marketplace_Updating,Updating...,Updating...,,marketplace updating label
-Marketplace_WindowTitle,Marketplace,Торговая площадка,,Marketplace webview window title
+Marketplace_WindowTitle,Marketplace,Маркетплейс,,Marketplace webview window title
 Marketplace_PurchaseHistory,My Purchase History,My Purchase History,,Marketplace purchase history menu entry
 Marketplace_NoPublisherTitle,Publisher Account Required,Publisher Account Required,,marketplace no publisher title
 Marketplace_NoPublisherMessage,You do not have a Publisher attached to this account. Do you want to add one now?,You do not have a Publisher attached to this account. Do you want to add one now?,,marketplace no publisher account message
@@ -1632,6 +1632,219 @@ ResourceTree_ExpandCollapseAllToolTip,Expand/Collapse All,Expand/Collapse All,,e
 ResourceTree_ExpandCollapseAll,Expand/Collapse All,Expand/Collapse All,,expand/collapse all elements of the resource tree tooltip
 ResourceTree_ExpandAll,Expand All,Expand All,,Expand all elements of the resource tree
 ResourceTree_CollapseAll,Collapse All,Collapse All,,Collapse all elements of the resource tree
+RoomEditor_CreateLayer,Create Layer,Create Layer,,create layer
+RoomEdLayer_Background,Background,Background,,background layer
+RoomEdLayerDesc_Background,Background sprite or colour that will always be drawn behind other Room layers. {0},Background sprite or colour that will always be drawn behind other Room layers. {0},,background layer description
+RoomEdLayer_Instance,Instance,Instance,,instance layer
+RoomEdLayerDesc_Instance,"Layer to hold object instances, which can be used to control and interact with the game. {0}","Layer to hold object instances, which can be used to control and interact with the game. {0}",,instance layer description
+RoomEdLayer_Tile,Tile,Tile,,tile layer
+RoomEdLayerDesc_Tile,"Layer to draw your Room’s layout from an assigned tile map. This could include decorations, walls, backgrounds or platforms. {0}","Layer to draw your Room’s layout from an assigned tile map. This could include decorations, walls, backgrounds or platforms. {0}",,tile layer description
+RoomEdLayer_Path,Path,Path,,path layer
+RoomEdLayerDesc_Path,Layer with a path assigned which an instance can follow. {0},Layer with a path assigned which an instance can follow. {0},,path layer description
+RoomEdLayer_Asset,Asset,Asset,,asset layer
+RoomEdLayerDesc_Asset,"Layer holding graphic assets including sprites, sequences and text. {0}","Layer holding graphic assets including sprites, sequences and text. {0}",,asset layer description
+RoomEdLayer_Effects,Effects,Effects,,effects layer
+RoomEdLayerDesc_Effects,Applies a visual effect (FX) to all other layers below it. {0},Applies a visual effect (FX) to all other layers below it. {0},,effects layer description
+RoomEdLayer_UI,UI,Интерфейс,,Слой пользовательского интерфейса
+RoomEdLayerDesc_UI,"Layer to display User Interfaces e.g. health bars, menu screens. It will always be drawn in front of other layers and can hold flex panels, objects, sprites, sequences, and text. {0}","Слой для отображения пользовательских интерфейсов, например, индикаторов здоровья, экранов меню. Всегда отображается поверх других слоёв и может содержать гибкие панели, объекты, спрайты, последовательности и текст. {0}",,Описание слоя пользовательского интерфейса
+RoomEdLayer_TitleArg,{0} Layer, Слой{0},,Слой [название слоя]
+RoomUI_UIFolder,UI Folder,Папка интерфейса,,Название папки пользовательского интерфейса
+RoomUI_AddFolder,Add Folder,Добавить папку,,Добавить папку
+RoomUI_AddUILayer,Add UI Layer,Добавить слой интерфейса,,Добавить слой пользовательского интерфейса
+RoomUI_AddFlexPanel,Add Flex Panel,Добавить гибкую панель,,Добавить гибкую панель
+RoomUI_AddEffectLayer,Add Effect Layer,Добавить слой эффектов,,Добавить слой эффектов
+RoomUI_Viewspace,Viewports,Порт просмотра,,Узел порта просмотра
+RoomUI_ViewN,View{0},Вид{0},,Вид{номер}
+RoomUI_CreateUILayerMsg,This asset can only be applied to a visible UI Layer or Flex Panel and you do not currently have one selected.\n\nWould you like to create a new UI Layer?,"Этот ресурс можно применить только к видимому слою интерфейса или гибкой панели, но у вас сейчас ничего не выбрано.\n\nХотите создать новый слой интерфейса?",,Диалоговое окно создания слоя интерфейса
+RoomUI_DeleteUILayerMsg,Are you sure you want to delete UI Layer '{0}'?\nThis will remove it from all Rooms.,"Вы уверены, что хотите удалить слой интерфейса «{0}»?\nОн будет удалён из всех комнат.",,Сообщение диалогового окна удаления слоя интерфейса
+RoomUI_DeleteUILayerMsg_Multiple,Are you sure you want to delete {0} UI Layers?.\nThis will remove them from all Rooms.,"Вы уверены, что хотите удалить {0} слоёв интерфейса?\nОни будут удалены из всех комнат.",,Сообщение диалогового окна удаления нескольких слоёв интерфейса
+RoomUI_DragStatusInfo_HoldAuto,Hold {0} on drop to auto-create flexpanel parent,Удерживайте {0} при перетаскивании для автоматического создания родительской гибкой панели,,Автосоздание при удержании
+RoomUI_DragStatusInfo_HoldNoAuto,Hold {0} on drop to create without flexpanel parent,"Удерживайте {0} при перетаскивании, чтобы создать без родительской гибкой панели",,Без автосоздания при удержании
+RoomUI_ShiftUIUp_TT,Move UI Layer instances to top,Переместить экземпляры слоя интерфейса наверх,,Подсказка перемещения вверх
+RoomUI_ShiftUIDown_TT,Move UI Layer instances to bottom,Переместить экземпляры слоя интерфейса вниз,,Подсказка перемещения вниз
+RoomUI_StatusInfo_DeepSelect,LMB + {0} select deepest element,ЛКМ + {0} — выбрать самый глубокий элемент,,Информационное сообщение слоя интерфейса
+RoomUI_StatusInfo_SelectedDrag,LMB + drag to reorder selected panel; + {0} drag to new parent; + {1} clone panel,Держите ЛКМ и перетаскивайте для изменения порядка панели; + {0} — перетаскивание к новому родителю; + {1} — клонирование панели,,Информационное сообщение слоя интерфейса
+UIFolder_Delete,Delete UI Folder,Удалить папку интерфейса,,Пункт меню удаления папки интерфейса
+RoomEditor_DeleteUIFolderWarning,"Are you sure you want to delete the User Interface? This will remove it from all Rooms and is not undoable.","Вы уверены, что хотите удалить пользовательский интерфейс? Это удалит его из всех комнат, и действие нельзя будет отменить.",,Подтверждение удаления ui папки
+UILayer_RuntimeDraw,Game View,Игровой вид,,Отрисовка слоя интерфейса во время выполнения
+ListBoxEnum_eUIDisplay_Display,Display,Отображение,,Перечисление отображения слоёв интерфейса во время выполнения
+ListBoxEnum_eUIDisplay_Viewports,Viewports,Порты просмотра,,Перечисление отображения слоёв интерфейса во время выполнения
+Inspector_Category_FlexProperties,Flex Properties,Свойства гибких панелей,,Категория свойств гибких панелей
+Inspector_FlexPropertiesCategoryTT,These properties will only affect children which are also flex panels,"Эти свойства будут влиять только на дочерние элементы, которые также являются гибкими панелями",,Подсказка категории свойств гибких панелей
+Inspector_Category_Layout,Layout,Компоновка,,Категория компоновки
+Inspector_Category_Spacing,Spacing,Интервалы,,Категория интервалов
+Inspector_Category_FillContainer,Fill Container,Заполнение контейнера,,Название категории инспектора
+Flex_AlignContent,Align Content,Выравнивание содержимого,,Название свойства гибкой панели
+Flex_AlignContent_TT,"Align content defines the distribution of lines along the cross-axis. This only has effect when items are wrapped to multiple lines using flex wrap.","Выравнивание содержимого определяет распределение строк вдоль поперечной оси. Это свойство работает только когда элементы перенесены на несколько строк с помощью переноса гибких панелей.",,Подсказка по выравниванию содержимого
+Flex_AlignItems,Align Items,Выравнивание элементов,,Название свойства гибких панелей
+Flex_AlignSelf,Align Self,Самовыравнивание,,Название свойства гибких панелей
+Flex_KeepAspectRatio,Keep Aspect Ratio,Сохранять пропорции,,Название свойства гибких панелей
+Flex_Display,Display,Отображение,,Название свойства гибких панелей
+Flex_Flex,Flex,Гибкие панели,,Название свойства гибких панелей
+Flex_FlexGrowShrink,Grow/Shrink,Растяж./сжатие,,Растяжение/сжатие гибких панелей
+Inspector_Field_Grow,Grow,Растяжение,,Название гибкого поля
+Inspector_Field_Shrink,Shrink,Сжатие,,Название гибкого поля
+Flex_Basis,Flex Basis,Основа гибкой панели,,Название свойства гибких панелей
+Flex_Direction,Direction,Направление,,Название свойства гибких панелей
+Flex_Wrap,Wrap,Перенос строк,,Название свойства гибких панелей
+Flex_Gap,Gap,Промежуток,,Название свойства гибких панелей
+Flex_GapRow,Gap Row,Промежуток строк,,Название свойства гибких панелей
+Flex_GapColumn,Gap Column,Промежуток столбцов,,Название свойства гибких панелей
+Flex_Field_Row,Row,Строка,,Название свойства гибких панелей
+Flex_Field_Column,Col,Столбец,,Название свойства гибких панелей
+Flex_PositionType,Position,Позиционирование,,Название свойства гибких панелей
+Flex_Position,Position,Позиция,,Название свойства гибких панелей
+Flex_PositionLeft,Left,Слева,,Название свойства гибких панелей
+Flex_PositionRight,Right,Справа,,Название свойства гибких панелей
+Flex_PositionTop,Top,Сверху,,Название свойства гибких панелей
+Flex_PositionBottom,Bottom,Снизу,,Название свойства гибких панелей
+Flex_Margin,Margin,Внеш. отступ,,Название свойства гибких панелей
+Flex_MarginLeft,Margin Left,Внеш. отступ слева,,Название свойства гибких панелей
+Flex_MarginRight,Margin Right,Внеш. отступ справа,,Название свойства гибких панелей
+Flex_MarginTop,Margin Top,Внеш. отступ сверху,,Название свойства гибких панелей
+Flex_MarginBottom,Margin Bottom,Внеш. отступ снизу,,Название свойства гибких панелей
+Flex_MarginPaddingFmt,"{0}Margin{1}, {2}Padding","{0}Внешний отступ{1}, {2}Внутренний отступ",,метка отступов с форматированием цвета
+Flex_Padding,Padding,Внутр. отступ,,Название свойства гибких панелей
+Flex_PaddingLeft,Padding Left,Внутр. отступ слева,,Название свойства гибких панелей
+Flex_PaddingRight,Padding Right,Внутр. отступ справа,,Название свойства гибких панелей
+Flex_PaddingTop,Padding Top,Внутр. отступ сверху,,Название свойства гибких панелей
+Flex_PaddingBottom,Padding Bottom,Внутр. отступ снизу,,Название свойства гибких панелей
+Flex_JustifyContent,Justify Content,Выравнивание по основной оси,,Название свойства гибких панелей
+Flex_LayoutDirection,Layout Direction,Направление компоновки,,Название свойства гибких панелей
+Flex_MinWidth,Min Width,Мин. ширина,,Название свойства гибких панелей
+Flex_MaxWidth,Max Width,Макс. ширина,,Название свойства гибких панелей
+Flex_MinHeight,Min Height,Мин. высота,,Название свойства гибких панелей
+Flex_MaxHeight,Max Height,Макс. высота,,Название свойства гибких панелей
+Flex_Width,Width,Ширина,,Название свойства гибких панелей
+Flex_Height,Height,Высота,,Название свойства гибких панелей
+Flex_Size,Size,Размер,,Название свойства гибких панелей
+Flex_MinSize,Min Size,Мин. размер,,Название свойства гибких панелей
+Flex_MaxSize,Max Size,Макс. размер,,Название свойства гибких панелей
+Flex_Inset,Offset,Смещение,,Название свойства гибких панелей
+Flex_ClipContent,Clip Contents,Обрезать содержимое,,Название свойства гибких панелей
+Flex_ApplyToAllSides,Apply to all sides,Применить ко всем сторонам,,применить ко всем сторонам
+Flex_EditIndividually,Edit individually,Редактировать индивидуально,,редактировать индивидуально
+Flex_VisibleInRooms,Visible in Rooms:,Видимость в комнатах:,,метка видимости в комнатах
+InstUI_Visible,Visible,Видимый,,Свойство элемента экземпляра интерфейса
+InstUI_Anchor,Anchor,Привязка,,Свойство элемента экземпляра интерфейса
+InstUI_StretchWidth,Stretch Width,Растянуть по ширине,,Свойство элемента экземпляра интерфейса
+InstUI_StretchHeight,Stretch Height,Растянуть по высоте,,Свойство элемента экземпляра интерфейса
+InstUI_TileH,Horizontal Tile,Горизонтальное замощение,,Свойство элемента экземпляра интерфейса
+InstUI_TileV,Vertical Tile,Вертикальное замощение,,Свойство элемента экземпляра интерфейса
+InstUI_KeepAspect,Maintain Aspect Ratio,Сохранять пропорции,,Свойство элемента экземпляра интерфейса
+InstUI_Stretch,Stretch,Растяжение,,растяжение элемента экземпляра интерфейса
+InstUI_Tile,Tile,Замощение,,Замощение элемента экземпляра интерфейса
+ListBoxEnum_eStretch_None,None,Нет,,Запись перечисления растяжения
+ListBoxEnum_eStretch_Width,Width,Ширина,,Запись перечисления растяжения
+ListBoxEnum_eStretch_Height,Height,Высота,,Запись перечисления растяжения
+ListBoxEnum_eStretch_WidthAndHeight,Both,Оба,,Запись перечисления растяжения
+ListBoxEnum_eTile_None,None,Нет,,Название записи перечисления замощения
+ListBoxEnum_eTile_H,Horizontal,Горизонтально,,Название записи перечисления замощения
+ListBoxEnum_eTile_V,Vertical,Вертикально,,Название записи перечисления замощения
+ListBoxEnum_eTile_HV,Both,Оба,,Название записи перечисления замощения
+UIItem_Position,Position,Позиция,,Свойство позиции элемента интерфейса
+UIPosValue_Pixel,px,пкс,,метка пикселей
+UIPosValue_Percent,%,%,,метка процентов
+Flex_TT_RuntimeDraw,"How the UI layer is drawn at runtime, defining its boundaries, relative position and anchoring","Как слой интерфейса отрисовывается во время выполнения, определяя его границы, относительную позицию и привязку",,Подсказка свойства гибких панелей
+Flex_TT_MinWidth,Sets the minimum width constraint,Устанавливает ограничение минимальной ширины,,Подсказка свойства гибких панелей
+Flex_TT_MaxWidth,Sets the maximum width constraint,Устанавливает ограничение максимальной ширины,,Подсказка свойства гибких панелей
+Flex_TT_MinHeight,Sets the minimum height constraint,Устанавливает ограничение минимальной высоты,,Подсказка свойства гибких панелей
+Flex_TT_MaxHeight,Sets the maximum height constraint,Устанавливает ограничение максимальной высоты,,Подсказка свойства гибких панелей
+Flex_TT_MinNodeSize,Minimum size of the node,Минимальный размер узла,,Подсказка свойства гибких панелей
+Flex_TT_MaxNodeSize,Maximum size of the node,Максимальный размер узла,,Подсказка свойства гибких панелей
+Flex_TT_NodeSize,Node's width and height,Ширина и высота узла,,Подсказка свойства гибких панелей
+Flex_TT_Width,Specifies the width of the node's border box,Указывает ширину граничной рамки узла,,Подсказка свойства гибких панелей
+Flex_TT_Height,Specifies the height of the node's border box,Указывает высоту граничной рамки узла,,Подсказка свойства гибких панелей
+Flex_TT_AlignItems,Align children along the cross axis of their container,Выравнивание дочерних элементов вдоль поперечной оси контейнера,,Подсказка свойства гибких панелей
+Flex_TT_JustifyContent,Align children along the flex panel node's main axis (Flex Direction),Выравнивание дочерних элементов вдоль основной оси узла гибкой панели (направление гибкой панели),,Подсказка свойства гибких панелей
+Flex_TT_Padding,Spacing between node's inner edge and children,Расстояние между внутренним краем узла и дочерними элементами,,Подсказка свойства гибких панелей
+Flex_TT_Margin,Spacing around the outside of the node,Расстояние вокруг внешней стороны узла,,Подсказка свойства гибких панелей
+Flex_TT_GapColRow,Spacing between rows and columns,Расстояние между строками и столбцами,,Подсказка свойства гибких панелей
+Flex_TT_GapRow,Spacing between rows,Расстояние между строками,,Подсказка свойства гибких панелей
+Flex_TT_GapColumn,Spacing between columns,Расстояние между столбцами,,Подсказка свойства гибких панелей
+Flex_TT_FlexDirection,"The main axis or direction nodes are laid out. This influences the direction of other flex properties e.g. align items, flex wrap.","Основная ось или направление расположения узлов. Это влияет на направление других свойств гибких панелей, например, выравнивание элементов, перенос гибких панелей.",,Подсказка свойства гибких панелей
+Flex_TT_LayoutDirection,Layout direction of the node and its children,Направление компоновки узла и его дочерних элементов,,Подсказка свойства гибких панелей
+Flex_TT_Wrap,Move items to the next row/column when it exceeds flex panel dimensions,Перенос элементов на следующую строку/столбец при превышении размеров гибкой панели,,Подсказка свойства гибких панелей
+Flex_TT_Position,Distance between the edges of the node and its parent,Расстояние между краями узла и его родителем,,Подсказка свойства гибких панелей
+Flex_TT_PositionType,Node's position type,Тип позиционирования узла,,Подсказка свойства гибких панелей
+Flex_TT_AlignSelf,Align node along the cross axis of its container,Выравнивание узла вдоль поперечной оси его контейнера,,Подсказка свойства гибких панелей
+Flex_TT_ClipContent,Hide items beyond panel bounds,Скрывать элементы за пределами границ панели,,Подсказка свойства гибких панелей
+Flex_TT_Grow,Describes how remaining space in the container node should be distributed among its children along the main axis,"Описывает, как оставшееся пространство в узле-контейнере должно быть распределено между его дочерними элементами вдоль основной оси",,Подсказка свойства гибких панелей
+Flex_TT_Shrink,Describes how to shrink children along the main axis in the case that the total size of the children overflow the size of the container on the main axis,"Описывает, как сжимать дочерние элементы вдоль основной оси в случае, если общий размер дочерних элементов превышает размер контейнера по основной оси",,Подсказка свойства гибких панелей
+Flex_TT_Display,Include or remove from the layout,Включить или удалить из компоновки,,Подсказка свойства гибких панелей
+Flex_TT_Anchor,"Sets the item's 0,0 position based on its container","Устанавливает позицию 0,0 элемента относительно его контейнера",,Подсказка свойства гибких панелей
+Flex_TT_Visible,Hide item from rendering at startup. Any attached scripts are not deactivated,Скрыть элемент от отрисовки при запуске. Прикрепленные скрипты не деактивируются,,Подсказка свойства гибких панелей
+Flex_TT_StretchWidth,Fit the container's width,Подогнать под ширину контейнера,,Подсказка свойства гибких панелей
+Flex_TT_StretchHeight,Fit the container's height,Подогнать под высоту контейнера,,Подсказка свойства гибких панелей
+Flex_TT_Stretch,Stretch to fit the container's width or height,"Растянуть, чтобы соответствовать ширине или высоте контейнера",,Подсказка свойства гибких панелей
+Flex_TT_TileHori,Repeat across X axis inside container,Повторять по оси X внутри контейнера,,Подсказка свойства гибких панелей
+Flex_TT_TileVert,Repeat across Y axis inside container,Повторять по оси Y внутри контейнера,,Подсказка свойства гибких панелей
+Flex_TT_Tile,Tile vertically or horizontally,Замощение по вертикали или горизонтали,,Подсказка свойства гибких панелей
+Flex_TT_KeepAspect,Preserves aspect ratio when the item is stretched,Сохраняет соотношение сторон при растягивании элемента,,Подсказка свойства гибких панелей
+Help_eYGPositionType_YGPositionTypeStatic,Behaves like relative except it will ignore position offsets,"Ведёт себя как relative, но игнорирует смещения позиции",,Подсказка справки по гибким панелям
+Help_eYGPositionType_YGPositionTypeRelative,Laid out according to the flow of the flex container it is part of,"Размещается в соответствии с потоком гибкого контейнера, частью которого является",,Подсказка справки по гибким панелям
+Help_eYGPositionType_YGPositionTypeAbsolute,Absolute nodes do not take up space in its flex container,Абсолютные узлы не занимают места в своём гибком контейнере,,Подсказка справки по гибким панелям
+Help_eYGDisplay_YGDisplayFlex,Laid out according to the flex algorithm,Располагается в соответствии с алгоритмом flex,,Подсказка справки по гибким панелям
+Help_eYGDisplay_YGDisplayNone,Removed from the layout tree and will not be visible,Удаляется из дерева макета и не будет видимым,,Подсказка справки по гибким панелям
+Help_eYGAlign_YGAlignAuto,Match container node,Соответствует узлу контейнера,,Подсказка справки по гибким панелям
+Help_eYGAlign_YGAlignStretch,Fit cross axis's size,Подгоняется под размер поперечной оси,,Подсказка справки по гибким панелям
+Help_eYGAlign_YGAlignFlexStart,Align to cross axis's start,Выравнивание по началу поперечной оси,,Подсказка справки по гибким панелям
+Help_eYGAlign_YGAlignFlexEnd,Align to cross axis's end,Выравнивание по концу поперечной оси,,Подсказка справки по гибким панелям
+Help_eYGAlign_YGAlignCenter,Align to cross axis's centre,Выравнивание по центру поперечной оси,,Подсказка справки по гибким панелям
+Help_alignContent_YGAlignAuto,Match container node,Соответствует узлу контейнера,,Подсказка справки по гибким панелям
+Help_alignContent_YGAlignFlexStart,Align wrapped lines to cross axis's start,Выравнивание перенесённых строк по началу поперечной оси,,Подсказка справки по гибким панелям
+Help_alignContent_YGAlignFlexEnd,Align wrapped lines to cross axis's end,Выравнивание перенесённых строк по концу поперечной оси,,Подсказка справки по гибким панелям
+Help_alignContent_YGAlignCenter,Align wrapped lines to cross axis's centre,Выравнивание перенесённых строк по центру поперечной оси,,Подсказка справки по гибким панелям
+Help_alignContent_YGAlignSpaceBetween,Distribute wrapped lines evenly across the main axis with remaining container space,Распределение перенесённых строк равномерно вдоль основной оси с оставшимся пространством контейнера,,Подсказка справки по гибким панелям
+Help_alignContent_YGAlignSpaceAround,"Distribute wrapped lines evenly with remaining container space, with half that size between first and last line","Распределение перенесённых строк равномерно с оставшимся пространством контейнера, с половиной этого размера между первой и последней строкой",,Подсказка справки по гибким панелям
+Help_alignContent_YGAlignSpaceEvenly,"Distribute wrapped lines evenly with remaining container space, including start and end edges","Распределение перенесённых строк равномерно с оставшимся пространством контейнера, включая начальный и конечный края",,Подсказка справки по гибким панелям
+Help_eYGUnit_YGUnitPoint,Defines the width/height in absolute pixels,Определяет ширину/высоту в абсолютных пикселях,,Подсказка справки по гибким панелям
+Help_eYGUnit_YGUnitPercent,Defines the width/height as a percentage of its containing block's size,Определяет ширину/высоту как процент от размера содержащего блока,,Подсказка справки по гибким панелям
+Help_eYGUnit_YGUnitAuto,Calculates the width/height for the node based on its content,Рассчитывает ширину/высоту узла на основе его содержимого,,Подсказка справки по гибким панелям
+Help_eYGFlexDirection_YGFlexDirectionColumn,Align children from top to bottom,Выравнивание дочерних элементов сверху вниз,,Подсказка справки по гибким панелям
+Help_eYGFlexDirection_YGFlexDirectionColumnReverse,Align children from bottom to top,Выравнивание дочерних элементов снизу вверх,,Подсказка справки по гибким панелям
+Help_eYGFlexDirection_YGFlexDirectionRow,Align children from left to right,Выравнивание дочерних элементов слева направо,,Подсказка справки по гибким панелям
+Help_eYGFlexDirection_YGFlexDirectionRowReverse,Align children from right to left,Выравнивание дочерних элементов справа налево,,Подсказка справки по гибким панелям
+Help_eYGJustify_YGJustifyFlexStart,Align children to main axis's start,Выравнивание дочерних элементов по началу основной оси,,Подсказка справки по гибким панелям
+Help_eYGJustify_YGJustifyCenter,Align children to main axis's centre,Выравнивание дочерних элементов по центру основной оси,,Подсказка справки по гибким панелям
+Help_eYGJustify_YGJustifyFlexEnd,Align children to main axis's end,Выравнивание дочерних элементов по концу основной оси,,Подсказка справки по гибким панелям
+Help_eYGJustify_YGJustifySpaceBetween,Distribute children evenly across the main axis with remaining container space,Распределение дочерних элементов равномерно вдоль основной оси с оставшимся пространством контейнера,,Подсказка справки по гибким панелям
+Help_eYGJustify_YGJustifySpaceAround,"Distribute children evenly with remaining container space, with half that size between first and last child","Распределение дочерних элементов равномерно с оставшимся пространством контейнера, с половиной этого размера между первым и последним дочерним элементом",,Подсказка справки по гибким панелям
+Help_eYGJustify_YGJustifySpaceEvenly,"Distribute children evenly with remaining container space, including start and end edges","Распределение дочерних элементов равномерно с оставшимся пространством контейнера, включая начальный и конечный края",,Подсказка справки по гибким панелям
+ListBoxEnum_eYGAlign_YGAlignAuto,Auto,Автоматически,,Значение выравнивания гибких панелей
+ListBoxEnum_eYGAlign_YGAlignFlexStart,Flex Start,Начало гибких панелей,,Значение выравнивания гибких панелей
+ListBoxEnum_eYGAlign_YGAlignCenter,Centre,Центр,,Значение выравнивания гибких панелей
+ListBoxEnum_eYGAlign_YGAlignFlexEnd,Flex End,Конец гибких панелей,,Значение выравнивания гибких панелей
+ListBoxEnum_eYGAlign_YGAlignStretch,Stretch,Растянуть,,Значение выравнивания гибких панелей
+ListBoxEnum_eYGAlign_YGAlignBaseline,Baseline,Базовая линия,,Значение выравнивания гибких панелей
+ListBoxEnum_eYGAlign_YGAlignSpaceBetween,Space Between,Интервал между,,Значение выравнивания гибких панелей
+ListBoxEnum_eYGAlign_YGAlignSpaceAround,Space Around,Интервал вокруг,,Значение выравнивания гибких панелей
+ListBoxEnum_eYGAlign_YGAlignSpaceEvenly,Space Evenly,Равные интервалы,,Значение выравнивания гибких панелей
+ListBoxEnum_eYGDisplay_YGDisplayFlex,Flex,Гибкие панели,,Значение отображения гибких панелей
+ListBoxEnum_eYGDisplay_YGDisplayNone,None,Нет,,Значение отображения гибких панелей
+ListBoxEnum_eYGUnit_YGUnitUndefined,--,--,,Тип единицы измерения гибких панелей
+ListBoxEnum_eYGUnit_YGUnitPoint,Pixels,Пиксели,,Тип единицы измерения гибких панелей
+ListBoxEnum_eYGUnit_YGUnitPercent,Percent,Проценты,,Тип единицы измерения гибких панелей
+ListBoxEnum_eYGUnit_YGUnitAuto,Auto,Авто,,Тип единицы измерения гибких панелей
+ListBoxEnum_eYGFlexDirection_YGFlexDirectionColumn,Column,Столбец,,Тип направления гибких панелей
+ListBoxEnum_eYGFlexDirection_YGFlexDirectionColumnReverse,Column Reverse,Обратный столбец,,Тип направления гибких панелей
+ListBoxEnum_eYGFlexDirection_YGFlexDirectionRow,Row,Строка,,Тип направления гибких панелей
+ListBoxEnum_eYGFlexDirection_YGFlexDirectionRowReverse,Row Reverse,Обратная строка,,Тип направления гибких панелей
+ListBoxEnum_eYGWrap_YGWrapNoWrap,No Wrap,Без переноса,,Тип переноса гибких панелей
+ListBoxEnum_eYGWrap_YGWrapWrap,Wrap,Переносить,,Тип переноса гибких панелей
+ListBoxEnum_eYGWrap_YGWrapWrapReverse,Wrap Reverse,Обратный перенос,,Тип переноса гибких панелей
+ListBoxEnum_eYGPositionType_YGPositionTypeStatic,Static,Статичное,,Тип позиционирования гибких панелей
+ListBoxEnum_eYGPositionType_YGPositionTypeRelative,Relative,Относительное,,Тип позиционирования гибких панелей
+ListBoxEnum_eYGPositionType_YGPositionTypeAbsolute,Absolute,Абсолютное,,Тип позиционирования гибких панелей
+ListBoxEnum_eYGJustify_YGJustifyFlexStart,Flex Start,Начало гибких панелей,,Тип выравнивания гибких панелей
+ListBoxEnum_eYGJustify_YGJustifyCenter,Centre,Посередине,,Тип выравнивания гибких панелей
+ListBoxEnum_eYGJustify_YGJustifyFlexEnd,Flex End,Конец гибких панелей,,Тип выравнивания гибких панелей
+ListBoxEnum_eYGJustify_YGJustifySpaceBetween,Space Between,Интервал между,,Тип выравнивания гибких панелей
+ListBoxEnum_eYGJustify_YGJustifySpaceAround,Space Around,Интервал вокруг,,Тип выравнивания гибких панелей
+ListBoxEnum_eYGJustify_YGJustifySpaceEvenly,Space Evenly,Равные интервалы,,Тип выравнивания гибких панелей
+ListBoxEnum_eYGDirection_YGDirectionInherit,Inherit,Inherit,,Тип направления компоновки
+ListBoxEnum_eYGDirection_YGDirectionLTR,Left to Right,Left to Right,,Тип направления компоновки
+ListBoxEnum_eYGDirection_YGDirectionRTL,Right to Left,Right to Left,,Тип направления компоновки
 RoomEditor_AddSubLayer,Add Sub Layer,Add Sub Layer,,context sub menu heading for adding sub layers in the room editor layer view
 RoomEditor_AddRootLayer,Add Layer,Add Layer,,context sub menu heading for adding layers at the same level as the selected layer in the room editor layer view
 RoomEditor_AllLayers,All,All,,Layers label next to the set all layers locked/visible checkboxes
@@ -2267,7 +2480,7 @@ SpriteEditor_SpineLabel,Spine Sprite,Spine Sprite,,spine type sprite
 SpriteEditor_SpineLabelTT,Spine Sprite - some editor settings disabled,Spine Sprite - some editor settings disabled,,spine sprite label tooltip
 SpriteEditor_SWFLabel,SWF Sprite,Спрайт SWF,,SWF type sprite
 SpriteEditor_SWFLabelTT,SWF Sprite - some editor settings disabled,SWF Sprite - some editor settings disabled,,SWF sprite label tooltip
-NineSlice_Activate,Activate Nine Slice,Использовать девятисегментный срез,,activate nineslice label
+NineSlice_Activate,Activate Nine Slice,Исполь. девятисегментный срез,,activate nineslice label
 NineSlice_SelectedSlice,Selected Slice:,Selected Slice:,,selected nineslice label
 NineSlice_TileMode,Tile Mode:,Tile Mode:,,nineslice tilemode label
 NineSlice_Highlight,Highlight:,Highlight:,,nineslice highlight label
@@ -5523,7 +5736,7 @@ WelcomePage_Page2Text,"Sit back, relax, and let us introduce you to some of our 
 WelcomePage_Page3Text,"{0}'Access All Areas'{1}. Find everything you need in one place. Tutorials, marketplace, support and much more","{0}'Access All Areas'{1}. Find everything you need in one place. Tutorials, marketplace, support and much more",, {0} and {1} are used to include bold text - must be maintained in translation
 WelcomePage_ShowOnStartup,Show welcome screen on startup,Show welcome screen on startup,,preference text
 WelcomePage_Learn,Learn,Learn,,welcome page external link text
-WelcomePage_Marketplace,Marketplace,Торговая площадка,,welcome page external link text
+WelcomePage_Marketplace,Marketplace,Маркетплейс,,welcome page external link text
 WelcomePage_Support,Support,Support,,welcome page external link text
 WelcomePage_Community,Community,Community,,welcome page external link text
 Runtime_Installing_Version,Installing runtime {0},Installing runtime {0},,user facing splash screen message for installing runtime
@@ -5532,7 +5745,7 @@ StartPage_Web_NewProject,New,Создать проект,,Start page localised w
 StartPage_Web_OpenProject,Open,Открыть проект,,Start page localised web content
 StartPage_Web_ImportProject,Import,Импортировать,,Start page localised web content
 StartPage_Web_Demos,Demos,Demos,,Start page localised web content
-StartPage_Web_Marketplace,Marketplace,Торговая площадка,,Start page localised web content
+StartPage_Web_Marketplace,Marketplace,Маркетплейс,,Start page localised web content
 StartPage_Web_Tutorials,Tutorials,Уроки,,Start page localised web content
 StartPage_Web_About,More,More,,Start page localised web content
 StartPage_Web_CreateNewProject,Create New Project,Create New Project,,Start page localised web content
@@ -5558,7 +5771,7 @@ StartPage_Web_Downloading,Downloading...,Скачивание...,,Start page sta
 StartPage_Web_InProgress,Not Completed,Not Completed,,Start page status label
 StartPage_Web_Completed,Completed,Completed,,Start page status label
 StartPage_Web_Available,Available,Available,,Start page status label
-StartPage_Web_ViewOnMarketplace,View On Marketplace,Посмотреть на торговой площадке,,Start page tooltip
+StartPage_Web_ViewOnMarketplace,View On Marketplace,Посмотреть на маркетплейсе,,Start page tooltip
 StartPage_Web_Download,Download,Скачать,,Start page tooltip
 StartPage_Web_Open,Open,Открыть,,Start page tooltip
 StartPage_Web_Remove,Remove Local Files,Remove Local Files,,Start page remove tooltip
@@ -6277,6 +6490,7 @@ Preferences_operagx_sdk_dir,EMSCRIPTEN SDK location,EMSCRIPTEN SDK location,,Pre
 Preferences_linux_steamrt_sdk_dir,Steam Runtime SDK location,Steam Runtime SDK location,,Preferences/Platform Settings/Ubuntu
 ProjectLoad_BadPathTitle,Unsafe Path,Unsafe Path,,Bad Path message title when failing badpath check on load
 ProjectLoad_BadPathMessage,This project is located in an unsafe location: {0}\nPlease save it in a new location to avoid loss of work.,This project is located in an unsafe location: {0}\nPlease save it in a new location to avoid loss of work.,,Project is in an unsafe location message
+ProjectLoad_RequestDowngrade,Project is later than this GameMaker release.\nDo you want to downgrade this project with ProjectTool to match this GameMaker release to be able to open it?\n\nWARNING: This may lose data!,Project is later than this GameMaker release.\nDo you want to downgrade this project with ProjectTool to match this GameMaker release to be able to open it?\n\nWARNING: This may lose data!,,Project downgrade warning
 ResourceTree_Search_Filters,Filters:,Filters:,,Filter label on Resource Tree search
 ResourceTree_Search_Go,Go,Go,,Go Button Label
 ResourceTree_Search_Reset,Reset,Reset,,Reset Button Label
@@ -6369,7 +6583,20 @@ ResourceTree_ParticleSystems,Particle Systems,Particle Systems,,Particle systems
 ResourceTree_ParticleSystems_Singular,Particle System,Particle System,,Particle system resource name singular
 ResourceTree_ParticleEmitters,Particle Emitters,Particle Emitters,,particle emitters resource plural
 ResourceTree_ParticleEmitters_Singular,Particle Emitter,Particle Emitter,,particle emitter resource singular
+ResourceTree_Tilemaps_Singular,Tile Map,Tile Map,,tile map resource name (debugger)
+Debugger_RefID_Buffer,Buffer,Buffer,,buffer ref type name
+Debugger_RefID_VertexBuffer,Vertex Buffer,Vertex Buffer,,vertex buffer ref type name
+Debugger_RefID_VertexFormat,Vertex Format,Vertex Format,,vertex format ref type name
+Debugger_RefID_Surface,Surface,Surface,,surface ref type name
+Debugger_RefID_TimeSource,Time Source,Time Source,,time source ref type name
+Debugger_RefID_Layer,Layer,Layer,,layer ref type name
+Debugger_RefID_Flexpanel,Flex Panel,Гибкая панель,,flexpanel ref type name
 RT_Unknown,Resource,Ресурс,,unknown resource type name
+RT_Unknown_Singular,Resource,Resource,,unknown resource type name
+RT_Project,Project,Project,,project resource type
+RT_Project_Singular,Project,Project,,project resource type
+RT_Prefab_Collection,Collection,Collection,,Prefab Collection type
+RT_Prefab_Collection_Singular,Collection,Collection,,Prefab Collection type
 RT_RoomInstance,Object Instances,Экземпляры объекта,,room instance resource name
 RT_RoomInstance_Singular,Object Instance,Экземпляр объекта,,room instance resource name singular
 RT_RoomSpriteGraphic,Sprite Instances,Экземпляры спрайта,,room sprite graphic resource name
@@ -6380,18 +6607,24 @@ RT_RoomParticleSystem,Particle System Instances,Particle System Instances,,room 
 RT_RoomParticleSystem_Singular,Particle System Instance,Particle System Instance,,room particle system instance resource name singular
 RT_RoomTextItem_Singular,Text Item,Text Item,,room text instance(singular)
 RT_RoomTextItem,Text Items,Text Items,,room text instances(plural)
-RT_RoomAssetLayer,Asset Layers,Asset Layers,,room asset layer resource name
-RT_RoomAssetLayer_Singular,Asset Layer,Asset Layer,,room asset layer resource name singular
-RT_RoomBackgroundLayer,Background Layers,Background Layers,,room background layers plural
-RT_RoomBackgroundLayer_Singular,Background Layer,Background Layer,,room background layer singular
-RT_RoomEffectLayer,Effect Layers,Effect Layers,,room effect layers plural
-RT_RoomEffectLayer_Singular,Effect Layer,Effect Layer,,room effect layer singular
-RT_RoomInstanceLayer,Instance Layers,Instance Layers,,room instance layer plural
-RT_RoomInstanceLayer_Singular,Instance Layer,Instance Layer,,room instance layer singular
-RT_RoomPathLayer,Path Layers,Path Layers,,room path layers plural
-RT_RoomPathLayer_Singular,Path Layer,Path Layer,,room path layer singular
-RT_RoomTileLayer,Tile Layers,Tile Layers,,room tile layers plural
-RT_RoomTileLayer_Singular,Tile Layer,Tile Layer,,room tile layer singular
+RT_RoomAssetLayer,Asset Layers,Слои ассетов,,room asset layer resource name
+RT_RoomAssetLayer_Singular,Asset Layer,Слой ассетов,,room asset layer resource name singular
+RT_RoomBackgroundLayer,Background Layers,Слои фона,,room background layers plural
+RT_RoomBackgroundLayer_Singular,Background Layer,Слой фона,,room background layer singular
+RT_RoomEffectLayer,Effect Layers,Слои эффектов,,room effect layers plural
+RT_RoomEffectLayer_Singular,Effect Layer,Слой эффектов,,room effect layer singular
+RT_RoomInstanceLayer,Instance Layers,Слои экземпляров,,room instance layer plural
+RT_RoomInstanceLayer_Singular,Instance Layer,Слой экземпляра,,room instance layer singular
+RT_RoomPathLayer,Path Layers,Слои путей,,room path layers plural
+RT_RoomPathLayer_Singular,Path Layer,Слой пути,,room path layer singular
+RT_RoomTileLayer,Tile Layers,Слои тайлов,,room tile layers plural
+RT_RoomTileLayer_Singular,Tile Layer,Слой тайлов,,room tile layer singular
+RT_RoomUILayer,UI Layers,Слои интерфейса,,room ui layer plural
+RT_RoomUILayer_Singular,UI Layer,Слой интерфейса,,room ui layer singular
+RT_RoomFlexPanel,Flex Panels,Гибкие панели,,room ui flex panel plural
+RT_RoomFlexPanel_Singular,Flex Panel,Гибкая панель,,room ui flex panel singular
+RT_RoomFolder_Singular,Folder,Папка,,folder singular
+RT_RoomFolder,Folders,Папки,,folder plural
 recentwindows_title,Recent Windows,Recent Windows,,Recently activated windows title
 Views_Menu_Recent_Windows,Recent Windows,Recent Windows,,Recent activated windows menu option
 Developer_Menu_Title,Developer,Developer,,Title of the main Developer menu
@@ -6417,9 +6650,9 @@ Proxy_Address,Proxy,Proxy,,proxy address label
 Proxy_Address_Tooltip,Proxy address and port (http://address:port),Proxy address and port (http://address:port),,proxy address tooltip
 Proxy_Address_Error,"The proxy server's URL must use ""http://address:port"" format","The proxy server's URL must use ""http://address:port"" format",,proxy format error message
 Proxy_Error_Title,Error: Invalid proxy setting,Error: Invalid proxy setting,,proxy error window title
-Proxy_Username,Username,Username,,proxy username label
+Proxy_Username,Username,Имя пользователя,,proxy username label
 Proxy_Username_Tooltip,Proxy username,Proxy username,,proxy username tooltip
-Proxy_Password,Password,Password,,proxy password label
+Proxy_Password,Password,Пароль,,proxy password label
 Proxy_Password_Tooltip,Proxy password,Proxy password,,proxy password tooltip
 Proxy_Domain,Domain,Domain,,proxy domain label
 Proxy_Domain_Tooltip,Proxy Domain. Usually left blank,Proxy Domain. Usually left blank,,proxy domain tooltip
@@ -6429,8 +6662,8 @@ Drag and Drop,GML Visual,Визуальное программирование G
 Image Editor,Image Editor,Редактор изображения,,Image Editor preference group heading
 Sprite Editor,Sprite Editor,Редактор спрайта,,Sprite Editor preference group heading
 Nineslice,Nine Slice,Девятисегментный срез,,Sprite editor nineslice pref group subheading
-Object Editor,Object Editor,Object Editor,,Object Editor preference group heading
-Script Editor,Script Editor,Script Editor,,Script Editor preference group heading
+Object Editor,Object Editor,Редактор объекта,,Object Editor preference group heading
+Script Editor,Script Editor,Редактор сценария,,Script Editor preference group heading
 Room Editor,Room Editor,Room Editor,,Room Editor preference group heading
 Spline Editor,Spline Editor,Spline Editor,,Spline Editor preference group heading
 Sequences,Sequences,Sequences,,Sequences preference group heading
@@ -6440,7 +6673,7 @@ Extension Editor,Extension Editor,Extension Editor,,Extension Editor preference 
 Resource Tree,Resource Tree,Resource Tree,,Resource Tree preference group heading
 Text Editors,Text Editors,Текстовые редакторы,,Text Editors preference group heading
 Languages,Languages,Языки программирования,,Languages preference group heading
-Marketplace,Marketplace,Торговая площадка,,Marketplace preference group heading
+Marketplace,Marketplace,Маркетплейс,,Marketplace preference group heading
 Platform Settings,Platform Settings,Настройки платформ,,Platform Settings preference group heading
 Plugins,Plugins,Плагины,,Plugins preference group heading
 Runtime Feeds,Runtime Feeds,Runtime Feeds,,Runtime Feeds preference group heading
@@ -6463,17 +6696,17 @@ Power Saving,Power Saving,Power Saving,,Power Saving preference group subheading
 Recent Windows,Recent Windows,Recent Windows,,Recent Windows preference group subheading
 Pick Whip,Pick Whip,Pick Whip,,Pick Whip preference group subheading
 Resources,Resources,Resources,,Resources preference group subheading
-Workspace,Workspace,Workspace,,Workspace preference group subheading
-Grid Settings,Grid Settings,Grid Settings,,Grid Settings preference group subheading
-Smart Guides,Smart Guides,Smart Guides,,Smart Guides preference group subheading
+Workspace,Workspace,Рабочее пространстов,,Workspace preference group subheading
+Grid Settings,Grid Settings,Настройки сетки,,Grid Settings preference group subheading
+Smart Guides,Smart Guides,Умные руководства,,Smart Guides preference group subheading
 Tools,Tools,Инструменты,,Tools preference group subheading
 Auto Tiling,Auto Tiling,Автотайлирование,,Auto Tiling preference group subheading
 Colours,Colours,Цвета,,Colours preference group subheading
 Code Editor,Code Editor,Редактор кода,,Code Editor preference group subheading
 Code Editor 2,Code Editor 2,Редактор кода 2,,Code Editor 2 preference group subheading
 Visual Editor,Visual Editor,Визуальный редактор,,Visual Editor preference group subheading
-GML,GML Code,Кодовое программирование GML,,GML Code preference group subheading
-GMLVisual,GML Visual,Визуальное программирование GML,,GML Visual preference group subheading
+GML,GML Code,Кодовый GML,,GML Code preference group subheading
+GMLVisual,GML Visual,Визуальный GML,,GML Visual preference group subheading
 Source Control (Git),Source Control (Git),Система управления версиями (Git),,Source Control (Git) preference group subheading
 Master,Master,Master,,Master preference group subheading
 Main Options,Main Options,Основные настройки,,Main Options options group heading
@@ -6503,7 +6736,7 @@ Wasm,WASM,WASM,DO NOT TRANSLATE,WASM preference group subheading
 Opera GX,GX.games,GX.games,DO NOT TRANSLATE,Opera GX preference group subheading
 Xbox Live,Xbox Live,Xbox Live,DO NOT TRANSLATE,Xbox Live options group subheading
 Dialogue Editor,Dialog Editor,Dialog Editor,,Dialog Editor preference group subheading
-Options,Options,Options,,Options preference group subheading
+Options,Options,Настройки,,Options preference group subheading
 Ratings,Ratings,Ratings,,Ratings option group subheading
 Splash Screen,Splash Screen,Splash Screen,,Splash Screen option group subheading
 Logos,Logos,Logos,,Logos option group subheading
@@ -6514,7 +6747,7 @@ Build Settings,Build Settings,Build Settings,,Build Settings option group subhea
 Orientation,Orientation,Orientation,,Orientation option group subheading
 Icons,Icons,Значки,,Icons option group subheading
 Social,Social,Social,,Social option group subheading
-Facebook,Facebook,Facebook,,Facebook option group subheading
+Facebook,Facebook,Фейсбук,,Facebook option group subheading
 iPhone,iPhone,iPhone,,iPhone option group subheading
 iPhone Retina,iPhone Retina,iPhone Retina,DO NOT TRANSLATE iPhone,iPhone Retina option group subheading
 iPhone 5,iPhone 5,iPhone 5,DO NOT TRANSLATE,iPhone 5 option group subheading
@@ -6544,7 +6777,7 @@ Option_Texture_Page_Size,Texture page size,Texture page size,,Texture Page Size 
 Option_Project_Last_Changed,Project Last Changed,Project Last Changed,,Project Last Changed option display caption
 Option_Project_Use_Time,Project Use Time,Project Use Time,,Project Use Time option display caption
 Option_Project_Start_Date,Project Start Date,Project Start Date,,Project Start Date option display caption
-Option_Project_GUID,Project GUID,Project GUID,,Project GUID option display caption
+Option_Project_GUID,Project GUID,GUID проекта,,Project GUID option display caption
 Option_License_Agreement,Licence Agreement,Licence Agreement,,Licence Agreement file path option location caption
 Option_NSIS_Script,NSIS Script,NSIS Script,,NSIS Script file path option location caption
 FileFilters_InstallerLicense,License Agreement File,License Agreement File,,License Agreement file filter for the file selection dialog
@@ -9257,13 +9490,14 @@ PackageMan_SourcesTitle,Package Sources,Package Sources,,package sources window 
 PackageMan_AddSourceTT,Add new source,Add new source,,add source tooltip
 PackageMan_DeleteSourceTT,Delete selected source,Delete selected source,,delete source tooltip
 packageman_packageInstallDir,Packages Install Directory,Packages Install Directory,,pref install dir
+packageman_defaultPackageSource,Default Package Source,Default Package Source,,default package source to open
 packageman_defaultRemote,Default Source URL,Default Source URL,,pref default source URL
 PackageMan,Package Manager,Package Manager,,package manager pref node name
 Notification_PackageManager,Package Manager,Package Manager,,notification category
 Notification_PackageUpdateAvailable,An update is available for {0},An update is available for {0},,notification message
 BugReport_WindowTitle,Report a bug,Report a bug,,bug report window title
 BugReport_WindowTitle_Crash,Report a crash bug,Report a crash bug,,bug report (crash) window title
-BugReport_Overall,"Thanks for submitting your issues. Before you send this report, please do see <a href=""https://help.yoyogames.com/hc/en-us/articles/13150754375453"">How to submit a Bug Report</a>.","Thanks for submitting your issues. Before you send this report, please do see <a href=""https://help.yoyogames.com/hc/en-us/articles/13150754375453"">How to submit a Bug Report</a>.",,bug report dialog
+BugReport_Overall,"Thanks for submitting your issues. Before you send this report, please do see <a href=""https://help.gamemaker.io/hc/en-us/articles/13150754375453"">How to submit a Bug Report</a>.","Thanks for submitting your issues. Before you send this report, please do see <a href=""https://help.gamemaker.io/hc/en-us/articles/13150754375453"">How to submit a Bug Report</a>.",,bug report dialog
 BugReport_KnownIssues,"Please check the <a href=""https://github.com/YoYoGames/GameMaker-Bugs/issues"">Known Issues</a> before submitting to make sure that it has not already been reported.","Please check the <a href=""https://github.com/YoYoGames/GameMaker-Bugs/issues"">Known Issues</a> before submitting to make sure that it has not already been reported.",,bug report known issues
 BugReport_SecurityIssues,"If you believe you have found a security vulnerability, please report the issue <a href=""https://github.com/YoYoGames/GameMaker-Bugs/security/policy"">here</a>","If you believe you have found a security vulnerability, please report the issue <a href=""https://github.com/YoYoGames/GameMaker-Bugs/security/policy"">here</a>",,bug report security issues
 BugReport_AuthGithub,"You can authorise your GitHub account to post issues on the <a href=""{0}"">Accounts page</a>","You can authorise your GitHub account to post issues on the <a href=""{0}"">Accounts page</a>",,bug report github auth 
@@ -9281,12 +9515,14 @@ BugReport_ReportTitle,Title*,Title*,,bug report title
 BugReport_TitleTT,Provide a short title,Provide a short title,,bug report title tooltip
 BugReport_DescriptionText,"Describe the issue in as much detail as possible, the more details you supply, the more likely we are able to fix the problem. Include details such as: what you were doing at the time, and target platforms being used.","Describe the issue in as much detail as possible, the more details you supply, the more likely we are able to fix the problem. Include details such as: what you were doing at the time, and target platforms being used.",,bug report dialog
 BugReport_DescWarning,Please complete the fields marked * to submit,Please complete the fields marked * to submit,,complete to submit warning
+BugReport_TitleMinCharWarning,Title should have at least {0} characters,Title should have at least {0} characters,,title min chars warning
+BugReport_DescMinCharWarning,Description should have at least {0} characters,Description should have at least {0} characters,,title min chars warning
 BugReport_Steps,Steps To Reproduce,Steps To Reproduce,,bug report steps
 BugReport_StepsTT,Describe the steps required to reproduce the bug,Describe the steps required to reproduce the bug,,bug report steps tooltip
-BugReport_AttachAdditional,Privately attach additional files,Privately attach additional files,,bug report dialog
+BugReport_AttachHeader,Would you like to privately attach:,Would you like to privately attach:,,bug reporter attach header label
 BugReport_AttachFiles,AttachFiles,AttachFiles,,bug report dialog
 BugReport_AttachFilesTT,"Your GameMaker logs are already included automatically, as they are essential to diagnose the issue. Here you can attach screenshots and in-game logs, etc., to give additional information.","Your GameMaker logs are already included automatically, as they are essential to diagnose the issue. Here you can attach screenshots and in-game logs, etc., to give additional information.",,bug report dialog
-BugReport_IncludeProject,Privately attach this project*,Privately attach this project*,,bug report dialog
+BugReport_IncludeProject,this project*,this project*,,bug report dialog
 BugReport_IncludeProjectTT,"Please allow GameMaker to send us a project that shows the issue - ideally, a small sample rather than your full game, as we want to identify the fix as soon as possible. Reports found to be coding mistakes/development support may be closed without detailed explanations.","Please allow GameMaker to send us a project that shows the issue - ideally, a small sample rather than your full game, as we want to identify the fix as soon as possible. Reports found to be coding mistakes/development support may be closed without detailed explanations.",,bug report dialog
 BugReport_IssueVisibility,Issue Visibility:*,Issue Visibility:*,,issue vis
 BugeReport_IssueVisTT,Note that this affects the visibility of your bug report text only. All attachments above are always only visible to GameMaker staff.,Note that this affects the visibility of your bug report text only. All attachments above are always only visible to GameMaker staff.,,issue visibility tool tip
@@ -9307,6 +9543,8 @@ BugReport_GithubAuthFailMsg_MustAuth,"Please re-authorise your GitHub account on
 BugReport_Send,Send Report,Send Report,,Send bug report
 BugReport_PrivateError_Msg,"Please re-authenticate your GitHub account before resubmitting.\nThe report has been saved and you can try again later.","Please re-authenticate your GitHub account before resubmitting.\nThe report has been saved and you can try again later.",,private issue error message
 BugReport_ReAuth,Re-authenticate,Re-authenticate,,reauthenticate button label
+BugReport_Retry,Retry,Retry,,retry button label
+BugReport_EnterpriseNotFoundErrorMsg,"Confirm your GameMaker account is authorised to access your GitHub account and also accept any pending invites from "GameMaker Enterprise" on your GitHub profile page, then try again.","Confirm your GameMaker account is authorised to access your GitHub account and also accept any pending invites from "GameMaker Enterprise" on your GitHub profile page, then try again.",,bugrep github enterprise not found error msg
 BugReport_RTMismatchTitle,Runtime/IDE version mismatch,Runtime/IDE version mismatch,,dubious runtime dialog title
 BugReport_RTMismatchMsg1,"Your {0} IDE and currently-active runtime {1} are from different GameMaker releases, so this alone may be the cause of your issue.","Your {0} IDE and currently-active runtime {1} are from different GameMaker releases, so this alone may be the cause of your issue.",,runtime mismatch msg
 BugReport_RTMismatchMsg2,"(This IDE expects runtime {0}, but any newer {1} runtime will do.)","(This IDE expects runtime {0}, but any newer {1} runtime will do.)",,runtime mismatch msg
@@ -9315,8 +9553,8 @@ BugReport_ChangeRuntime,Change Runtime,Change Runtime,,change runtime button
 BugReport_ReportAnyway,Report Anyway,Report Anyway,,report anyway
 ListBoxEnum_eBugReportVis_Public,Public,Public,,public
 ListBoxEnum_eBugReportVis_Private,Private,Private,,public
-ListBoxEnum_eBugRepYesNo_Yes,Yes,Yes,,yes
-ListBoxEnum_eBugRepYesNo_No,No,No,,no
+ListBoxEnum_eBugRepYesNo_Yes,Attach privately,Attach privately,,yes
+ListBoxEnum_eBugRepYesNo_No,Do not attach,Do not attach,,no
 BugReport_PublicTT,"Whenever possible, please do not include sensitive/confidential information in your description or steps, so that you can report your issue publicly and be able to see it on our website and get updates. (Your attached files will always be private anyway.)","Whenever possible, please do not include sensitive/confidential information in your description or steps, so that you can report your issue publicly and be able to see it on our website and get updates. (Your attached files will always be private anyway.)",,public issue tooltip
 BugReport_PrivateTT,"If your issue contains sensitive information (e.g. information covered by an NDA) and you would like us not to include this report in the public bug list, then please select this. Please note that if the issue would affect lots of users, we retain the right to redact all private information and make the issue public.","If your issue contains sensitive information (e.g. information covered by an NDA) and you would like us not to include this report in the public bug list, then please select this. Please note that if the issue would affect lots of users, we retain the right to redact all private information and make the issue public.",,bug report dialog
 BugPackageModule_IncludeYYZ,"Include the current package:\n\nWould you like to include this project in your bug submission as an example of how to cause the bug?\n\n\nA project is usually required for all issues regarding compiling and is extremely helpful when the problem is in-game.\n\nIf you do not include a sample project, we may request one later if we are unable to reproduce your bug.","Include the current package:\n\nWould you like to include this project in your bug submission as an example of how to cause the bug?\n\n\nA project is usually required for all issues regarding compiling and is extremely helpful when the problem is in-game.\n\nIf you do not include a sample project, we may request one later if we are unable to reproduce your bug.",,Message to include a YYZ of the project
@@ -9416,12 +9654,15 @@ AssetName_gmtimeline_create_new_document,Moment,Moment,,Moment
 AssetName_Plural_GMObject,Events,События,,Events
 AssetName_Plural_GMExtensionFile,Files,Файлы,,Files
 AssetName_Plural_GMRoom,Creation Code,Код при создании,,Creation Code
+AssetName_Plural_GMRoomUI,RoomUI Layers,Слои интерфейса комнаты,,RoomUI
 AssetName_Plural_GMTimeline,Moments,Moments,,Moments
 AssetName_Plural_GMScript,Scripts,Сценарии,,Scripts
+AssetName_Plural_GMShader,Shaders,Шейдеры,,Shaders
+AssetName_Plural_GMIncludedFile,Files,Файлы,,Files
 TimelineEditorModule_AddMoment,Add Moment,Add Moment,,Add Moment
 TimelineEditorModule_Moment,Moment {0},Moment {0},,Moment N
 ExtensionEditorModule_AddFile,Add File,Добавить файл,,Add File
-TextMateTheme_New,New...,Создать новый...,,New...
+TextMateTheme_New,New...,Создать новый…,,New...
 TextMateTheme_New_FromFile,from File,from File,,from File
 TextMateTheme_New_FromCurrent,from Copy of Selected,from Copy of Selected,,from Copy of Selected
 TextMateTheme_New_FromCurrent_Name,{0} - Copy,{0} - Copy,,{0} - Copy
@@ -9437,6 +9678,7 @@ TextMateTheme_Readonly,This theme is readonly as it is a default theme; New... f
 TextMateTheme_Warning_ChangesDiscarded,Unsaved changes to the previous theme have been discarded.,Unsaved changes to the previous theme have been discarded.,,Unsaved changes to the previous theme have been discarded.
 codeeditor_theme,Theme,Тема,,Theme
 CodeEditor2_SplitterButton_Tooltip,Click and drag to split view vertically or horizontally.\nRight click to split horizontally.,Click and drag to split view vertically or horizontally.\nRight click to split horizontally.,,Click and drag to split view vertically or horizontally.\nRight click to split horizontally.
+CodeEditor2_ErrorSavingDocument,An error occurred while saving '{0}'.\nYour changes have not been saved to disk.\n{1},An error occurred while saving '{0}'.\nYour changes have not been saved to disk.\n{1},,An error occurred while saving '{0}'.\nYour changes have not been saved to disk.\n{1}
 LanguageServerMessage_Error,Language Services - Error,Language Services - Error,,Language Services - Error
 LanguageServerMessage_Warning,Language Services - Warning,Language Services - Warning,,Language Services - Warning
 LanguageServerMessage_Info,Language Services - Info,Language Services - Info,,Language Services - Info
@@ -9472,8 +9714,15 @@ PrefabLibrary_SimpleView,Simple view,Simple view,,simple view
 PrefabLibrary_TreeView,Tree view,Tree view,,tree view
 PrefabLib_Folder,Folder,Папка,,folder
 PrefabLib_EditCollection,Edit collection,Edit collection,,edit collection
+PrefabLib_ResetOverride,Reset Override,Reset Override,,Reset Prefab Override
+PrefabLibrary_Authors,Authors,Authors,,Author filter term
+PrefabLibrary_AllAuthors,All Authors,All Authors,,All Authors filter term
+PrefabLibrary_Filter_RecentPrefabs,Recent Prefabs,Recent Prefabs,,Recent Prefabs filter term
 PrefabLib_AllResults,All Results,All Results,,all results
 PrefabLib_EditCollectionMsg,Open the prefab project in a new IDE instance?,Open the prefab project in a new IDE instance?,,edit collection confirm msg
+PrefabLib_ShowInPackageManager,Show in Package Manager,Show in Package Manager,,Show in Package Manager
+Prefab_Library_empty_description,Browse and Install Prefab Collections from the Package Manager,Browse and Install Prefab Collections from the Package Manager,,Description for when no prefab collections are installed
+Prefab_Library_loading_description,Loading Prefab Collections...,Loading Prefab Collections...,,Message when loading Prefab Collections
 ProgressBar_Prefabs_Copying,Prefabs...,Prefabs...,,Copying Prefabs progress
 Prefabs_OpenPrefabLibrary,Prefab Library,Prefab Library,,Prefab Library
 Prefabs_CreatePackage,Create Prefab Package,Create Prefab Package,,Create Prefab Package
@@ -9490,6 +9739,11 @@ PrefabMetadataEditor_Verify,Verify,Verify,,Prefab metadata editor Verify
 PrefabMetadataEditor_Icon,Icon,Icon,,Prefab metadata editor change the icon file (overwrite from another source)
 PrefabMetadataEditor_SetLibraryInformation,Set Library Information,Set Library Information,,Prefab library editor — Set Library Information
 PrefabMetadataEditor_SetPrefabInformation,Set Prefab Information,Set Prefab Information,,Prefab library editor — Set information on individual prefab
+PrefabMetadataEditor_GetPrefabInformation,Get Prefab Information,Get Prefab Information,,Prefab library - Get information on individual prefab
+PrefabLibrary_AddLibraryReference,Add Collection Reference,Add Collection Reference,,Prefab library - add a collection reference
+PrefabLibrary_RemoveLibraryReference,Remove Collection Reference,Remove Collection Reference,,Prefab library - remove a collection reference
+PrefabLibrary_AddResourceReference,Add Asset Reference,Add Asset Reference,,Prefab library - add an asset reference
+PrefabLibrary_RemoveResourceReference,Remove Asset Reference,Remove Asset Reference,,Prefab library - remove an asset reference
 PrefabMetadataEditor_ImageFileCopyFailed,Failed to copy image file,Failed to copy image file,,Failed to copy image file to prefab icon folder
 PrefabMetadataEditor_ChangeImage,Change image...,Change image...,,Change image button
 PrefabMetadataEditor_FileMask,PNG file,PNG file,,File mask description for open file dialog
@@ -9498,6 +9752,7 @@ PrefabLibrary_DuplicateIntoProject,Duplicate into Project,Duplicate into Project
 prefablib_layouttype,Layout type,Layout type,,layout type pref
 prefablib_listviewtype,List view type,List view type,,list view type pref
 PrefabPlugin,Prefab Library,Prefab Library,,prefab library preference type name
+PrefabLibrary_PrefabInUse,Prefab Library - {0} - is currently in use.,Prefab Library - {0} - is currently in use.,,The given prefab library is currently in use
 ListBoxEnum_eLayoutType_Horizontal,Horizontal,Horizontal,,enum type
 ListBoxEnum_eLayoutType_Vertical,Vertical,Vertical,,enum type
 ListBoxEnum_eLayoutType_Simple,Simple,Simple,,enum type
@@ -9526,6 +9781,7 @@ RedefineKeys_Refactor Identifier,Refactor Identifier,Refactor Identifier,,Refact
 RedefineKeys_Preview Definition,Preview Definition,Preview Definition,,Preview Definition
 RedefineKeys_FoldActiveDocument,Fold Active Document,Fold Active Document,,Fold Active Document
 RedefineKeys_FoldAllDocuments,Fold All Documents,Fold All Documents,,Fold All Documents
+RedefineKeys_UnfoldActiveDocument,Unfold Active Document,Unfold Active Document,,Unfold Active Document
 RedefineKeys_UnfoldAllDocuments,Unfold All Documents,Unfold All Documents,,Unfold All Documents
 RedefineKeys_GoToDefinition,Go To Definition,Go To Definition,,Go To Definition
 RedefineKeys_GoToMatchingBrace,Go To Matching Brace,Go To Matching Brace,,Go To Matching Brace
@@ -9536,10 +9792,6 @@ RedefineKeys_NextDocument,Next Document,Next Document,,Next Document
 RedefineKeys_PreviousDocument,Previous Document,Previous Document,,Previous Document
 RedefineKeys_ToggleFold,Toggle Fold,Toggle Fold,,Toggle Fold
 CE1HotkeyChordResetConfirm,Hotkey Chords are not compatible with Code Editor 1. This will result in any remapped hotkeys containing a chord being reset to their default. Are you sure?,Hotkey Chords are not compatible with Code Editor 1. This will result in any remapped hotkeys containing a chord being reset to their default. Are you sure?,,CE1 Hotkey Chords Confirm
-RedefineKeys_CollapseAllDocuments,Collapse all Documents,Collapse all Documents,,Collapse all Documents
-RedefineKeys_ExpandAllDocuments,Expand all Documents,Expand all Documents,,Expand all Documents
-RedefineKeys_CollapseCurrentDocument,Collapse current Document,Collapse current Document,,Collapse current Document
-RedefineKeys_ExpandCurrentDocument,Expand current Document,Expand current Document,,Expand current Document
 RedefineKeys_ToggleAssetNavigation,Toggle Asset Navigation Dropdown,Toggle Asset Navigation Dropdown,,Toggle Asset Navigation Dropdown
 RedefineKeys_ToggleDocumentNavigation,Toggle Document Navigation Dropdown,Toggle Document Navigation Dropdown,,Toggle Document Navigation Dropdown
 RedefineKeys_ToggleSymbolsNavigation,Toggle Symbols Navigation Dropdown,Toggle Symbols Navigation Dropdown,,Toggle Symbols Navigation Dropdown
@@ -9549,7 +9801,35 @@ RoomEditor_DeleteLayerWarning,Are you sure you want to delete the selected layer
 Plugin_Enabled,Enabled,Enabled,,Plugin enabled
 Plugin_Disabled,Disabled,Disabled,,Plugin disabled
 ThemeError_MissingComma,"Error in theme at '{0}', check all entries are separated with commas","Error in theme at '{0}', check all entries are separated with commas",,error in skin theme message
+StyleError_LoadError,Error in style file {0}\n Reason: {1},Error in style file {0}\n Reason: {1},,error when loading style
 RedefineKeys_Import,Import file,Import file,,Import file
 RedefineKeys_Export,Export as file,Экспортировать как файл,,Export as file
 RedefineKeys_LoadRemapsError,Could not load remaps from file. See your ui.log for info.,Could not load remaps from file. See your ui.log for info.,,Load remaps error
 RedefineKeys_ImportFilter,Remaps file,Remaps file,,Remaps file
+ConvertedRemapsSavePrompt,Your remaps file has been converted to a new format. Would you like to save it? This format is not compatible with older versions of GameMaker.,Your remaps file has been converted to a new format. Would you like to save it? This format is not compatible with older versions of GameMaker.,,Conversion remap prompt
+Plugins_FailedLoadingTitle,Error loading startup plugins,Error loading startup plugins,,Error loading startup plugins
+Plugins_FailedLoading,"Startup plugins failed to load. Please submit a bug report, so we can take a look.","Startup plugins failed to load. Please submit a bug report, so we can take a look.",,Plugins_FailedLoading
+ProjectToolPrefs,Project Tool,Project Tool,,Project tools prefs title
+ProjectTool_Missing_Title,Project Tool Missing,Project Tool Missing,,Project tool missing title
+ProjectTool_Missing,"Could not find a version of ProjectTool. Please install via the Package Manager, or set a path via Preferences -> General Settings -> Paths","Could not find a version of ProjectTool. Please install via the Package Manager, or set a path via Preferences -> General Settings -> Paths",,Missing Project Tool
+ProjectTool_Upgrade_Title,Check for Project Tool Update,Check for Project Tool Update,,Check for Project Tool Update Title
+ProjectTool_Upgrade_Message,Open the Package Manager to check for an updated Project Tool?,Open the Package Manager to check for an updated Project Tool?,,Open the Package Manager to check for an updated Project Tool?
+OutputPanel_ProjectHealth,Project Health,Project Health,,Project health window title
+Project Health Output,Project Health,Project Health,,Project Health Output menu label
+Project Health,Project Health,Project Health,,Project Health prefs title
+CE2_RedefineKeys_Name,Code Editor 2,Code Editor 2,,CE2 Redefine Keys name
+CE1_RedefineKeys_Name,Code Editor,Code Editor,,CE1 Redefine Keys name
+Project_Delete,Do you want to delete the project at {0}?,Do you want to delete the project at {0}?,,Question to delete the project at the given path
+ProjectMissingPrefabs,Project {0} is missing prefab(s).\nWould you like to try and automatically install them?,Project {0} is missing prefab(s).\nWould you like to try and automatically install them?,,Project missing prefabs install prompt
+ProjectWaitingOnInstall,Project {0} is installing required prefabs in the background. Please wait for the install to complete.,Project {0} is installing required prefabs in the background. Please wait for the install to complete.,,Project already doing updates error
+ProjectMissingPrefabs_AndMore,and {0} others.,and {0} others.,,and _ more message
+PrefabsNotificationCategory,Prefabs,Prefabs,,Prefabs
+BeginInstallingMissingPrefabs,Installing {0} missing prefab(s),Installing {0} missing prefab(s),,Installing missing prefabs
+ProgressBar_InstallingPrefabs,Installing prefabs...,Installing prefabs...,,Installing prefabs progress bar text
+SuccessfullyInstalledPrefabs,Successfully installed missing prefabs,Successfully installed missing prefabs,,Prefab finish install
+yyal_init_failed_title,"Audio library failed to initialise","Audio library failed to initialise",,YYAL Failed to init
+yyal_init_failed,"You can use GameMaker, but you will not have any audio previews.\n\nPlease open your ui.log (in the Help menu) and see if it says your computer is missing a required library.","You can use GameMaker, but you will not have any audio previews.\n\nPlease open your ui.log (in the Help menu) and see if it says your computer is missing a required library.",,YYAL Failed to init
+PrefabExtractionError,Error extracting prefab - see your ui.log for more details,Error extracting prefab - see your ui.log for more details,,Prefab extraction error
+SpecError_Title,Language Spec Error,Language Spec Error,,language spec error dialog title
+SpecError_Message,Error in GMLSpec file:\n{0}\n\nLanguageSpec: SyncLanguageSpecWithRuntime: {1}\n{2},Error in GMLSpec file:\n{0}\n\nLanguageSpec: SyncLanguageSpecWithRuntime: {1}\n{2},,language spec error dialog message
+PackageInstall_NoInternet,Package Manager requires an internet connection to install packages. Please check your internet connection and try again.,Package Manager requires an internet connection to install packages. Please check your internet connection and try again.,,
