@@ -559,7 +559,7 @@ Inspector_Category_Viewport,Viewport,Порт просмотра,,Inspector cate
 Inspector_Category_View,View,View,,Inspector category
 Inspector_Category_TextureSettings,Texture Settings,Texture Settings,,Inspector category
 Inspector_Category_CollisionMask,Collision Mask,Collision Mask,,Inspector category
-Inspector_Category_Nineslice,Nine Slices,Nine Slices,,Inspector category
+Inspector_Category_Nineslice,Nine Slices,Девятисегментный срез,,Inspector category
 Inspector_Category_Tiles,Tiles,Тайлы,,Inspector category
 Inspector_Category_FontOptions,Advanced Options,Настройки для продвинутых пользователей,,Inspector category
 Inspector_Category_CanvasFrame,Canvas Frame,Canvas Frame,,Inspector category
@@ -2267,7 +2267,7 @@ SpriteEditor_SpineLabel,Spine Sprite,Spine Sprite,,spine type sprite
 SpriteEditor_SpineLabelTT,Spine Sprite - some editor settings disabled,Spine Sprite - some editor settings disabled,,spine sprite label tooltip
 SpriteEditor_SWFLabel,SWF Sprite,Спрайт SWF,,SWF type sprite
 SpriteEditor_SWFLabelTT,SWF Sprite - some editor settings disabled,SWF Sprite - some editor settings disabled,,SWF sprite label tooltip
-NineSlice_Activate,Activate Nine Slice,Activate Nine Slice,,activate nineslice label
+NineSlice_Activate,Activate Nine Slice,Использовать девятисегментный срез,,activate nineslice label
 NineSlice_SelectedSlice,Selected Slice:,Selected Slice:,,selected nineslice label
 NineSlice_TileMode,Tile Mode:,Tile Mode:,,nineslice tilemode label
 NineSlice_Highlight,Highlight:,Highlight:,,nineslice highlight label
@@ -6428,7 +6428,7 @@ Start Page,Start Page,Начальная страница,,start screen preferen
 Drag and Drop,GML Visual,Визуальное программирование GML,,Drag and Drop preference group heading
 Image Editor,Image Editor,Редактор изображения,,Image Editor preference group heading
 Sprite Editor,Sprite Editor,Редактор спрайта,,Sprite Editor preference group heading
-Nineslice,Nine Slice,Nine Slice,,Sprite editor nineslice pref group subheading
+Nineslice,Nine Slice,Девятисегментный срез,,Sprite editor nineslice pref group subheading
 Object Editor,Object Editor,Object Editor,,Object Editor preference group heading
 Script Editor,Script Editor,Script Editor,,Script Editor preference group heading
 Room Editor,Room Editor,Room Editor,,Room Editor preference group heading
@@ -6570,7 +6570,7 @@ Colour Select,Colour Select,Colour Select,,Colour Select preference group subhea
 Label,Label,Label,,Label preference group subheading
 Default,Default,По умолчанию,,Default preference group subheading
 Sprites,Sprites,Спрайты,,Sprites preference group subheading
-Nine Slices,Nine Slices,Nine Slices,,Nine Slices preference group subheading
+Nine Slices,Nine Slices,Девятисегментные срезы,,Nine Slices preference group subheading
 Tile Sets,Tile Sets,Наборы тайлов,,Tile Sets preference group subheading
 Sounds,Sounds,Звуки,,Sounds preference group subheading
 Audio Emitters,Audio Emitters,Audio Emitters,,Audio Emitters preference group subheading
