@@ -1669,7 +1669,7 @@ RoomEditor_DeleteUIFolderWarning,"Are you sure you want to delete the User Inter
 UILayer_RuntimeDraw,Game View,Игровой вид,,Отрисовка слоя интерфейса во время выполнения
 ListBoxEnum_eUIDisplay_Display,Display,Отображение,,Перечисление отображения слоёв интерфейса во время выполнения
 ListBoxEnum_eUIDisplay_Viewports,Viewports,Порты просмотра,,Перечисление отображения слоёв интерфейса во время выполнения
-Inspector_Category_FlexProperties,Flex Properties,Свойства гибких панелей,,Категория свойств гибких панелей
+Inspector_Category_FlexProperties,Flex Properties,Свойства гибкой панели,,Категория свойств гибких панелей
 Inspector_FlexPropertiesCategoryTT,These properties will only affect children which are also flex panels,"Эти свойства будут влиять только на дочерние элементы, которые также являются гибкими панелями",,Подсказка категории свойств гибких панелей
 Inspector_Category_Layout,Layout,Компоновка,,Категория компоновки
 Inspector_Category_Spacing,Spacing,Интервалы,,Категория интервалов
